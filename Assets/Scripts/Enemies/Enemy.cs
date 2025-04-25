@@ -1,16 +1,44 @@
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("Enemy Stats")]
+    public int health { get; protected set; } = 100;
+    protected float SqrDstToPlayer = 0;
+
+
+    [Header("States")]
+    protected State[] states;
+
+
+    [Header("References")]
+    protected StateMachine machine;
+    [SerializeField] protected GameObject player;
+    [SerializeField] protected Animator animator;
+     
+
+
+    public void Spawn(GameObject pl)
     {
-        
+        player = pl;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void TakeDamage(int val)
     {
-        
+        health -= val;
+        if(health <= 0)
+        {
+            DestroyEnemy();
+        }
     }
+
+
+    public void DestroyEnemy()
+    {
+
+
+    }
+
+
 }
