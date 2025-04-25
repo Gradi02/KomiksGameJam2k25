@@ -16,7 +16,7 @@ public class StandardEnemy : Enemy
         
         foreach(var state in states)
         {
-            state.InitState(animator, rb, player);
+            state.InitState(animator, rb, player, machine);
         }
     }
 

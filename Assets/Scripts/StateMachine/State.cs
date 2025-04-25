@@ -4,17 +4,19 @@ public abstract class State : MonoBehaviour
 {
     public bool isEnded { get; protected set; } = false;
     private Animator animator;
-    [SerializeField] protected AnimationClip clip;
-    [SerializeField] protected Rigidbody2D rb;
+    protected AnimationClip clip;
+    protected Rigidbody2D rb;
+    protected StateMachine machine;
     [SerializeField] protected GameObject player;
 
 
     
-    public void InitState(Animator anim, Rigidbody2D rbN, GameObject pl)
+    public void InitState(Animator anim, Rigidbody2D rbN, GameObject pl, StateMachine mh)
     {
         animator = anim;
         rb = rbN;
         player = pl;
+        machine = mh;
     }
 
 

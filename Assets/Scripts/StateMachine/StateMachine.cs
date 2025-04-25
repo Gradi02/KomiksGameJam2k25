@@ -17,6 +17,14 @@ public class StateMachine : MonoBehaviour
         }
     }
 
+
+    public void RequestExitState()
+    {
+        currentState?.EndState();
+        currentState = null;
+    }
+
+
     void Update()
     {
         currentState?.UpdateState();

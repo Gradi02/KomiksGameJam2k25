@@ -20,6 +20,7 @@ public class attackState : State
         if(Time.time > endIn)
         {
             isEnded = true;
+            machine.RequestExitState();
         }
     }
 
