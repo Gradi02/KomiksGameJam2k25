@@ -7,6 +7,7 @@ public class StandardEnemy : Enemy
     [Header("States")]
     [SerializeField] private walkState walkS;
     [SerializeField] private attackState attackS;
+    [SerializeField] private jumpState jumpS;
 
 
     public void Start()
@@ -28,8 +29,15 @@ public class StandardEnemy : Enemy
 
     private void SelectState()
     {
-        Debug.Log(SqrDstToPlayer);
-        if(SqrDstToPlayer <= dstToAttack)
+        bool isGrounded = IsGrounded();
+        bool isPlayerAbove = player.transform.position.y > transform.position.y + 0.5f;
+        bool seePlayer = SeePlayer();
+
+        if (!seePlayer && isPlayerAbove && isGrounded)
+        {
+            machine.RequestChangeState(jumpS);
+        }
+        else if (SqrDstToPlayer <= dstToAttack)
         {
             machine.RequestChangeState(attackS);
         }

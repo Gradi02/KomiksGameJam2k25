@@ -11,6 +11,7 @@ public class attackState : State
     {
         base.StartState();
         endIn = Time.time + attackTime;
+        rb.linearVelocity = Vector2.zero;
     }
 
     public override void UpdateState()

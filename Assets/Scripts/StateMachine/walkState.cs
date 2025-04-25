@@ -17,7 +17,9 @@ public class walkState : State
 
         Vector2 playerPos = player.transform.position;
         Vector2 enemyPos = new Vector2(transform.position.x, transform.position.y);
-        rb.linearVelocity = new Vector2(speed * (playerPos - enemyPos).normalized.x, rb.linearVelocity.y);
+        Vector2 dir = (playerPos - enemyPos).normalized;
+
+        rb.linearVelocity = new Vector2(speed * dir.x, rb.linearVelocity.y);
     }
 
     public override void EndState()

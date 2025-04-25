@@ -41,5 +41,20 @@ public abstract class Enemy : MonoBehaviour
 
     }
 
+    protected bool IsGrounded()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.7f, LayerMask.GetMask("Ground"));
+        return hit.collider != null;
+    }
 
+    protected bool SeePlayer()
+    {
+        Vector2 origin = transform.position;
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, distance, LayerMask.GetMask("Ground", "Player"));
+
+        return hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Player");
+    }
 }
