@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // W - skok, S - kucanie, A - lewo, D - prawo
-
     private float horizontal;
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpForce = 5f;
@@ -15,8 +13,6 @@ public class PlayerMovement : MonoBehaviour
     private float dashingPower = 24f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
-
-    private Collider2D platformCollider;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
