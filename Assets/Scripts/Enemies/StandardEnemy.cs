@@ -11,12 +11,12 @@ public class StandardEnemy : Enemy
 
     public void Start()
     {
-        machine = new StateMachine();
+        machine = GetComponent<StateMachine>();
         states = GetComponentsInChildren<State>();
         
         foreach(var state in states)
         {
-            state.InitState(animator);
+            state.InitState(animator, rb, player);
         }
     }
 
@@ -28,6 +28,7 @@ public class StandardEnemy : Enemy
 
     private void SelectState()
     {
+        Debug.Log(SqrDstToPlayer);
         if(SqrDstToPlayer <= dstToAttack)
         {
             machine.RequestChangeState(attackS);
