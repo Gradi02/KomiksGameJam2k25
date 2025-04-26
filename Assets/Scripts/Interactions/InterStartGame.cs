@@ -33,6 +33,5 @@ public class InterStartGame : EnvSignInteractionAction
         Instantiate(firstSigil, SpawnPlace);
         StartCoroutine(StartGame());
 
-        SpawnerManager.Instance.StartWave();
     }
 }

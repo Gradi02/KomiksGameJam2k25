@@ -13,7 +13,7 @@ public abstract class Enemy : MonoBehaviour
 
     [Header("References")]
     protected StateMachine machine;
-    [SerializeField] protected GameObject player;
+    [SerializeField] public GameObject player;
     [SerializeField] protected Animator animator;
     [SerializeField] protected Rigidbody2D rb;
      
