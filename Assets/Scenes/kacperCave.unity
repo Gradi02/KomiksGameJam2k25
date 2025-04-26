@@ -1068,26 +1068,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -6132851595745506914, guid: 3c6fabd1c79422d42a6a8089c33e27c9, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -6132851595745506914, guid: 3c6fabd1c79422d42a6a8089c33e27c9, type: 3}
-      propertyPath: snakePrefab
-      value: 
-      objectReference: {fileID: 6841918657320009339, guid: b00a1e0db9f9a58408a13402202834eb, type: 3}
-    - target: {fileID: -6132851595745506914, guid: 3c6fabd1c79422d42a6a8089c33e27c9, type: 3}
-      propertyPath: startTimeBtwLoad
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -6132851595745506914, guid: 3c6fabd1c79422d42a6a8089c33e27c9, type: 3}
-      propertyPath: snakeGroundPrefab
-      value: 
-      objectReference: {fileID: 5874736100811525874, guid: dca104d55051c107aaa2e74144a5729e, type: 3}
-    - target: {fileID: -6132851595745506914, guid: 3c6fabd1c79422d42a6a8089c33e27c9, type: 3}
-      propertyPath: startTimeBtwAttack
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1560846460691021565, guid: 3c6fabd1c79422d42a6a8089c33e27c9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -38
