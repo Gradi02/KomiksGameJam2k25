@@ -11,6 +11,11 @@ public class EqManager : MonoBehaviour
     private int currentID = 0;
     private int maxID = 2;
 
+    [SerializeField] private PewPewBomb bomb;
+    [SerializeField] private PewPewGravity gravity;
+    [SerializeField] private PewPewLaser laser;
+    [SerializeField] private PewPewShotgun gun;
+    [SerializeField] private PlayerAttack snake;
 
     private void Start()
     {
@@ -23,6 +28,7 @@ public class EqManager : MonoBehaviour
     private void Update()
     {
         HandleScroll();
+        SwitchWeapon();
     }
 
     private void HandleScroll()
@@ -78,5 +84,46 @@ public class EqManager : MonoBehaviour
     private void AnimateNewRune(int i)
     {
         LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 90), 0.5f).setEase(LeanTweenType.easeInOutCubic);
+    }
+
+    private void SwitchWeapon()
+    {
+        bomb.enabled = false;
+        gravity.enabled = false;
+        laser.enabled = false;
+        gun.enabled = false;
+        snake.enabled = false;
+
+        if (items[currentID] != null)
+        {
+            switch (items[currentID].name)
+            {
+                case "bomb":
+                    {
+                        bomb.enabled = true;
+                        break;
+                    }
+                case "gravity":
+                    {
+                        gravity.enabled = true;
+                        break;
+                    }
+                case "laser":
+                    {
+                        laser.enabled = true;
+                        break;
+                    }
+                case "gun":
+                    {
+                        gun.enabled = true;
+                        break;
+                    }
+                case "snake":
+                    {
+                        snake.enabled = true;
+                        break;
+                    }
+            }
+        }
     }
 }

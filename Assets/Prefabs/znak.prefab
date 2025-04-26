@@ -103,20 +103,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items:
-  - name: 
+  - name: snake
     sprite: {fileID: 21300000, guid: 4c88554266c4af24e96a28fa7891bef5, type: 3}
-  - name: 
+  - name: gun
     sprite: {fileID: 21300000, guid: 91d1fc1c6309de748b154c0abc4b5b23, type: 3}
-  - name: 
+  - name: gravity
     sprite: {fileID: 21300000, guid: 46d0ada1ad736e44bb6f39edf6ced2b9, type: 3}
-  - name: 
+  - name: bomb
     sprite: {fileID: 21300000, guid: 3b2f6e076be4d6d429927957fc10b7ea, type: 3}
-  - name: 
+  - name: laser
     sprite: {fileID: 21300000, guid: 9234a39056add814e9bab8ff99c20406, type: 3}
-  - name: 
-    sprite: {fileID: 21300000, guid: 275306da224449f4ab51b9c5a25db201, type: 3}
-  - name: 
-    sprite: {fileID: 21300000, guid: f8b76f54b59922a4297b6d86efdef2c2, type: 3}
   render: {fileID: 9065519990741679825}
 --- !u!61 &6545813612771720316
 BoxCollider2D:
