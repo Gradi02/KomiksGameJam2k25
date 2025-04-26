@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isTowardsRight = true;
 
     private bool canDash = true;
-    private bool isDashing;
+    private bool isDashing, isJumping;
     private float dashingPower = 24f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        UpdateAnimations();
+
         if (isDashing) return;
 
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -30,7 +32,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            animator.SetTrigger("jump");
+            isJumping = true;
+        }
+
+        if (isJumping && IsGrounded() && rb.linearVelocity.y < 0.01f)
+        {
+            StartCoroutine(EndJump());
         }
 
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
@@ -46,12 +53,17 @@ public class PlayerMovement : MonoBehaviour
         Flip();
     }
 
+    private IEnumerator EndJump()
+    {
+        yield return new WaitForSeconds(1f); // lub wiêcej, jeœli trzeba
+        isJumping = false;
+    }
+
     private void FixedUpdate()
     {
         if (isDashing) return;
 
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
-        animator.SetFloat("speed", rb.linearVelocity.magnitude);
     }
 
     private bool IsGrounded()
@@ -69,6 +81,29 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
+    private void UpdateAnimations()
+    {
+        // U¿ywamy rb.velocity.x, poniewa¿ lepiej odzwierciedla faktyczny ruch ni¿ 'horizontal'
+        float currentHorizontalSpeed = Mathf.Abs(rb.velocity.x);
+        bool isGrounded = IsGrounded();
+
+        // Ustawianie parametrów w Animatorze
+        animator.SetFloat("speed", currentHorizontalSpeed);
+        animator.SetBool("jump", isGrounded);
+        animator.SetFloat("verticalvel", Mathf.Abs(rb.linearVelocity.y));
+
+        // --- Komentarz: Jak skonfigurowaæ przejœcia w Animatorze (przyk³ady) ---
+        // 1. Idle -> Walk: Warunek: Speed > 0.1 AND IsGrounded == true
+        // 2. Walk -> Idle: Warunek: Speed < 0.1 AND IsGrounded == true
+        // 3. Any State -> Jump: Warunek: VerticalVelocity > 0.1 AND IsGrounded == false
+        // 4. Any State -> Fall: Warunek: VerticalVelocity < -0.1 AND IsGrounded == false
+        // 5. Fall -> Idle/Walk: Warunek: IsGrounded == true (Mo¿na dodaæ animacjê l¹dowania)
+        // 6. Any State -> Dash: Warunek: IsDashing == true
+        // 7. Dash -> Idle/Fall: Warunek: IsDashing == false
+        // -----------------------------------------------------------------------
+    }
+
 
     private IEnumerator Dash()
     {
