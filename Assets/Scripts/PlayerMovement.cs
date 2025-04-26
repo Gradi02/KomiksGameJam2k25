@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool canDash = true;
     private bool isDashing, isJumping;
-    private float dashingPower = 24f;
+    private float dashingPower = 30f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
 
@@ -101,7 +101,12 @@ public class PlayerMovement : MonoBehaviour
         isDashing = true;
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
-        rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 dashDirection = (mousePosition - transform.position).normalized;
+
+        rb.linearVelocity = dashDirection * dashingPower;
+
         trailRenderer.emitting = true;
         yield return new WaitForSeconds(dashingTime);
         trailRenderer.emitting = false;
