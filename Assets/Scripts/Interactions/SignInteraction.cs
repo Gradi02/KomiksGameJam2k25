@@ -14,7 +14,7 @@ public class SigilInteraction : MonoBehaviour
             Collider2D nearest = FindNearestInteractive();
             if (nearest != null)
             {
-                nearest.GetComponent<EnvSignInteractionAction>().Play();
+                nearest.GetComponent<EnvSignInteractionAction>().Play(GetComponent<EqManager>());
             }
             nextInteract = Time.time + interactDelay;
         }
