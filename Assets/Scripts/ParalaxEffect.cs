@@ -2,21 +2,22 @@ using UnityEngine;
 
 public class ParalaxEffect : MonoBehaviour
 {
-    private float startPos;
+    private Vector2 startPos;
     public GameObject cam;
     public float speed;
 
 
     void Start()
     {
-        startPos = transform.position.x;
+        startPos = transform.position;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        float dst = cam.transform.position.x * speed;
+        float dst1 = cam.transform.position.x * speed;
+        float dst2 = cam.transform.position.y * speed;
 
-        transform.position = new Vector3 (startPos + dst, transform.position.y, transform.position.z);
+        transform.position = new Vector3 (startPos.x + dst1, startPos.y + dst2, transform.position.z);
     }
 }
