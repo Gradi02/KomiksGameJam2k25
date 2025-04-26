@@ -4,6 +4,7 @@ public class walkState : State
 {
     [SerializeField] private float speed;
     [SerializeField] private SpriteRenderer render;
+    [SerializeField] private bool reverseFlip = false;
 
     public override void StartState()
     {
@@ -25,6 +26,8 @@ public class walkState : State
             render.flipX = false;
         else
             render.flipX = true;
+
+        if(reverseFlip) render.flipX = !render.flipX;
     }
 
     public override void EndState()
