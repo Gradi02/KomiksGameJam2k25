@@ -14,7 +14,7 @@ public class InterEquipNewSkill : EnvSignInteractionAction
 
     public override void Play(EqManager eq)
     {
-        eq.PickupItem(thisItem);
+        eq.PickupSign(thisItem);
         Destroy(gameObject);
 
         SpawnerManager.Instance.StartWave();
