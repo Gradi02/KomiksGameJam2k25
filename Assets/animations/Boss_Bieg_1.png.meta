@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 0e7dcd290da7518449f705acc44bced2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5640873717312068156
+    second: Boss_Bieg_1_0
+  - first:
+      213: 2773043021833797531
+    second: Boss_Bieg_1_1
+  - first:
+      213: 3458703400855333501
+    second: Boss_Bieg_1_2
+  - first:
+      213: -1556549561850777616
+    second: Boss_Bieg_1_3
+  - first:
+      213: 3092951060908595097
+    second: Boss_Bieg_1_4
+  - first:
+      213: 8689794592824937927
+    second: Boss_Bieg_1_5
+  - first:
+      213: 5117478483407374977
+    second: Boss_Bieg_1_6
+  - first:
+      213: -7410024759250609974
+    second: Boss_Bieg_1_7
+  - first:
+      213: -7770118981545572360
+    second: Boss_Bieg_1_8
+  - first:
+      213: -169122908903360326
+    second: Boss_Bieg_1_9
+  - first:
+      213: -1790791510677011788
+    second: Boss_Bieg_1_10
+  - first:
+      213: 56230362546544007
+    second: Boss_Bieg_1_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Bieg_1_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5e6c0ad3797b1b0800000000000000
+      internalID: -5640873717312068156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 7
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f7747afe3db7620800000000000000
+      internalID: 2773043021833797531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6
+        width: 61
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aea670b68cfff20800000000000000
+      internalID: 3458703400855333501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 5
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff2892ab66066ae0800000000000000
+      internalID: -1556549561850777616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_4
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 5
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997df1d4a9e5cea20800000000000000
+      internalID: 3092951060908595097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 5
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdc074442a589870800000000000000
+      internalID: 8689794592824937927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_6
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a833d219fe40740800000000000000
+      internalID: 5117478483407374977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_7
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 7
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac89400ddbd4a2990800000000000000
+      internalID: -7410024759250609974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_8
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 6
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7c47244fdfa2490800000000000000
+      internalID: -7770118981545572360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_9
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 5
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab83f634c9727adf0800000000000000
+      internalID: -169122908903360326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_10
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 5
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2cf4beb94d527e0800000000000000
+      internalID: -1790791510677011788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Bieg_1_11
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 5
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d9d218735c7c000800000000000000
+      internalID: 56230362546544007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_Bieg_1_0: -5640873717312068156
+      Boss_Bieg_1_1: 2773043021833797531
+      Boss_Bieg_1_10: -1790791510677011788
+      Boss_Bieg_1_11: 56230362546544007
+      Boss_Bieg_1_2: 3458703400855333501
+      Boss_Bieg_1_3: -1556549561850777616
+      Boss_Bieg_1_4: 3092951060908595097
+      Boss_Bieg_1_5: 8689794592824937927
+      Boss_Bieg_1_6: 5117478483407374977
+      Boss_Bieg_1_7: -7410024759250609974
+      Boss_Bieg_1_8: -7770118981545572360
+      Boss_Bieg_1_9: -169122908903360326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
