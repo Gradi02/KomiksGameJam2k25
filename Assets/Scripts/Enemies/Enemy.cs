@@ -37,8 +37,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void DestroyEnemy()
     {
-
-
+        SpawnerManager.Instance.OnEnemyKilled(this.gameObject);
     }
 
     protected bool IsGrounded()
