@@ -11,6 +11,8 @@ public class EqManager : MonoBehaviour
     private int currentID = 0;
     private int maxID = 2;
 
+    private int nextFreeId = 0;
+
     private void Start()
     {
         foreach (var slot in slotsBg)
@@ -48,10 +50,24 @@ public class EqManager : MonoBehaviour
         slotsBg[currentID].SetActive(true);
     }
 
-    public void PickupItem(Item itm)
+    public void PickupSign(Item itm)
     {
-        images[currentID].sprite = itm.sprite;
-        images[currentID].color = Color.white;
-        items[currentID] = itm;
+        images[nextFreeId].sprite = itm.sprite;
+        images[nextFreeId].color = Color.white;
+        items[nextFreeId] = itm;
+        nextFreeId++;
+
+        if(nextFreeId >= 3)
+        {
+            Debug.Log("ULT!!!!!!!!!!!!!");
+            items = new Item[3];
+            foreach(var img in images)
+            {
+                Color a = Color.white;
+                a.a = 0;
+                img.color = a;
+                img.sprite = null;
+            }
+        }
     }
 }
