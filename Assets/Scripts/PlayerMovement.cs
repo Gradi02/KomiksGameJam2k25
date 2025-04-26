@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator EndJump()
     {
-        yield return new WaitForSeconds(1f); // lub wiêcej, jeœli trzeba
+        yield return new WaitForSeconds(1f); // lub wiï¿½cej, jeï¿½li trzeba
         isJumping = false;
     }
 
@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
@@ -84,11 +84,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateAnimations()
     {
-        // U¿ywamy rb.velocity.x, poniewa¿ lepiej odzwierciedla faktyczny ruch ni¿ 'horizontal'
+        // Uï¿½ywamy rb.velocity.x, poniewaï¿½ lepiej odzwierciedla faktyczny ruch niï¿½ 'horizontal'
         float currentHorizontalSpeed = Mathf.Abs(rb.linearVelocity.x);
         bool isGrounded = IsGrounded();
 
-        // Ustawianie parametrów w Animatorze
+        // Ustawianie parametrï¿½w w Animatorze
         animator.SetFloat("speed", currentHorizontalSpeed);
         animator.SetBool("jump", isGrounded);
         animator.SetFloat("verticalvel", Mathf.Abs(rb.linearVelocity.y));
