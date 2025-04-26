@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 0e5b57f86b229ec4d92b4c245f8af8df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7006980593510900885
+    second: WUUUNSZ_ATAK_0
+  - first:
+      213: 7691276905839570903
+    second: WUUUNSZ_ATAK_1
+  - first:
+      213: 3514204014259620730
+    second: WUUUNSZ_ATAK_2
+  - first:
+      213: 6214034124169536018
+    second: WUUUNSZ_ATAK_3
+  - first:
+      213: -2648217238868957646
+    second: WUUUNSZ_ATAK_4
+  - first:
+      213: 5232272700632164520
+    second: WUUUNSZ_ATAK_5
+  - first:
+      213: -6653368634581269119
+    second: WUUUNSZ_ATAK_6
+  - first:
+      213: -821557182312581087
+    second: WUUUNSZ_ATAK_7
+  - first:
+      213: 5943713362843973788
+    second: WUUUNSZ_ATAK_8
+  - first:
+      213: 3785691606731601028
+    second: WUUUNSZ_ATAK_9
+  - first:
+      213: -3637083137935350678
+    second: WUUUNSZ_ATAK_10
+  - first:
+      213: 8322277161800027733
+    second: WUUUNSZ_ATAK_11
+  - first:
+      213: -1401230633220908338
+    second: WUUUNSZ_ATAK_12
+  - first:
+      213: 1846508973956871922
+    second: WUUUNSZ_ATAK_13
+  - first:
+      213: 7030160651526705879
+    second: WUUUNSZ_ATAK_14
+  - first:
+      213: 212081639318802115
+    second: WUUUNSZ_ATAK_15
+  - first:
+      213: -8295392819887034433
+    second: WUUUNSZ_ATAK_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WUUUNSZ_ATAK 1_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183af5061be93d04e88d145aa31c2f11
+      internalID: 1457371680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUUUNSZ_ATAK 1_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 10
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6102be550bf42024fadfba746736a504
+      internalID: -280925741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUUUNSZ_ATAK 1_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 10
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a33fbc19f7b14e81932455be0d90a
+      internalID: -657601284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUUUNSZ_ATAK 1_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 10
+        width: 30
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f627eb7fe079fac4ab98431f865a38b0
+      internalID: 1105990719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUUUNSZ_ATAK 1_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 11
+        width: 49
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31f346c0af07404294c35b204fbd6a1
+      internalID: -1211463605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 30da17a973625e14980f300fa8a6ef9b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WUUUNSZ_ATAK 1_0: 819003346
+      WUUUNSZ_ATAK 1_1: 1255862229
+      WUUUNSZ_ATAK 1_10: -1842048415
+      WUUUNSZ_ATAK 1_11: -1757420998
+      WUUUNSZ_ATAK 1_12: 1457371680
+      WUUUNSZ_ATAK 1_13: -280925741
+      WUUUNSZ_ATAK 1_14: -657601284
+      WUUUNSZ_ATAK 1_15: 1105990719
+      WUUUNSZ_ATAK 1_16: -1211463605
+      WUUUNSZ_ATAK 1_2: -1143881752
+      WUUUNSZ_ATAK 1_3: -1303148494
+      WUUUNSZ_ATAK 1_4: 930816763
+      WUUUNSZ_ATAK 1_5: 212136274
+      WUUUNSZ_ATAK 1_6: -1815087177
+      WUUUNSZ_ATAK 1_7: 234187854
+      WUUUNSZ_ATAK 1_8: -2082665444
+      WUUUNSZ_ATAK 1_9: 2137052759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
