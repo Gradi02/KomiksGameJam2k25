@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isTowardsRight = true;
 
     private bool canDash = true;
-    private bool isDashing;
+    private bool isDashing, isJumping;
     private float dashingPower = 24f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
@@ -19,8 +19,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer trailRenderer;
 
+    [SerializeField] private Animator animator;
+
     void Update()
     {
+        UpdateAnimations();
+
         if (isDashing) return;
 
         horizontal = Input.GetAxisRaw("Horizontal");
@@ -28,11 +32,17 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            isJumping = true;
+        }
+
+        if (isJumping && IsGrounded() && rb.linearVelocity.y < 0.01f)
+        {
+            StartCoroutine(EndJump());
         }
 
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.4f);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
@@ -41,6 +51,12 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+    }
+
+    private IEnumerator EndJump()
+    {
+        yield return new WaitForSeconds(1f); // lub wiêcej, jeœli trzeba
+        isJumping = false;
     }
 
     private void FixedUpdate()
@@ -65,6 +81,19 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
+    private void UpdateAnimations()
+    {
+        // U¿ywamy rb.velocity.x, poniewa¿ lepiej odzwierciedla faktyczny ruch ni¿ 'horizontal'
+        float currentHorizontalSpeed = Mathf.Abs(rb.linearVelocity.x);
+        bool isGrounded = IsGrounded();
+
+        // Ustawianie parametrów w Animatorze
+        animator.SetFloat("speed", currentHorizontalSpeed);
+        animator.SetBool("jump", isGrounded);
+        animator.SetFloat("verticalvel", Mathf.Abs(rb.linearVelocity.y));
+    }
+
 
     private IEnumerator Dash()
     {

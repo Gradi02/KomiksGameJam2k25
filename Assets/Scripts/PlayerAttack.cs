@@ -31,28 +31,28 @@ public class PlayerAttack : MonoBehaviour
         slotsBg[currentID].SetActive(true);
         for (int i = 0; i < maxLoad; i++)
         {
-            LoadSlots[i].GetComponent<Image>().color = new Color(1, 1, 1, 0.2f); // najpierw wyczyœæ
+            LoadSlots[i].GetComponent<Image>().color = new Color(1, 1, 1, 0.2f);
         }
     }
 
     void Update()
     {
-        Debug.Log(timeBtwAttack);
+        //Debug.Log(timeBtwAttack);
 
         if (load < maxLoad)
         {
             if (timeBtwLoad <= 0)
             {
                 load++;
-                timeBtwLoad = startTimeBtwLoad; // <- reset tutaj!
+                timeBtwLoad = startTimeBtwLoad;
 
                 for (int i = 0; i < maxLoad; i++)
                 {
-                    LoadSlots[i].GetComponent<Image>().color = new Color(1, 1, 1, 0.2f); // najpierw wyczyœæ
+                    LoadSlots[i].GetComponent<Image>().color = new Color(1, 1, 1, 0.2f);
                 }
                 for (int i = 0; i < load; i++)
                 {
-                    LoadSlots[i].GetComponent<Image>().color = new Color(1, 1, 1, 1f); // potem na³aduj
+                    LoadSlots[i].GetComponent<Image>().color = new Color(1, 1, 1, 1f);
                 }
             }
             else
