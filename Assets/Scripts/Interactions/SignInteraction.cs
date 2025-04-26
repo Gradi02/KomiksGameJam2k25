@@ -7,15 +7,9 @@ public class SigilInteraction : MonoBehaviour
     private float nextInteract = 0, interactDelay = 0.1f;
     [SerializeField] private LayerMask interactionmask;
 
-    private void OnCollisionStay(Collision collision){
-        if (collision.gameObject.tag == "EnvSign" && Input.GetButtonDown("Interact")){
-            collision.gameObject.GetComponent<EnvSignInteractionAction>().Play();
-        }
-    }
-
     void Update()
     {
-        if (Input.GetButtonDown("Interact") && Time.time > nextInteract)
+        if (Input.GetKeyDown(KeyCode.E) && Time.time > nextInteract)
         {
             Collider2D nearest = FindNearestInteractive();
             if (nearest != null)
