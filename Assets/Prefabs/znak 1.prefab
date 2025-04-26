@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items:
-  - name: 
+  - name: snake
     sprite: {fileID: 21300000, guid: 4c88554266c4af24e96a28fa7891bef5, type: 3}
   render: {fileID: 9065519990741679825}
 --- !u!61 &6545813612771720316

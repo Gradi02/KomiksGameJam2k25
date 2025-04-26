@@ -830,6 +830,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3159477766814676980}
   - component: {fileID: 1364361408052248871}
+  - component: {fileID: 8662880116185845932}
+  - component: {fileID: 8787135516174803323}
+  - component: {fileID: 2812697541885495806}
   - component: {fileID: 4521659672475155896}
   - component: {fileID: 497748424010207118}
   - component: {fileID: 5697102081546924687}
@@ -839,6 +842,7 @@ GameObject:
   - component: {fileID: 7553442550101015006}
   - component: {fileID: -6132851595745506914}
   - component: {fileID: 6266666092690999933}
+  - component: {fileID: 8989235328230052285}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -920,6 +924,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8662880116185845932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4054507996132560375}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064af8e72562aa341b0e160e2ec64030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3043284715897645105, guid: 2ee61b08972535d42b5a9063af65ac74, type: 3}
+  shootPoint: {fileID: 1422353035794430619}
+  bulletsPerShot: 8
+  spreadAngle: 40
+  bulletForce: 25
+  fireRate: 0.5
+--- !u!114 &8787135516174803323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4054507996132560375}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375847c4b87ce0d4c83c331f3926958e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootPoint: {fileID: 1422353035794430619}
+  maxDistance: 1000
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  lineRendererPrefab: {fileID: 3994470278148215466, guid: 0e052e896a283c64caae71d3381a36c7, type: 3}
+  laserDuration: 0.1
+  particleHitPrefab: {fileID: 6038849749029963635, guid: 55b4b602ed7673c4ca390e2db77120d6, type: 3}
+--- !u!114 &2812697541885495806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4054507996132560375}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d60cdf4f715fc74f97ddffb4fc6d6e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3043284715897645105, guid: 124d849cd6fb6cb4199a37932fed68f1, type: 3}
+  shootPoint: {fileID: 1422353035794430619}
+  bulletForce: 10
+  fireRate: 0.2
 --- !u!50 &4521659672475155896
 Rigidbody2D:
   serializedVersion: 5
@@ -1145,7 +1203,6 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   deathEffectPrefab: {fileID: 0}
-  respawnDelay: 2
   healthBar: {fileID: 7014857767816938297}
   screenDimmerImage: {fileID: 0}
   maxDimAlpha: 1
@@ -1239,6 +1296,30 @@ MonoBehaviour:
   - {fileID: 8332080702115355584}
   - {fileID: 9134954286665497290}
   - {fileID: 3021119776462721976}
+  bomb: {fileID: 0}
+  gravity: {fileID: 0}
+  laser: {fileID: 0}
+  gun: {fileID: 0}
+  snake: {fileID: 0}
+--- !u!114 &8989235328230052285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4054507996132560375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1d7a224d5368e4b906f733d07a4272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 0}
+  shootPoint: {fileID: 0}
+  bombForce: 5
+  fireRate: 1.5
+  explosionRadius: 3
+  explosionForce: 500
+  explosionEffectPrefab: {fileID: 0}
 --- !u!1 &4129802133402351649
 GameObject:
   m_ObjectHideFlags: 0
