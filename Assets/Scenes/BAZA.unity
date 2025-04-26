@@ -6293,10 +6293,10 @@ MonoBehaviour:
   - {fileID: 3572926510763702370, guid: 8f685dbd4393ad4479c9e4f3ec754e58, type: 3}
   - {fileID: 3572926510763702370, guid: 8017aed827406a34fbabcbb4ef2640cf, type: 3}
   - {fileID: 3572926510763702370, guid: 5d0017c0a2a110e45a40ff9923cc4f95, type: 3}
-  warningObj: {fileID: 6396760315788884210, guid: ffd6df56674090c4b97fc5e1e3cdb36d, type: 3}
+  warningObj: {fileID: 6396760315788884210, guid: a6ed8632b28a0254b918fbbde6d3dc3c, type: 3}
   minX: -11
   maxX: 40
-  yval: -2
+  yval: -2.5
   maxEnemies: 5
   runes:
   - {fileID: 4389418078417544691, guid: 184dd54488e85214aa5739797bd4c9e4, type: 3}
