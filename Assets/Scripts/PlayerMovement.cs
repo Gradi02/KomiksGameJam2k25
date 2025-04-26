@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer trailRenderer;
 
+    [SerializeField] private Animator animator;
+
     void Update()
     {
         if (isDashing) return;
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            animator.SetTrigger("jump");
         }
 
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
@@ -48,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         if (isDashing) return;
 
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        animator.SetFloat("speed", rb.linearVelocity.magnitude);
     }
 
     private bool IsGrounded()
