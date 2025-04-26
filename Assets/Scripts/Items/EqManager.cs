@@ -11,7 +11,6 @@ public class EqManager : MonoBehaviour
     private int currentID = 0;
     private int maxID = 2;
 
-    private int nextFreeId = 0;
 
     private void Start()
     {
@@ -52,14 +51,15 @@ public class EqManager : MonoBehaviour
 
     public void PickupSign(Item itm)
     {
-        images[nextFreeId].sprite = itm.sprite;
-        images[nextFreeId].color = Color.white;
-        items[nextFreeId] = itm;
-        nextFreeId++;
+        images[currentID].sprite = itm.sprite;
+        images[currentID].color = Color.white;
+        items[currentID] = itm;
+        AnimateNewRune(currentID);
 
-        if(nextFreeId >= 3)
+        /*if(currentID >= 3)
         {
             Debug.Log("ULT!!!!!!!!!!!!!");
+            currentID = 0;
             items = new Item[3];
             foreach(var img in images)
             {
@@ -67,7 +67,16 @@ public class EqManager : MonoBehaviour
                 a.a = 0;
                 img.color = a;
                 img.sprite = null;
+
+                images[0].transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
+                images[1].transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
+                images[2].transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
             }
-        }
+        }*/
+    }
+
+    private void AnimateNewRune(int i)
+    {
+        LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 90), 0.5f).setEase(LeanTweenType.easeInOutCubic);
     }
 }
