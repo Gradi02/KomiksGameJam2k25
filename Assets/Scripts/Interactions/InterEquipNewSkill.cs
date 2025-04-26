@@ -2,12 +2,21 @@ using UnityEngine;
 
 public class InterEquipNewSkill : EnvSignInteractionAction
 {
-    //Zmienne przechowujace dane o skillu w tym itemku
-    public int skillID;
+    [SerializeField] private Item[] items;
+    [SerializeField] private SpriteRenderer render;
+    private Item thisItem;
 
-    public override void Play()
+    private void Start()
     {
-        //po kliknieciu [e] wskakuje na wybrany slot
-        Debug.Log("newItem");
+        thisItem = items[Random.Range(0, items.Length)];
+        render.sprite = thisItem.sprite;
+    }
+
+    public override void Play(EqManager eq)
+    {
+        eq.PickupSign(thisItem);
+        Destroy(gameObject);
+
+        SpawnerManager.Instance.StartWave();
     }
 }
