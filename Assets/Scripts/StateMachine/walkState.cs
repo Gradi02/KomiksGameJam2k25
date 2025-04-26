@@ -3,7 +3,7 @@ using UnityEngine;
 public class walkState : State
 {
     [SerializeField] private float speed;
-
+    [SerializeField] private SpriteRenderer render;
 
     public override void StartState()
     {
@@ -20,6 +20,11 @@ public class walkState : State
         Vector2 dir = (playerPos - enemyPos).normalized;
 
         rb.linearVelocity = new Vector2(speed * dir.x, rb.linearVelocity.y);
+
+        if (dir.x > 0.01f)
+            render.flipX = false;
+        else
+            render.flipX = true;
     }
 
     public override void EndState()

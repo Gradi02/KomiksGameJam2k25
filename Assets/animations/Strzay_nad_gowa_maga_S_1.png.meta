@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: e957d261e7b042b4792e0a888cce3448
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6412107867756961208
+    second: Strzay_nad_gowa_maga_S_1_0
+  - first:
+      213: -141236400462976002
+    second: Strzay_nad_gowa_maga_S_1_1
+  - first:
+      213: -8502704999869632939
+    second: Strzay_nad_gowa_maga_S_1_2
+  - first:
+      213: -7896378603577933407
+    second: Strzay_nad_gowa_maga_S_1_3
+  - first:
+      213: -5006381132415423022
+    second: Strzay_nad_gowa_maga_S_1_4
+  - first:
+      213: -1206137430289867505
+    second: Strzay_nad_gowa_maga_S_1_5
+  - first:
+      213: 6404234118386192226
+    second: Strzay_nad_gowa_maga_S_1_6
+  - first:
+      213: -6837067782900645241
+    second: Strzay_nad_gowa_maga_S_1_7
+  - first:
+      213: -8751150082283118229
+    second: Strzay_nad_gowa_maga_S_1_8
+  - first:
+      213: -8068285591722608947
+    second: Strzay_nad_gowa_maga_S_1_9
+  - first:
+      213: -7346626853563648482
+    second: Strzay_nad_gowa_maga_S_1_10
+  - first:
+      213: -2071110611637423790
+    second: Strzay_nad_gowa_maga_S_1_11
+  - first:
+      213: -7407568816097032478
+    second: Strzay_nad_gowa_maga_S_1_12
+  - first:
+      213: 7158381979867929336
+    second: Strzay_nad_gowa_maga_S_1_13
+  - first:
+      213: -7258898387032353849
+    second: Strzay_nad_gowa_maga_S_1_14
+  - first:
+      213: -7223410977417064460
+    second: Strzay_nad_gowa_maga_S_1_15
+  - first:
+      213: 8995520673969779389
+    second: Strzay_nad_gowa_maga_S_1_16
+  - first:
+      213: -1418700353277912387
+    second: Strzay_nad_gowa_maga_S_1_17
+  - first:
+      213: 5676601778029357938
+    second: Strzay_nad_gowa_maga_S_1_18
+  - first:
+      213: 125321229291268866
+    second: Strzay_nad_gowa_maga_S_1_19
+  - first:
+      213: 709099482398453076
+    second: Strzay_nad_gowa_maga_S_1_20
+  - first:
+      213: 8226110068470455927
+    second: Strzay_nad_gowa_maga_S_1_21
+  - first:
+      213: -2329636870118366246
+    second: Strzay_nad_gowa_maga_S_1_22
+  - first:
+      213: 1836178493093166771
+    second: Strzay_nad_gowa_maga_S_1_23
+  - first:
+      213: 4776912250149579670
+    second: Strzay_nad_gowa_maga_S_1_24
+  - first:
+      213: -8884739903012455802
+    second: Strzay_nad_gowa_maga_S_1_25
+  - first:
+      213: -8741251643659475089
+    second: Strzay_nad_gowa_maga_S_1_26
+  - first:
+      213: 6596257398570159164
+    second: Strzay_nad_gowa_maga_S_1_27
+  - first:
+      213: 4590804519065238877
+    second: Strzay_nad_gowa_maga_S_1_28
+  - first:
+      213: -7141745505104801471
+    second: Strzay_nad_gowa_maga_S_1_29
+  - first:
+      213: 2640241214503829301
+    second: Strzay_nad_gowa_maga_S_1_30
+  - first:
+      213: 3981990814184240489
+    second: Strzay_nad_gowa_maga_S_1_31
+  - first:
+      213: -5334550496886459284
+    second: Strzay_nad_gowa_maga_S_1_32
+  - first:
+      213: 9172467503634073906
+    second: Strzay_nad_gowa_maga_S_1_33
+  - first:
+      213: 1213289998014873817
+    second: Strzay_nad_gowa_maga_S_1_34
+  - first:
+      213: 7239956768453673719
+    second: Strzay_nad_gowa_maga_S_1_35
+  - first:
+      213: -3331755959682555028
+    second: Strzay_nad_gowa_maga_S_1_36
+  - first:
+      213: -8834426156786742646
+    second: Strzay_nad_gowa_maga_S_1_37
+  - first:
+      213: -4586205635825131560
+    second: Strzay_nad_gowa_maga_S_1_38
+  - first:
+      213: -3602163485378371706
+    second: Strzay_nad_gowa_maga_S_1_39
+  - first:
+      213: -6898856981858397900
+    second: Strzay_nad_gowa_maga_S_1_40
+  - first:
+      213: 491176023394173197
+    second: Strzay_nad_gowa_maga_S_1_41
+  - first:
+      213: 6396620327255499303
+    second: Strzay_nad_gowa_maga_S_1_42
+  - first:
+      213: -396902475818236375
+    second: Strzay_nad_gowa_maga_S_1_43
+  - first:
+      213: -4570411074511839002
+    second: Strzay_nad_gowa_maga_S_1_44
+  - first:
+      213: -5410618491897124120
+    second: Strzay_nad_gowa_maga_S_1_45
+  - first:
+      213: 7681075705575531361
+    second: Strzay_nad_gowa_maga_S_1_46
+  - first:
+      213: 1181979545109315685
+    second: Strzay_nad_gowa_maga_S_1_47
+  - first:
+      213: 8282775570698262952
+    second: Strzay_nad_gowa_maga_S_1_48
+  - first:
+      213: 2844518392874327250
+    second: Strzay_nad_gowa_maga_S_1_49
+  - first:
+      213: 4897786352314087120
+    second: Strzay_nad_gowa_maga_S_1_50
+  - first:
+      213: 6554479957540956620
+    second: Strzay_nad_gowa_maga_S_1_51
+  - first:
+      213: -4103392079525904352
+    second: Strzay_nad_gowa_maga_S_1_52
+  - first:
+      213: 1467563593775590984
+    second: Strzay_nad_gowa_maga_S_1_53
+  - first:
+      213: -7790996006171633399
+    second: Strzay_nad_gowa_maga_S_1_54
+  - first:
+      213: 6717669596712595547
+    second: Strzay_nad_gowa_maga_S_1_55
+  - first:
+      213: 1402841869321579548
+    second: Strzay_nad_gowa_maga_S_1_56
+  - first:
+      213: 3577793547525764845
+    second: Strzay_nad_gowa_maga_S_1_57
+  - first:
+      213: 377066918475084697
+    second: Strzay_nad_gowa_maga_S_1_58
+  - first:
+      213: -3575579273154802669
+    second: Strzay_nad_gowa_maga_S_1_59
+  - first:
+      213: 4141310972402664259
+    second: Strzay_nad_gowa_maga_S_1_60
+  - first:
+      213: 5616659891505946551
+    second: Strzay_nad_gowa_maga_S_1_61
+  - first:
+      213: 6160143560773949880
+    second: Strzay_nad_gowa_maga_S_1_62
+  - first:
+      213: 1648209790300151566
+    second: Strzay_nad_gowa_maga_S_1_63
+  - first:
+      213: -7998317240478991128
+    second: Strzay_nad_gowa_maga_S_1_64
+  - first:
+      213: 934737951405056732
+    second: Strzay_nad_gowa_maga_S_1_65
+  - first:
+      213: -1195412717016151676
+    second: Strzay_nad_gowa_maga_S_1_66
+  - first:
+      213: 5112600378673267453
+    second: Strzay_nad_gowa_maga_S_1_67
+  - first:
+      213: -2076387602387297421
+    second: Strzay_nad_gowa_maga_S_1_68
+  - first:
+      213: 5349986136068975621
+    second: Strzay_nad_gowa_maga_S_1_69
+  - first:
+      213: 6195893698902158938
+    second: Strzay_nad_gowa_maga_S_1_70
+  - first:
+      213: -8465356248968638305
+    second: Strzay_nad_gowa_maga_S_1_71
+  - first:
+      213: 7177470651594834312
+    second: Strzay_nad_gowa_maga_S_1_72
+  - first:
+      213: 5930346648456617054
+    second: Strzay_nad_gowa_maga_S_1_73
+  - first:
+      213: -6119139358230421042
+    second: Strzay_nad_gowa_maga_S_1_74
+  - first:
+      213: 5784800129654363197
+    second: Strzay_nad_gowa_maga_S_1_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd142702226cf850800000000000000
+      internalID: 6412107867756961208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbac09fd3a3a0ef0800000000000000
+      internalID: -141236400462976002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e25d41ad2500a80800000000000000
+      internalID: -8502704999869632939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a10eb13f7d6a6290800000000000000
+      internalID: -7896378603577933407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 19
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd292092e2c58ab0800000000000000
+      internalID: -5006381132415423022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d1545c560f24fe0800000000000000
+      internalID: -1206137430289867505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f88d4eff860e850800000000000000
+      internalID: 6404234118386192226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 17
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78280f6631bdd11a0800000000000000
+      internalID: -6837067782900645241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b616261ad5bad8680800000000000000
+      internalID: -8751150082283118229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6b8fe7001b70090800000000000000
+      internalID: -8068285591722608947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e163efffcc98b0a90800000000000000
+      internalID: -7346626853563648482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2513fc63fdfe143e0800000000000000
+      internalID: -2071110611637423790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e68643a867033990800000000000000
+      internalID: -7407568816097032478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fad594eb7ea75360800000000000000
+      internalID: 7158381979867929336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_14
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3d7445066334b90800000000000000
+      internalID: -7258898387032353849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff0660ccf941cb90800000000000000
+      internalID: -7223410977417064460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2b6a5846286dc70800000000000000
+      internalID: 8995520673969779389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_17
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba16289b83cf4ce0800000000000000
+      internalID: -1418700353277912387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_18
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b6acebd3757ce40800000000000000
+      internalID: 5676601778029357938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ba8ba7efa3db100800000000000000
+      internalID: 125321229291268866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_20
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45de5c6e83a37d900800000000000000
+      internalID: 709099482398453076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_21
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e12720683092270800000000000000
+      internalID: 8226110068470455927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad321fc0c977bafd0800000000000000
+      internalID: -2329636870118366246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_23
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3beb7096c9a6b7910800000000000000
+      internalID: 1836178493093166771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_24
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ba061e1600b4240800000000000000
+      internalID: 4776912250149579670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_25
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a343fa12013b480800000000000000
+      internalID: -8884739903012455802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67a06771f5d0b680800000000000000
+      internalID: -8741251643659475089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_27
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c01d0d72d9a8b50800000000000000
+      internalID: 6596257398570159164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d34201360d5bf30800000000000000
+      internalID: 4590804519065238877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_29
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1415cfb3d4c63ec90800000000000000
+      internalID: -7141745505104801471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_30
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 0
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fb8df556504a420800000000000000
+      internalID: 2640241214503829301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_31
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965f15a4c8fd24730800000000000000
+      internalID: 3981990814184240489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_32
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64f2b4369ed7f5b0800000000000000
+      internalID: -5334550496886459284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_33
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2394ce3c8962b4f70800000000000000
+      internalID: 9172467503634073906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_34
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0063d23d876d010800000000000000
+      internalID: 1213289998014873817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 19
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2cddc625e797460800000000000000
+      internalID: 7239956768453673719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_36
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 17
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63a4d86b9933c1d0800000000000000
+      internalID: -3331755959682555028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_37
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a8e4a9730d56580800000000000000
+      internalID: -8834426156786742646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_38
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df9fb1e5468a50c0800000000000000
+      internalID: -4586205635825131560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_39
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f9327256b820ec0800000000000000
+      internalID: -3602163485378371706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_40
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4315b1070265240a0800000000000000
+      internalID: -6898856981858397900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_41
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01499cadf101d600800000000000000
+      internalID: 491176023394173197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_42
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7226b110c4c55c850800000000000000
+      internalID: 6396620327255499303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_43
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92681661d4bed7af0800000000000000
+      internalID: -396902475818236375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_44
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0e532c753a290c0800000000000000
+      internalID: -4570411074511839002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_45
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaef47f52f99e4b0800000000000000
+      internalID: -5410618491897124120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_46
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 16
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16366bb78a9a89a60800000000000000
+      internalID: 7681075705575531361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_47
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560c406422c376010800000000000000
+      internalID: 1181979545109315685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_48
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 0
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9d0cd5f7452f270800000000000000
+      internalID: 8282775570698262952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_49
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 10
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcd65c4862c97720800000000000000
+      internalID: 2844518392874327250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_50
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 5
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6ff63ecbe68f340800000000000000
+      internalID: 4897786352314087120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_51
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc965a45bc036fa50800000000000000
+      internalID: 6554479957540956620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_52
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02005b5f4a2dd07c0800000000000000
+      internalID: -4103392079525904352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_53
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 0
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e2a442055dd5410800000000000000
+      internalID: 1467563593775590984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_54
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90917ad2962d0e390800000000000000
+      internalID: -7790996006171633399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_55
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50fe7e08e4f93d50800000000000000
+      internalID: 6717669596712595547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_56
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c25f06f35e77310800000000000000
+      internalID: 1402841869321579548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_57
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de635f78640e6a130800000000000000
+      internalID: 3577793547525764845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_58
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99332445d5c9b3500800000000000000
+      internalID: 377066918475084697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_59
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ccb55689df06ec0800000000000000
+      internalID: -3575579273154802669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_60
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3430d764364e87930800000000000000
+      internalID: 4141310972402664259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_61
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf5569b96262fd40800000000000000
+      internalID: 5616659891505946551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_62
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b957514ee93d7550800000000000000
+      internalID: 6160143560773949880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_63
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f592a521e9fd610800000000000000
+      internalID: 1648209790300151566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_64
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecfd50c8d4400190800000000000000
+      internalID: -7998317240478991128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_65
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2239fd63bd8fc00800000000000000
+      internalID: 934737951405056732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_66
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489844aa77a096fe0800000000000000
+      internalID: -1195412717016151676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_67
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df20959e4fa93f640800000000000000
+      internalID: 5112600378673267453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_68
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b1eaf0a703f23e0800000000000000
+      internalID: -2076387602387297421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_69
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ce7a99b08fe3a40800000000000000
+      internalID: 5349986136068975621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_70
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ee42ded7c3cf550800000000000000
+      internalID: 6195893698902158938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_71
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90571bc753058a80800000000000000
+      internalID: -8465356248968638305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_72
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8810a1e978f7b9360800000000000000
+      internalID: 7177470651594834312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_73
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c5f204bd2dc4250800000000000000
+      internalID: 5930346648456617054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_74
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1609d9c23741ba0800000000000000
+      internalID: -6119139358230421042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strzay_nad_gowa_maga_S_1_75
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d349ea8911db74050800000000000000
+      internalID: 5784800129654363197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Strzay_nad_gowa_maga_S_1_0: 6412107867756961208
+      Strzay_nad_gowa_maga_S_1_1: -141236400462976002
+      Strzay_nad_gowa_maga_S_1_10: -7346626853563648482
+      Strzay_nad_gowa_maga_S_1_11: -2071110611637423790
+      Strzay_nad_gowa_maga_S_1_12: -7407568816097032478
+      Strzay_nad_gowa_maga_S_1_13: 7158381979867929336
+      Strzay_nad_gowa_maga_S_1_14: -7258898387032353849
+      Strzay_nad_gowa_maga_S_1_15: -7223410977417064460
+      Strzay_nad_gowa_maga_S_1_16: 8995520673969779389
+      Strzay_nad_gowa_maga_S_1_17: -1418700353277912387
+      Strzay_nad_gowa_maga_S_1_18: 5676601778029357938
+      Strzay_nad_gowa_maga_S_1_19: 125321229291268866
+      Strzay_nad_gowa_maga_S_1_2: -8502704999869632939
+      Strzay_nad_gowa_maga_S_1_20: 709099482398453076
+      Strzay_nad_gowa_maga_S_1_21: 8226110068470455927
+      Strzay_nad_gowa_maga_S_1_22: -2329636870118366246
+      Strzay_nad_gowa_maga_S_1_23: 1836178493093166771
+      Strzay_nad_gowa_maga_S_1_24: 4776912250149579670
+      Strzay_nad_gowa_maga_S_1_25: -8884739903012455802
+      Strzay_nad_gowa_maga_S_1_26: -8741251643659475089
+      Strzay_nad_gowa_maga_S_1_27: 6596257398570159164
+      Strzay_nad_gowa_maga_S_1_28: 4590804519065238877
+      Strzay_nad_gowa_maga_S_1_29: -7141745505104801471
+      Strzay_nad_gowa_maga_S_1_3: -7896378603577933407
+      Strzay_nad_gowa_maga_S_1_30: 2640241214503829301
+      Strzay_nad_gowa_maga_S_1_31: 3981990814184240489
+      Strzay_nad_gowa_maga_S_1_32: -5334550496886459284
+      Strzay_nad_gowa_maga_S_1_33: 9172467503634073906
+      Strzay_nad_gowa_maga_S_1_34: 1213289998014873817
+      Strzay_nad_gowa_maga_S_1_35: 7239956768453673719
+      Strzay_nad_gowa_maga_S_1_36: -3331755959682555028
+      Strzay_nad_gowa_maga_S_1_37: -8834426156786742646
+      Strzay_nad_gowa_maga_S_1_38: -4586205635825131560
+      Strzay_nad_gowa_maga_S_1_39: -3602163485378371706
+      Strzay_nad_gowa_maga_S_1_4: -5006381132415423022
+      Strzay_nad_gowa_maga_S_1_40: -6898856981858397900
+      Strzay_nad_gowa_maga_S_1_41: 491176023394173197
+      Strzay_nad_gowa_maga_S_1_42: 6396620327255499303
+      Strzay_nad_gowa_maga_S_1_43: -396902475818236375
+      Strzay_nad_gowa_maga_S_1_44: -4570411074511839002
+      Strzay_nad_gowa_maga_S_1_45: -5410618491897124120
+      Strzay_nad_gowa_maga_S_1_46: 7681075705575531361
+      Strzay_nad_gowa_maga_S_1_47: 1181979545109315685
+      Strzay_nad_gowa_maga_S_1_48: 8282775570698262952
+      Strzay_nad_gowa_maga_S_1_49: 2844518392874327250
+      Strzay_nad_gowa_maga_S_1_5: -1206137430289867505
+      Strzay_nad_gowa_maga_S_1_50: 4897786352314087120
+      Strzay_nad_gowa_maga_S_1_51: 6554479957540956620
+      Strzay_nad_gowa_maga_S_1_52: -4103392079525904352
+      Strzay_nad_gowa_maga_S_1_53: 1467563593775590984
+      Strzay_nad_gowa_maga_S_1_54: -7790996006171633399
+      Strzay_nad_gowa_maga_S_1_55: 6717669596712595547
+      Strzay_nad_gowa_maga_S_1_56: 1402841869321579548
+      Strzay_nad_gowa_maga_S_1_57: 3577793547525764845
+      Strzay_nad_gowa_maga_S_1_58: 377066918475084697
+      Strzay_nad_gowa_maga_S_1_59: -3575579273154802669
+      Strzay_nad_gowa_maga_S_1_6: 6404234118386192226
+      Strzay_nad_gowa_maga_S_1_60: 4141310972402664259
+      Strzay_nad_gowa_maga_S_1_61: 5616659891505946551
+      Strzay_nad_gowa_maga_S_1_62: 6160143560773949880
+      Strzay_nad_gowa_maga_S_1_63: 1648209790300151566
+      Strzay_nad_gowa_maga_S_1_64: -7998317240478991128
+      Strzay_nad_gowa_maga_S_1_65: 934737951405056732
+      Strzay_nad_gowa_maga_S_1_66: -1195412717016151676
+      Strzay_nad_gowa_maga_S_1_67: 5112600378673267453
+      Strzay_nad_gowa_maga_S_1_68: -2076387602387297421
+      Strzay_nad_gowa_maga_S_1_69: 5349986136068975621
+      Strzay_nad_gowa_maga_S_1_7: -6837067782900645241
+      Strzay_nad_gowa_maga_S_1_70: 6195893698902158938
+      Strzay_nad_gowa_maga_S_1_71: -8465356248968638305
+      Strzay_nad_gowa_maga_S_1_72: 7177470651594834312
+      Strzay_nad_gowa_maga_S_1_73: 5930346648456617054
+      Strzay_nad_gowa_maga_S_1_74: -6119139358230421042
+      Strzay_nad_gowa_maga_S_1_75: 5784800129654363197
+      Strzay_nad_gowa_maga_S_1_8: -8751150082283118229
+      Strzay_nad_gowa_maga_S_1_9: -8068285591722608947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

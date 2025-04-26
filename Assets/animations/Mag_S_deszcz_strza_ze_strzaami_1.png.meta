@@ -1,0 +1,2457 @@
+fileFormatVersion: 2
+guid: fc88b03ebbc1d5b48955e4e6863cef15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -85384329927258778
+    second: Mag_S_deszcz_strza_ze_strzaami_1_0
+  - first:
+      213: 5186683488315558632
+    second: Mag_S_deszcz_strza_ze_strzaami_1_1
+  - first:
+      213: 7472713535449329774
+    second: Mag_S_deszcz_strza_ze_strzaami_1_2
+  - first:
+      213: 5147511626741664679
+    second: Mag_S_deszcz_strza_ze_strzaami_1_3
+  - first:
+      213: 5020125813717151703
+    second: Mag_S_deszcz_strza_ze_strzaami_1_4
+  - first:
+      213: 2436612001822573543
+    second: Mag_S_deszcz_strza_ze_strzaami_1_5
+  - first:
+      213: -7273714824105004811
+    second: Mag_S_deszcz_strza_ze_strzaami_1_6
+  - first:
+      213: 3117002493255466450
+    second: Mag_S_deszcz_strza_ze_strzaami_1_7
+  - first:
+      213: -5675439234627508858
+    second: Mag_S_deszcz_strza_ze_strzaami_1_8
+  - first:
+      213: 3636557168343112435
+    second: Mag_S_deszcz_strza_ze_strzaami_1_9
+  - first:
+      213: 7096534348436206457
+    second: Mag_S_deszcz_strza_ze_strzaami_1_10
+  - first:
+      213: -2257374847173018578
+    second: Mag_S_deszcz_strza_ze_strzaami_1_11
+  - first:
+      213: 5402863150787461012
+    second: Mag_S_deszcz_strza_ze_strzaami_1_12
+  - first:
+      213: -95144637877972980
+    second: Mag_S_deszcz_strza_ze_strzaami_1_13
+  - first:
+      213: 2579036481338283669
+    second: Mag_S_deszcz_strza_ze_strzaami_1_14
+  - first:
+      213: 6595750510906109376
+    second: Mag_S_deszcz_strza_ze_strzaami_1_15
+  - first:
+      213: -291314349136375832
+    second: Mag_S_deszcz_strza_ze_strzaami_1_16
+  - first:
+      213: -3987508702893021944
+    second: Mag_S_deszcz_strza_ze_strzaami_1_17
+  - first:
+      213: 2801382167779698791
+    second: Mag_S_deszcz_strza_ze_strzaami_1_18
+  - first:
+      213: -6256179580199358020
+    second: Mag_S_deszcz_strza_ze_strzaami_1_19
+  - first:
+      213: 6215359360484768024
+    second: Mag_S_deszcz_strza_ze_strzaami_1_20
+  - first:
+      213: -9036973868691547519
+    second: Mag_S_deszcz_strza_ze_strzaami_1_21
+  - first:
+      213: -6688576915816579559
+    second: Mag_S_deszcz_strza_ze_strzaami_1_22
+  - first:
+      213: -850948585570869718
+    second: Mag_S_deszcz_strza_ze_strzaami_1_23
+  - first:
+      213: 5079729544180262372
+    second: Mag_S_deszcz_strza_ze_strzaami_1_24
+  - first:
+      213: 8584604346339095131
+    second: Mag_S_deszcz_strza_ze_strzaami_1_25
+  - first:
+      213: -63871711161684040
+    second: Mag_S_deszcz_strza_ze_strzaami_1_26
+  - first:
+      213: -6570737595185364370
+    second: Mag_S_deszcz_strza_ze_strzaami_1_27
+  - first:
+      213: 2276142457630820588
+    second: Mag_S_deszcz_strza_ze_strzaami_1_28
+  - first:
+      213: -4518991137399503375
+    second: Mag_S_deszcz_strza_ze_strzaami_1_29
+  - first:
+      213: 7926035623866245078
+    second: Mag_S_deszcz_strza_ze_strzaami_1_30
+  - first:
+      213: 3787667781844227644
+    second: Mag_S_deszcz_strza_ze_strzaami_1_31
+  - first:
+      213: 555359682136992917
+    second: Mag_S_deszcz_strza_ze_strzaami_1_32
+  - first:
+      213: 1185946772954371050
+    second: Mag_S_deszcz_strza_ze_strzaami_1_33
+  - first:
+      213: -1127038395580965705
+    second: Mag_S_deszcz_strza_ze_strzaami_1_34
+  - first:
+      213: -5282366774288862414
+    second: Mag_S_deszcz_strza_ze_strzaami_1_35
+  - first:
+      213: -7376003036864307877
+    second: Mag_S_deszcz_strza_ze_strzaami_1_36
+  - first:
+      213: 6552739015376151158
+    second: Mag_S_deszcz_strza_ze_strzaami_1_37
+  - first:
+      213: 5356149828139891933
+    second: Mag_S_deszcz_strza_ze_strzaami_1_38
+  - first:
+      213: -2049673750669068209
+    second: Mag_S_deszcz_strza_ze_strzaami_1_39
+  - first:
+      213: -7627712177767495433
+    second: Mag_S_deszcz_strza_ze_strzaami_1_40
+  - first:
+      213: -943684002732581244
+    second: Mag_S_deszcz_strza_ze_strzaami_1_41
+  - first:
+      213: 133449148673540209
+    second: Mag_S_deszcz_strza_ze_strzaami_1_42
+  - first:
+      213: 7271536903769245609
+    second: Mag_S_deszcz_strza_ze_strzaami_1_43
+  - first:
+      213: 1348979889185485622
+    second: Mag_S_deszcz_strza_ze_strzaami_1_44
+  - first:
+      213: -4928549264997133369
+    second: Mag_S_deszcz_strza_ze_strzaami_1_45
+  - first:
+      213: -592444316061565454
+    second: Mag_S_deszcz_strza_ze_strzaami_1_46
+  - first:
+      213: 1568191547447015576
+    second: Mag_S_deszcz_strza_ze_strzaami_1_47
+  - first:
+      213: -2877639576712278989
+    second: Mag_S_deszcz_strza_ze_strzaami_1_48
+  - first:
+      213: -6357752507304603448
+    second: Mag_S_deszcz_strza_ze_strzaami_1_49
+  - first:
+      213: 2953314660734591572
+    second: Mag_S_deszcz_strza_ze_strzaami_1_50
+  - first:
+      213: -926663661641861171
+    second: Mag_S_deszcz_strza_ze_strzaami_1_51
+  - first:
+      213: -4110433935582393635
+    second: Mag_S_deszcz_strza_ze_strzaami_1_52
+  - first:
+      213: -8017128149025636606
+    second: Mag_S_deszcz_strza_ze_strzaami_1_53
+  - first:
+      213: -4605497726897544609
+    second: Mag_S_deszcz_strza_ze_strzaami_1_54
+  - first:
+      213: -2132382123785226831
+    second: Mag_S_deszcz_strza_ze_strzaami_1_55
+  - first:
+      213: 907326866124188421
+    second: Mag_S_deszcz_strza_ze_strzaami_1_56
+  - first:
+      213: 757686563904826352
+    second: Mag_S_deszcz_strza_ze_strzaami_1_57
+  - first:
+      213: -8255143072130662544
+    second: Mag_S_deszcz_strza_ze_strzaami_1_58
+  - first:
+      213: -816215710309903410
+    second: Mag_S_deszcz_strza_ze_strzaami_1_59
+  - first:
+      213: -9105176028286061467
+    second: Mag_S_deszcz_strza_ze_strzaami_1_60
+  - first:
+      213: 5376455830596556549
+    second: Mag_S_deszcz_strza_ze_strzaami_1_61
+  - first:
+      213: 8049032779972145906
+    second: Mag_S_deszcz_strza_ze_strzaami_1_62
+  - first:
+      213: 8222690744416913729
+    second: Mag_S_deszcz_strza_ze_strzaami_1_63
+  - first:
+      213: -8689813323580708662
+    second: Mag_S_deszcz_strza_ze_strzaami_1_64
+  - first:
+      213: -5118278054292946203
+    second: Mag_S_deszcz_strza_ze_strzaami_1_65
+  - first:
+      213: -7243362563045154321
+    second: Mag_S_deszcz_strza_ze_strzaami_1_66
+  - first:
+      213: -7393831907933288618
+    second: Mag_S_deszcz_strza_ze_strzaami_1_67
+  - first:
+      213: 2624008530694375138
+    second: Mag_S_deszcz_strza_ze_strzaami_1_68
+  - first:
+      213: 8566196583669357819
+    second: Mag_S_deszcz_strza_ze_strzaami_1_69
+  - first:
+      213: -2515923977629317189
+    second: Mag_S_deszcz_strza_ze_strzaami_1_70
+  - first:
+      213: 1002409910479181661
+    second: Mag_S_deszcz_strza_ze_strzaami_1_71
+  - first:
+      213: -3214539649576028846
+    second: Mag_S_deszcz_strza_ze_strzaami_1_72
+  - first:
+      213: -9033684660805689038
+    second: Mag_S_deszcz_strza_ze_strzaami_1_73
+  - first:
+      213: -6300336694916323906
+    second: Mag_S_deszcz_strza_ze_strzaami_1_74
+  - first:
+      213: -2015817922887734573
+    second: Mag_S_deszcz_strza_ze_strzaami_1_75
+  - first:
+      213: 8862698271535744082
+    second: Mag_S_deszcz_strza_ze_strzaami_1_76
+  - first:
+      213: -2647048798141194874
+    second: Mag_S_deszcz_strza_ze_strzaami_1_77
+  - first:
+      213: -8370962352031517252
+    second: Mag_S_deszcz_strza_ze_strzaami_1_78
+  - first:
+      213: 8778260014321361857
+    second: Mag_S_deszcz_strza_ze_strzaami_1_79
+  - first:
+      213: -8609366947988204720
+    second: Mag_S_deszcz_strza_ze_strzaami_1_80
+  - first:
+      213: -8456251108939461218
+    second: Mag_S_deszcz_strza_ze_strzaami_1_81
+  - first:
+      213: -7922293705825538813
+    second: Mag_S_deszcz_strza_ze_strzaami_1_82
+  - first:
+      213: -7826619546774170003
+    second: Mag_S_deszcz_strza_ze_strzaami_1_83
+  - first:
+      213: 6112148503925583826
+    second: Mag_S_deszcz_strza_ze_strzaami_1_84
+  - first:
+      213: -1552806445047153879
+    second: Mag_S_deszcz_strza_ze_strzaami_1_85
+  - first:
+      213: -183916961676714941
+    second: Mag_S_deszcz_strza_ze_strzaami_1_86
+  - first:
+      213: -4448186296863769981
+    second: Mag_S_deszcz_strza_ze_strzaami_1_87
+  - first:
+      213: -4924586332785116927
+    second: Mag_S_deszcz_strza_ze_strzaami_1_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_0
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d0d418767a0def0800000000000000
+      internalID: -85384329927258778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eace63072dcaf740800000000000000
+      internalID: 5186683488315558632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60f5bc4e5964b760800000000000000
+      internalID: 7472713535449329774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab41254d82af6740800000000000000
+      internalID: 5147511626741664679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_4
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 19
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df216e64d11ba540800000000000000
+      internalID: 5020125813717151703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 27
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e38618b4b590d120800000000000000
+      internalID: 2436612001822573543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f07abfb7e29e0b90800000000000000
+      internalID: -7273714824105004811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_7
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 17
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddbf76c041d14b20800000000000000
+      internalID: 3117002493255466450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_8
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68566bbf51acc31b0800000000000000
+      internalID: -5675439234627508858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fadd703a75a77230800000000000000
+      internalID: 3636557168343112435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973f5ee0464fb7260800000000000000
+      internalID: 7096534348436206457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_11
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cb95d59813ca0e0800000000000000
+      internalID: -2257374847173018578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_12
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ffbb8f863dafa40800000000000000
+      internalID: 5402863150787461012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_13
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c001009b47afdaef0800000000000000
+      internalID: -95144637877972980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59611f4f3049ac320800000000000000
+      internalID: 2579036481338283669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_15
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cde8a5d420d88b50800000000000000
+      internalID: 6595750510906109376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_16
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef80c5942b05fbf0800000000000000
+      internalID: -291314349136375832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_17
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805684126f589a8c0800000000000000
+      internalID: -3987508702893021944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_18
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7686f9e3d3280e620800000000000000
+      internalID: 2801382167779698791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_19
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb13a2781d59d29a0800000000000000
+      internalID: -6256179580199358020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_20
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819f7117864614650800000000000000
+      internalID: 6215359360484768024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_21
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a17287528369280800000000000000
+      internalID: -9036973868691547519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_22
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91effdf8bb66d23a0800000000000000
+      internalID: -6688576915816579559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_23
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e5dea15c2d034f0800000000000000
+      internalID: -850948585570869718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_24
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5ebeb5b13de7640800000000000000
+      internalID: 5079729544180262372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_25
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52f0d87b24a22770800000000000000
+      internalID: 8584604346339095131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_26
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfe20164051d1ff0800000000000000
+      internalID: -63871711161684040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_27
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e620cae68fc00d4a0800000000000000
+      internalID: -6570737595185364370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_28
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce80545718b769f10800000000000000
+      internalID: 2276142457630820588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_29
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f50a20d0815941c0800000000000000
+      internalID: -4518991137399503375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_30
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df93ade76feefd60800000000000000
+      internalID: 7926035623866245078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_31
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36540897cf709430800000000000000
+      internalID: 3787667781844227644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_32
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c695040b805b700800000000000000
+      internalID: 555359682136992917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_33
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3577c7e44557010800000000000000
+      internalID: 1185946772954371050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_34
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc9b2fec84fb50f0800000000000000
+      internalID: -1127038395580965705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_35
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 2
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233bf2de76341b6b0800000000000000
+      internalID: -5282366774288862414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_36
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d1085515c23a990800000000000000
+      internalID: -7376003036864307877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_37
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672a655aa6100fa50800000000000000
+      internalID: 6552739015376151158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc3c0ef3edd45a40800000000000000
+      internalID: 5356149828139891933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_39
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f487de955981e83e0800000000000000
+      internalID: -2049673750669068209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_40
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f84f3b003ce42690800000000000000
+      internalID: -7627712177767495433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_41
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ed7ec366c57e2f0800000000000000
+      internalID: -943684002732581244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_42
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170c34e2b4b1ad100800000000000000
+      internalID: 133449148673540209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_43
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a74f48a940b9e460800000000000000
+      internalID: 7271536903769245609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_44
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 19
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633fb00ef0a88b210800000000000000
+      internalID: 1348979889185485622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_45
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c355d95e864a9bb0800000000000000
+      internalID: -4928549264997133369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_46
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 17
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd73ff880737c7f0800000000000000
+      internalID: -592444316061565454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_47
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 2
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898795d57e553c510800000000000000
+      internalID: 1568191547447015576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_48
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c85762d029018d0800000000000000
+      internalID: -2877639576712278989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_49
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0924887c9b4c7a0800000000000000
+      internalID: -6357752507304603448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_50
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452e90f59084cf820800000000000000
+      internalID: 2953314660734591572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_51
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7f2953f44d323f0800000000000000
+      internalID: -926663661641861171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_52
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda86e41d1ec4f6c0800000000000000
+      internalID: -4110433935582393635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_53
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fba8ecc607db090800000000000000
+      internalID: -8017128149025636606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_54
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f522766e73cf510c0800000000000000
+      internalID: -4605497726897544609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_55
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5736a91c14862e0800000000000000
+      internalID: -2132382123785226831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_56
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b208e3af8779c00800000000000000
+      internalID: 907326866124188421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_57
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb22ac5ae7d38a00800000000000000
+      internalID: 757686563904826352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_58
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fff9f0d17df6d80800000000000000
+      internalID: -8255143072130662544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_59
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 2
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec392eec2283ca4f0800000000000000
+      internalID: -816215710309903410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_60
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5647b90c4aae3a180800000000000000
+      internalID: -9105176028286061467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_61
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 0
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507194d97120d9a40800000000000000
+      internalID: 5376455830596556549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_62
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2f6b3faa8e3bf60800000000000000
+      internalID: 8049032779972145906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_63
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149ccd69aaddc1270800000000000000
+      internalID: 8222690744416913729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_64
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 10
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8e383a2d4976780800000000000000
+      internalID: -8689813323580708662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_65
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 0
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e201383a3938f8b0800000000000000
+      internalID: -5118278054292946203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_66
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 2
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1a45a30286a7b90800000000000000
+      internalID: -7243362563045154321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_67
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 0
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65700becd05d36990800000000000000
+      internalID: -7393831907933288618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_68
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e602a72bd95a6420800000000000000
+      internalID: 2624008530694375138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_69
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcd6cd386e31e670800000000000000
+      internalID: 8566196583669357819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_70
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb74487e874a51dd0800000000000000
+      internalID: -2515923977629317189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_71
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d575179a08649ed00800000000000000
+      internalID: 1002409910479181661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_72
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255bc965839a363d0800000000000000
+      internalID: -3214539649576028846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_73
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23128cbd9a7e1a280800000000000000
+      internalID: -9033684660805689038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_74
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb567261825b098a0800000000000000
+      internalID: -6300336694916323906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_75
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da296687406604e0800000000000000
+      internalID: -2015817922887734573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_76
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2544b521f11aefa70800000000000000
+      internalID: 8862698271535744082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_77
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d5bab842bc34bd0800000000000000
+      internalID: -2647048798141194874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_78
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb53ef2971e54db80800000000000000
+      internalID: -8370962352031517252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_79
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3e3ab49f4a2d970800000000000000
+      internalID: 8778260014321361857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_80
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0539c2c0062658880800000000000000
+      internalID: -8609366947988204720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_81
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d09286b6c55aa80800000000000000
+      internalID: -8456251108939461218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_82
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30da4f149db5e0290800000000000000
+      internalID: -7922293705825538813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_83
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66956a4df2426390800000000000000
+      internalID: -7826619546774170003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_84
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df6be64ea6b2d450800000000000000
+      internalID: 6112148503925583826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_85
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bf60ee3c2537ae0800000000000000
+      internalID: -1552806445047153879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_86
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c171f6f78927df0800000000000000
+      internalID: -183916961676714941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_87
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38abca8612ed442c0800000000000000
+      internalID: -4448186296863769981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_deszcz_strza_ze_strzaami_1_88
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109799862da58abb0800000000000000
+      internalID: -4924586332785116927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mag_S_deszcz_strza_ze_strzaami_1_0: -85384329927258778
+      Mag_S_deszcz_strza_ze_strzaami_1_1: 5186683488315558632
+      Mag_S_deszcz_strza_ze_strzaami_1_10: 7096534348436206457
+      Mag_S_deszcz_strza_ze_strzaami_1_11: -2257374847173018578
+      Mag_S_deszcz_strza_ze_strzaami_1_12: 5402863150787461012
+      Mag_S_deszcz_strza_ze_strzaami_1_13: -95144637877972980
+      Mag_S_deszcz_strza_ze_strzaami_1_14: 2579036481338283669
+      Mag_S_deszcz_strza_ze_strzaami_1_15: 6595750510906109376
+      Mag_S_deszcz_strza_ze_strzaami_1_16: -291314349136375832
+      Mag_S_deszcz_strza_ze_strzaami_1_17: -3987508702893021944
+      Mag_S_deszcz_strza_ze_strzaami_1_18: 2801382167779698791
+      Mag_S_deszcz_strza_ze_strzaami_1_19: -6256179580199358020
+      Mag_S_deszcz_strza_ze_strzaami_1_2: 7472713535449329774
+      Mag_S_deszcz_strza_ze_strzaami_1_20: 6215359360484768024
+      Mag_S_deszcz_strza_ze_strzaami_1_21: -9036973868691547519
+      Mag_S_deszcz_strza_ze_strzaami_1_22: -6688576915816579559
+      Mag_S_deszcz_strza_ze_strzaami_1_23: -850948585570869718
+      Mag_S_deszcz_strza_ze_strzaami_1_24: 5079729544180262372
+      Mag_S_deszcz_strza_ze_strzaami_1_25: 8584604346339095131
+      Mag_S_deszcz_strza_ze_strzaami_1_26: -63871711161684040
+      Mag_S_deszcz_strza_ze_strzaami_1_27: -6570737595185364370
+      Mag_S_deszcz_strza_ze_strzaami_1_28: 2276142457630820588
+      Mag_S_deszcz_strza_ze_strzaami_1_29: -4518991137399503375
+      Mag_S_deszcz_strza_ze_strzaami_1_3: 5147511626741664679
+      Mag_S_deszcz_strza_ze_strzaami_1_30: 7926035623866245078
+      Mag_S_deszcz_strza_ze_strzaami_1_31: 3787667781844227644
+      Mag_S_deszcz_strza_ze_strzaami_1_32: 555359682136992917
+      Mag_S_deszcz_strza_ze_strzaami_1_33: 1185946772954371050
+      Mag_S_deszcz_strza_ze_strzaami_1_34: -1127038395580965705
+      Mag_S_deszcz_strza_ze_strzaami_1_35: -5282366774288862414
+      Mag_S_deszcz_strza_ze_strzaami_1_36: -7376003036864307877
+      Mag_S_deszcz_strza_ze_strzaami_1_37: 6552739015376151158
+      Mag_S_deszcz_strza_ze_strzaami_1_38: 5356149828139891933
+      Mag_S_deszcz_strza_ze_strzaami_1_39: -2049673750669068209
+      Mag_S_deszcz_strza_ze_strzaami_1_4: 5020125813717151703
+      Mag_S_deszcz_strza_ze_strzaami_1_40: -7627712177767495433
+      Mag_S_deszcz_strza_ze_strzaami_1_41: -943684002732581244
+      Mag_S_deszcz_strza_ze_strzaami_1_42: 133449148673540209
+      Mag_S_deszcz_strza_ze_strzaami_1_43: 7271536903769245609
+      Mag_S_deszcz_strza_ze_strzaami_1_44: 1348979889185485622
+      Mag_S_deszcz_strza_ze_strzaami_1_45: -4928549264997133369
+      Mag_S_deszcz_strza_ze_strzaami_1_46: -592444316061565454
+      Mag_S_deszcz_strza_ze_strzaami_1_47: 1568191547447015576
+      Mag_S_deszcz_strza_ze_strzaami_1_48: -2877639576712278989
+      Mag_S_deszcz_strza_ze_strzaami_1_49: -6357752507304603448
+      Mag_S_deszcz_strza_ze_strzaami_1_5: 2436612001822573543
+      Mag_S_deszcz_strza_ze_strzaami_1_50: 2953314660734591572
+      Mag_S_deszcz_strza_ze_strzaami_1_51: -926663661641861171
+      Mag_S_deszcz_strza_ze_strzaami_1_52: -4110433935582393635
+      Mag_S_deszcz_strza_ze_strzaami_1_53: -8017128149025636606
+      Mag_S_deszcz_strza_ze_strzaami_1_54: -4605497726897544609
+      Mag_S_deszcz_strza_ze_strzaami_1_55: -2132382123785226831
+      Mag_S_deszcz_strza_ze_strzaami_1_56: 907326866124188421
+      Mag_S_deszcz_strza_ze_strzaami_1_57: 757686563904826352
+      Mag_S_deszcz_strza_ze_strzaami_1_58: -8255143072130662544
+      Mag_S_deszcz_strza_ze_strzaami_1_59: -816215710309903410
+      Mag_S_deszcz_strza_ze_strzaami_1_6: -7273714824105004811
+      Mag_S_deszcz_strza_ze_strzaami_1_60: -9105176028286061467
+      Mag_S_deszcz_strza_ze_strzaami_1_61: 5376455830596556549
+      Mag_S_deszcz_strza_ze_strzaami_1_62: 8049032779972145906
+      Mag_S_deszcz_strza_ze_strzaami_1_63: 8222690744416913729
+      Mag_S_deszcz_strza_ze_strzaami_1_64: -8689813323580708662
+      Mag_S_deszcz_strza_ze_strzaami_1_65: -5118278054292946203
+      Mag_S_deszcz_strza_ze_strzaami_1_66: -7243362563045154321
+      Mag_S_deszcz_strza_ze_strzaami_1_67: -7393831907933288618
+      Mag_S_deszcz_strza_ze_strzaami_1_68: 2624008530694375138
+      Mag_S_deszcz_strza_ze_strzaami_1_69: 8566196583669357819
+      Mag_S_deszcz_strza_ze_strzaami_1_7: 3117002493255466450
+      Mag_S_deszcz_strza_ze_strzaami_1_70: -2515923977629317189
+      Mag_S_deszcz_strza_ze_strzaami_1_71: 1002409910479181661
+      Mag_S_deszcz_strza_ze_strzaami_1_72: -3214539649576028846
+      Mag_S_deszcz_strza_ze_strzaami_1_73: -9033684660805689038
+      Mag_S_deszcz_strza_ze_strzaami_1_74: -6300336694916323906
+      Mag_S_deszcz_strza_ze_strzaami_1_75: -2015817922887734573
+      Mag_S_deszcz_strza_ze_strzaami_1_76: 8862698271535744082
+      Mag_S_deszcz_strza_ze_strzaami_1_77: -2647048798141194874
+      Mag_S_deszcz_strza_ze_strzaami_1_78: -8370962352031517252
+      Mag_S_deszcz_strza_ze_strzaami_1_79: 8778260014321361857
+      Mag_S_deszcz_strza_ze_strzaami_1_8: -5675439234627508858
+      Mag_S_deszcz_strza_ze_strzaami_1_80: -8609366947988204720
+      Mag_S_deszcz_strza_ze_strzaami_1_81: -8456251108939461218
+      Mag_S_deszcz_strza_ze_strzaami_1_82: -7922293705825538813
+      Mag_S_deszcz_strza_ze_strzaami_1_83: -7826619546774170003
+      Mag_S_deszcz_strza_ze_strzaami_1_84: 6112148503925583826
+      Mag_S_deszcz_strza_ze_strzaami_1_85: -1552806445047153879
+      Mag_S_deszcz_strza_ze_strzaami_1_86: -183916961676714941
+      Mag_S_deszcz_strza_ze_strzaami_1_87: -4448186296863769981
+      Mag_S_deszcz_strza_ze_strzaami_1_88: -4924586332785116927
+      Mag_S_deszcz_strza_ze_strzaami_1_9: 3636557168343112435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
