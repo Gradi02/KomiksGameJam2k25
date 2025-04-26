@@ -47,10 +47,13 @@ public class circleShotState : State
     public void FireInCircle()
     {
         float angleStep = 360f / numberOfBullets;
-        float angle = 0f;
+        float angle = Random.Range(0, 360);
 
         for (int i = 0; i < numberOfBullets; i++)
         {
+            if (angle > 360)
+                angle -= 360;
+
             float dirX = Mathf.Cos(angle * Mathf.Deg2Rad);
             float dirY = Mathf.Sin(angle * Mathf.Deg2Rad);
             Vector2 moveDirection = new Vector2(dirX, dirY).normalized;
