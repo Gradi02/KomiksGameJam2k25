@@ -1143,7 +1143,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  deathEffectPrefab: {fileID: 0}
+  respawnDelay: 2
   healthBar: {fileID: 7014857767816938297}
+  screenDimmerImage: {fileID: 0}
+  maxDimAlpha: 1
+  fadeDuration: 1.5
+  dimColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!95 &6695664160621202916
 Animator:
   serializedVersion: 7
@@ -1201,10 +1207,13 @@ MonoBehaviour:
   - {fileID: 3591708384082257449}
   - {fileID: 8481043610640433056}
   - {fileID: 8210986441229414775}
+  startTimeBtwAttack: 0.1
+  startTimeBtwLoad: 0
   snakePrefab: {fileID: 0}
+  snakeGroundPrefab: {fileID: 0}
   firePoint: {fileID: 1422353035794430619}
   snakeSpeed: 10
-  startTimeBtwAttack: 0.1
+  currentID: 0
 --- !u!114 &6266666092690999933
 MonoBehaviour:
   m_ObjectHideFlags: 0

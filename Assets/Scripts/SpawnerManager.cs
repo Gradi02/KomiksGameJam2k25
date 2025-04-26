@@ -54,12 +54,13 @@ public class SpawnerManager : MonoBehaviour
             Vector3 spawnPos = new Vector3(Random.Range(minX, maxX), yval, 0f);
 
             GameObject warning = Instantiate(warningObj, spawnPos, Quaternion.identity);
-            LeanTween.scale(warning, new Vector3(0.8f, 1f, 2f), 0.4f)
+            /*LeanTween.scale(warning, new Vector3(0.8f, 1f, 2f), 0.4f)
                 .setEase(LeanTweenType.easeInOutSine)
-                .setLoopPingPong();
+                .setLoopPingPong();*/
+            //warning.GetComponent<Animator>().Play("spawn");
             Destroy(warning, 2f);
 
-            yield return new WaitForSeconds(2.1f);
+            yield return new WaitForSeconds(1.4f);
 
             GameObject enemy = Instantiate(GetRandomEnemy(), spawnPos, Quaternion.identity);
             enemy.GetComponent<Enemy>().player = playerObject;
