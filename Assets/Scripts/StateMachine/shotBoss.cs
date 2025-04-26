@@ -12,6 +12,7 @@ public class shotBoss : State
 
     public override void StartState()
     {
+        Debug.Log("shot");
         base.StartState();
         t1 = Time.time + delayToShot;
         t2 = Time.time + timeToEnd;

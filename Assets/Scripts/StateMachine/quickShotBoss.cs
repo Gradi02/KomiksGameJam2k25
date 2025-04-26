@@ -14,6 +14,7 @@ public class quickShotBoss : State
 
     public override void StartState()
     {
+        Debug.Log("quickshot");
         base.StartState();
         t1 = Time.time + delayToShot;
         t2 = Time.time + timeToEnd;
