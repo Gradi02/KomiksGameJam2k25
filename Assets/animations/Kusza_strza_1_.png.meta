@@ -1,0 +1,653 @@
+fileFormatVersion: 2
+guid: f52a6e576b55aed40ac2374cb55a1b33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6207233351476938338
+    second: Kusza_strza_1__0
+  - first:
+      213: 2318317068504894005
+    second: Kusza_strza_1__1
+  - first:
+      213: -8143074697761312623
+    second: Kusza_strza_1__2
+  - first:
+      213: 8085470151149617626
+    second: Kusza_strza_1__3
+  - first:
+      213: -8231278003397268598
+    second: Kusza_strza_1__4
+  - first:
+      213: -1707043357186413029
+    second: Kusza_strza_1__5
+  - first:
+      213: -1756927786100665259
+    second: Kusza_strza_1__6
+  - first:
+      213: 4947472139064267512
+    second: Kusza_strza_1__7
+  - first:
+      213: 2339311768113128698
+    second: Kusza_strza_1__8
+  - first:
+      213: -8176420920137399495
+    second: Kusza_strza_1__9
+  - first:
+      213: 2340578106137316797
+    second: Kusza_strza_1__10
+  - first:
+      213: 2859256295254565440
+    second: Kusza_strza_1__11
+  - first:
+      213: 8205015041600884333
+    second: Kusza_strza_1__12
+  - first:
+      213: 5501857412521089704
+    second: Kusza_strza_1__13
+  - first:
+      213: -954233756240313470
+    second: Kusza_strza_1__14
+  - first:
+      213: 582663414633065655
+    second: Kusza_strza_1__15
+  - first:
+      213: -5447006172551141140
+    second: Kusza_strza_1__16
+  - first:
+      213: 1797894829797520588
+    second: Kusza_strza_1__17
+  - first:
+      213: -7100149740865565010
+    second: Kusza_strza_1__18
+  - first:
+      213: 6988705287114097671
+    second: Kusza_strza_1__19
+  - first:
+      213: -4958794947212082022
+    second: Kusza_strza_1__20
+  - first:
+      213: 1233394991013782387
+    second: Kusza_strza_1__21
+  - first:
+      213: 833992294538660912
+    second: Kusza_strza_1__22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kusza_strza_1__0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2668db888d5842650800000000000000
+      internalID: 6207233351476938338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a85f047115c2020800000000000000
+      internalID: 2318317068504894005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190377cc4bcfdfe80800000000000000
+      internalID: -8143074697761312623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad10c49834c553070800000000000000
+      internalID: 8085470151149617626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8be4006440a4cd80800000000000000
+      internalID: -8231278003397268598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ea6b66c1d5f48e0800000000000000
+      internalID: -1707043357186413029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554d475bc732e97e0800000000000000
+      internalID: -1756927786100665259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2511992b3f8a440800000000000000
+      internalID: 4947472139064267512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4264da8a7e67020800000000000000
+      internalID: 2339311768113128698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93343216e74878e80800000000000000
+      internalID: -8176420920137399495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__10
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd0f59f2676b7020800000000000000
+      internalID: 2340578106137316797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042a278937e1ea720800000000000000
+      internalID: 2859256295254565440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__14
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2830c965471e1c2f0800000000000000
+      internalID: -954233756240313470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__17
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4b79172d763f810800000000000000
+      internalID: 1797894829797520588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__18
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae40abcd63377d90800000000000000
+      internalID: -7100149740865565010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__19
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704845e4e6edcf060800000000000000
+      internalID: 6988705287114097671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__20
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a940c61b442de2bb0800000000000000
+      internalID: -4958794947212082022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__21
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3736f13a536ed1110800000000000000
+      internalID: 1233394991013782387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kusza_strza_1__22
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cc36db29fe29b00800000000000000
+      internalID: 833992294538660912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b7914597bb4a71f439f0e8a047f4a86f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kusza_strza_1__0: 6207233351476938338
+      Kusza_strza_1__1: 2318317068504894005
+      Kusza_strza_1__10: 2340578106137316797
+      Kusza_strza_1__11: 2859256295254565440
+      Kusza_strza_1__12: 8205015041600884333
+      Kusza_strza_1__13: 5501857412521089704
+      Kusza_strza_1__14: -954233756240313470
+      Kusza_strza_1__15: 582663414633065655
+      Kusza_strza_1__16: -5447006172551141140
+      Kusza_strza_1__17: 1797894829797520588
+      Kusza_strza_1__18: -7100149740865565010
+      Kusza_strza_1__19: 6988705287114097671
+      Kusza_strza_1__2: -8143074697761312623
+      Kusza_strza_1__20: -4958794947212082022
+      Kusza_strza_1__21: 1233394991013782387
+      Kusza_strza_1__22: 833992294538660912
+      Kusza_strza_1__3: 8085470151149617626
+      Kusza_strza_1__4: -8231278003397268598
+      Kusza_strza_1__5: -1707043357186413029
+      Kusza_strza_1__6: -1756927786100665259
+      Kusza_strza_1__7: 4947472139064267512
+      Kusza_strza_1__8: 2339311768113128698
+      Kusza_strza_1__9: -8176420920137399495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

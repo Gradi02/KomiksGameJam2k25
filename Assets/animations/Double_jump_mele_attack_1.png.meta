@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 52c4308e3cede1443b48e9f3ff89ba99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5330400012402473726
+    second: Double_jump_mele_attack_1_0
+  - first:
+      213: -3767723439671005844
+    second: Double_jump_mele_attack_1_1
+  - first:
+      213: 6184964649719993748
+    second: Double_jump_mele_attack_1_2
+  - first:
+      213: -6102799148069909578
+    second: Double_jump_mele_attack_1_3
+  - first:
+      213: 715568421277817049
+    second: Double_jump_mele_attack_1_4
+  - first:
+      213: 7180906767693674409
+    second: Double_jump_mele_attack_1_5
+  - first:
+      213: -306731865928407207
+    second: Double_jump_mele_attack_1_6
+  - first:
+      213: -595813992470013683
+    second: Double_jump_mele_attack_1_7
+  - first:
+      213: -5065342311730004697
+    second: Double_jump_mele_attack_1_8
+  - first:
+      213: -629717627266218389
+    second: Double_jump_mele_attack_1_9
+  - first:
+      213: 1380876077806512911
+    second: Double_jump_mele_attack_1_10
+  - first:
+      213: -1914901578576643779
+    second: Double_jump_mele_attack_1_11
+  - first:
+      213: -4542740508675890452
+    second: Double_jump_mele_attack_1_12
+  - first:
+      213: 145109537255276268
+    second: Double_jump_mele_attack_1_13
+  - first:
+      213: 7287973532395946524
+    second: Double_jump_mele_attack_1_14
+  - first:
+      213: 810738626849149674
+    second: Double_jump_mele_attack_1_15
+  - first:
+      213: -3202219951247577957
+    second: Double_jump_mele_attack_1_16
+  - first:
+      213: 4100533826764384659
+    second: Double_jump_mele_attack_1_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_0
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 31
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efabcf1d19269f940800000000000000
+      internalID: 5330400012402473726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_1
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 36
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d2f7e6e7b56bbc0800000000000000
+      internalID: -3767723439671005844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_2
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 43
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49598ee549865d550800000000000000
+      internalID: 6184964649719993748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 48
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb8cb342808e4ba0800000000000000
+      internalID: -6102799148069909578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 45
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d850ca10b53ee900800000000000000
+      internalID: 715568421277817049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_5
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 40
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7749db8a4b7a360800000000000000
+      internalID: 7180906767693674409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_6
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 33
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9576b0a3ef44ebbf0800000000000000
+      internalID: -306731865928407207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 14
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d091e92a45e3bb7f0800000000000000
+      internalID: -595813992470013683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 14
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72db39b310a44b9b0800000000000000
+      internalID: -5065342311730004697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 14
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66cef5872bc247f0800000000000000
+      internalID: -629717627266218389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 14
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bed700a7bd92310800000000000000
+      internalID: 1380876077806512911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 20
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39ba1de827ec65e0800000000000000
+      internalID: -1914901578576643779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_12
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 14
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a8996391f4f0c0800000000000000
+      internalID: -4542740508675890452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_13
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 22
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee3f95fa58830200800000000000000
+      internalID: 145109537255276268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_14
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 14
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12c8ea7055142560800000000000000
+      internalID: 7287973532395946524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_15
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 15
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae218035c72504b00800000000000000
+      internalID: 810738626849149674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_16
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c2831abed6f83d0800000000000000
+      internalID: -3202219951247577957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double_jump_mele_attack_1_17
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399a3c53ac508e830800000000000000
+      internalID: 4100533826764384659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Double_jump_mele_attack_1_0: 5330400012402473726
+      Double_jump_mele_attack_1_1: -3767723439671005844
+      Double_jump_mele_attack_1_10: 1380876077806512911
+      Double_jump_mele_attack_1_11: -1914901578576643779
+      Double_jump_mele_attack_1_12: -4542740508675890452
+      Double_jump_mele_attack_1_13: 145109537255276268
+      Double_jump_mele_attack_1_14: 7287973532395946524
+      Double_jump_mele_attack_1_15: 810738626849149674
+      Double_jump_mele_attack_1_16: -3202219951247577957
+      Double_jump_mele_attack_1_17: 4100533826764384659
+      Double_jump_mele_attack_1_2: 6184964649719993748
+      Double_jump_mele_attack_1_3: -6102799148069909578
+      Double_jump_mele_attack_1_4: 715568421277817049
+      Double_jump_mele_attack_1_5: 7180906767693674409
+      Double_jump_mele_attack_1_6: -306731865928407207
+      Double_jump_mele_attack_1_7: -595813992470013683
+      Double_jump_mele_attack_1_8: -5065342311730004697
+      Double_jump_mele_attack_1_9: -629717627266218389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

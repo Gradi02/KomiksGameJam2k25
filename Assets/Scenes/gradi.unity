@@ -261,6 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6525b0ecdf87c458163ba80a6a6a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip: {fileID: 0}
   player: {fileID: 0}
   jumpForce: 6
   jumpCooldown: 0.5
@@ -457,8 +458,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c81634cad319140b0630316d9822e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip: {fileID: 0}
   player: {fileID: 0}
   speed: 2
+  render: {fileID: 0}
 --- !u!1 &525398756
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f62fe910748d34aaf9e5eb6d209e36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip: {fileID: 0}
   player: {fileID: 0}
   attackTime: 2
   damage: 10

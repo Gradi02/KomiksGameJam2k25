@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0656ad4382ecfa04db49b7b60bc0fb89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4046601580893927915
+    second: Sniper_strza_bez_wiazki_1_0
+  - first:
+      213: 1399752242483171128
+    second: Sniper_strza_bez_wiazki_1_1
+  - first:
+      213: 2559762684616948222
+    second: Sniper_strza_bez_wiazki_1_2
+  - first:
+      213: -465625139672126487
+    second: Sniper_strza_bez_wiazki_1_3
+  - first:
+      213: -7553477206067842221
+    second: Sniper_strza_bez_wiazki_1_4
+  - first:
+      213: 2116666399302153535
+    second: Sniper_strza_bez_wiazki_1_5
+  - first:
+      213: 5685403354310237538
+    second: Sniper_strza_bez_wiazki_1_6
+  - first:
+      213: -6614741620219204626
+    second: Sniper_strza_bez_wiazki_1_7
+  - first:
+      213: -3440427528934709560
+    second: Sniper_strza_bez_wiazki_1_8
+  - first:
+      213: 9178359019956637580
+    second: Sniper_strza_bez_wiazki_1_9
+  - first:
+      213: -5882416399026836612
+    second: Sniper_strza_bez_wiazki_1_10
+  - first:
+      213: -5526056335044788594
+    second: Sniper_strza_bez_wiazki_1_11
+  - first:
+      213: 8100971788621434816
+    second: Sniper_strza_bez_wiazki_1_12
+  - first:
+      213: 2573220564951715021
+    second: Sniper_strza_bez_wiazki_1_13
+  - first:
+      213: 2186340500351899610
+    second: Sniper_strza_bez_wiazki_1_14
+  - first:
+      213: 4876716914981787271
+    second: Sniper_strza_bez_wiazki_1_15
+  - first:
+      213: 5452389717999932687
+    second: Sniper_strza_bez_wiazki_1_16
+  - first:
+      213: -8190572462962525630
+    second: Sniper_strza_bez_wiazki_1_17
+  - first:
+      213: -5968231268294892488
+    second: Sniper_strza_bez_wiazki_1_18
+  - first:
+      213: 2695020202315688957
+    second: Sniper_strza_bez_wiazki_1_19
+  - first:
+      213: -3092902913807293585
+    second: Sniper_strza_bez_wiazki_1_20
+  - first:
+      213: -4213372387627090906
+    second: Sniper_strza_bez_wiazki_1_21
+  - first:
+      213: 5097066292136687748
+    second: Sniper_strza_bez_wiazki_1_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516884f4d4597d7c0800000000000000
+      internalID: -4046601580893927915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f04c29f3bec6310800000000000000
+      internalID: 1399752242483171128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9b4e5799a168320800000000000000
+      internalID: 2559762684616948222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebe9570764c989f0800000000000000
+      internalID: -465625139672126487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353f0594088ac2790800000000000000
+      internalID: -7553477206067842221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35f86620e8ef5d10800000000000000
+      internalID: 2116666399302153535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dd97a6a3c96ee40800000000000000
+      internalID: 5685403354310237538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeba7d5fa87b334a0800000000000000
+      internalID: -6614741620219204626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c62f5ef3652140d0800000000000000
+      internalID: -3440427528934709560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f848d46e4106f70800000000000000
+      internalID: 9178359019956637580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ba21393757d5ea0800000000000000
+      internalID: -5882416399026836612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ebbd4aa018f43b0800000000000000
+      internalID: -5526056335044788594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfcd34cbee6c6070800000000000000
+      internalID: 8100971788621434816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc4da6687ae5b320800000000000000
+      internalID: 2573220564951715021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad75681f911775e10800000000000000
+      internalID: 2186340500351899610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786d0ab32349da340800000000000000
+      internalID: 4876716914981787271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05d06e7f87caab40800000000000000
+      internalID: 5452389717999932687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_17
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab50e8dbd355e80800000000000000
+      internalID: -8190572462962525630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_18
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 0
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83467e358459c2da0800000000000000
+      internalID: -5968231268294892488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_19
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 0
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb278d5892a66520800000000000000
+      internalID: 2695020202315688957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_20
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63eeb1df2dc315d0800000000000000
+      internalID: -3092902913807293585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_21
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c3c0903281785c0800000000000000
+      internalID: -4213372387627090906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sniper_strza_bez_wiazki_1_22
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488bc6b89ca6cb640800000000000000
+      internalID: 5097066292136687748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sniper_strza_bez_wiazki_1_0: -4046601580893927915
+      Sniper_strza_bez_wiazki_1_1: 1399752242483171128
+      Sniper_strza_bez_wiazki_1_10: -5882416399026836612
+      Sniper_strza_bez_wiazki_1_11: -5526056335044788594
+      Sniper_strza_bez_wiazki_1_12: 8100971788621434816
+      Sniper_strza_bez_wiazki_1_13: 2573220564951715021
+      Sniper_strza_bez_wiazki_1_14: 2186340500351899610
+      Sniper_strza_bez_wiazki_1_15: 4876716914981787271
+      Sniper_strza_bez_wiazki_1_16: 5452389717999932687
+      Sniper_strza_bez_wiazki_1_17: -8190572462962525630
+      Sniper_strza_bez_wiazki_1_18: -5968231268294892488
+      Sniper_strza_bez_wiazki_1_19: 2695020202315688957
+      Sniper_strza_bez_wiazki_1_2: 2559762684616948222
+      Sniper_strza_bez_wiazki_1_20: -3092902913807293585
+      Sniper_strza_bez_wiazki_1_21: -4213372387627090906
+      Sniper_strza_bez_wiazki_1_22: 5097066292136687748
+      Sniper_strza_bez_wiazki_1_3: -465625139672126487
+      Sniper_strza_bez_wiazki_1_4: -7553477206067842221
+      Sniper_strza_bez_wiazki_1_5: 2116666399302153535
+      Sniper_strza_bez_wiazki_1_6: 5685403354310237538
+      Sniper_strza_bez_wiazki_1_7: -6614741620219204626
+      Sniper_strza_bez_wiazki_1_8: -3440427528934709560
+      Sniper_strza_bez_wiazki_1_9: 9178359019956637580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

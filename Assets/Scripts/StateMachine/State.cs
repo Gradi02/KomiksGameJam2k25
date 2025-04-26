@@ -4,7 +4,7 @@ public abstract class State : MonoBehaviour
 {
     public bool isEnded { get; protected set; } = false;
     private Animator animator;
-    protected AnimationClip clip;
+    [SerializeField] protected AnimationClip clip;
     protected Rigidbody2D rb;
     protected StateMachine machine;
     [SerializeField] protected GameObject player;
@@ -23,7 +23,7 @@ public abstract class State : MonoBehaviour
     public virtual void StartState()
     {
         Debug.Log("Enter state");
-        //animator.Play(clip.name);
+        animator.Play(clip.name);
     }
 
     public virtual void UpdateState()

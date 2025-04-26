@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.4f);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
@@ -85,23 +85,13 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateAnimations()
     {
         // U¿ywamy rb.velocity.x, poniewa¿ lepiej odzwierciedla faktyczny ruch ni¿ 'horizontal'
-        float currentHorizontalSpeed = Mathf.Abs(rb.velocity.x);
+        float currentHorizontalSpeed = Mathf.Abs(rb.linearVelocity.x);
         bool isGrounded = IsGrounded();
 
         // Ustawianie parametrów w Animatorze
         animator.SetFloat("speed", currentHorizontalSpeed);
         animator.SetBool("jump", isGrounded);
         animator.SetFloat("verticalvel", Mathf.Abs(rb.linearVelocity.y));
-
-        // --- Komentarz: Jak skonfigurowaæ przejœcia w Animatorze (przyk³ady) ---
-        // 1. Idle -> Walk: Warunek: Speed > 0.1 AND IsGrounded == true
-        // 2. Walk -> Idle: Warunek: Speed < 0.1 AND IsGrounded == true
-        // 3. Any State -> Jump: Warunek: VerticalVelocity > 0.1 AND IsGrounded == false
-        // 4. Any State -> Fall: Warunek: VerticalVelocity < -0.1 AND IsGrounded == false
-        // 5. Fall -> Idle/Walk: Warunek: IsGrounded == true (Mo¿na dodaæ animacjê l¹dowania)
-        // 6. Any State -> Dash: Warunek: IsDashing == true
-        // 7. Dash -> Idle/Fall: Warunek: IsDashing == false
-        // -----------------------------------------------------------------------
     }
 
 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 93c5f1a4613901d44a916b4f0134cb55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8151349063259794288
+    second: Mag_S_chod_1_0
+  - first:
+      213: -7089188072104731861
+    second: Mag_S_chod_1_1
+  - first:
+      213: -9182485676599655655
+    second: Mag_S_chod_1_2
+  - first:
+      213: -4457680519916332287
+    second: Mag_S_chod_1_3
+  - first:
+      213: 3126266749445458673
+    second: Mag_S_chod_1_4
+  - first:
+      213: 2968016408797363092
+    second: Mag_S_chod_1_5
+  - first:
+      213: 6741450036055178531
+    second: Mag_S_chod_1_6
+  - first:
+      213: -7552193232086150205
+    second: Mag_S_chod_1_7
+  - first:
+      213: 3443857456098811180
+    second: Mag_S_chod_1_8
+  - first:
+      213: -3162189711683924175
+    second: Mag_S_chod_1_9
+  - first:
+      213: 6675173192815863003
+    second: Mag_S_chod_1_10
+  - first:
+      213: -8109219219394991012
+    second: Mag_S_chod_1_11
+  - first:
+      213: 6655721853360923122
+    second: Mag_S_chod_1_12
+  - first:
+      213: 5723962317524869130
+    second: Mag_S_chod_1_13
+  - first:
+      213: -5499714377502990307
+    second: Mag_S_chod_1_14
+  - first:
+      213: -8242910376819035216
+    second: Mag_S_chod_1_15
+  - first:
+      213: 2940158349907163976
+    second: Mag_S_chod_1_16
+  - first:
+      213: -7714670252542257716
+    second: Mag_S_chod_1_17
+  - first:
+      213: -887016614445724549
+    second: Mag_S_chod_1_18
+  - first:
+      213: -3130969821789079838
+    second: Mag_S_chod_1_19
+  - first:
+      213: -5818389666174439222
+    second: Mag_S_chod_1_20
+  - first:
+      213: -3645124791899059244
+    second: Mag_S_chod_1_21
+  - first:
+      213: 8615656705642156334
+    second: Mag_S_chod_1_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mag_S_chod_1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094df24f63790ee80800000000000000
+      internalID: -8151349063259794288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bd24032052e9d90800000000000000
+      internalID: -7089188072104731861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9134a239de1419080800000000000000
+      internalID: -9182485676599655655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b55385f232322c0800000000000000
+      internalID: -4457680519916332287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1facfc18b0bb26b20800000000000000
+      internalID: 3126266749445458673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb5e5d233803920800000000000000
+      internalID: 2968016408797363092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dfc1e07117e8d50800000000000000
+      internalID: 6741450036055178531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c35566c448313790800000000000000
+      internalID: -7552193232086150205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d99d72c1a0bcf20800000000000000
+      internalID: 3443857456098811180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f4fa21635ad14d0800000000000000
+      internalID: -3162189711683924175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4effbf6aaf2ac50800000000000000
+      internalID: 6675173192815863003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ce03e9514467f80800000000000000
+      internalID: -8109219219394991012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1e16913cfdd5c50800000000000000
+      internalID: 6655721853360923122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00aac3a6699f6f40800000000000000
+      internalID: 5723962317524869130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1063d299e61da3b0800000000000000
+      internalID: -5499714377502990307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3f1526fac4b9d80800000000000000
+      internalID: -8242910376819035216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_16
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b7d9d017a8dc820800000000000000
+      internalID: 2940158349907163976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc512f5874cffe490800000000000000
+      internalID: -7714670252542257716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_18
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cc71ab61fa0b3f0800000000000000
+      internalID: -887016614445724549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_19
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e63bc1298f8c84d0800000000000000
+      internalID: -3130969821789079838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_20
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac07edefc6de04fa0800000000000000
+      internalID: -5818389666174439222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_21
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db03e0805ae96dc0800000000000000
+      internalID: -3645124791899059244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mag_S_chod_1_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2153864026f09770800000000000000
+      internalID: 8615656705642156334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mag_S_chod_1_0: -8151349063259794288
+      Mag_S_chod_1_1: -7089188072104731861
+      Mag_S_chod_1_10: 6675173192815863003
+      Mag_S_chod_1_11: -8109219219394991012
+      Mag_S_chod_1_12: 6655721853360923122
+      Mag_S_chod_1_13: 5723962317524869130
+      Mag_S_chod_1_14: -5499714377502990307
+      Mag_S_chod_1_15: -8242910376819035216
+      Mag_S_chod_1_16: 2940158349907163976
+      Mag_S_chod_1_17: -7714670252542257716
+      Mag_S_chod_1_18: -887016614445724549
+      Mag_S_chod_1_19: -3130969821789079838
+      Mag_S_chod_1_2: -9182485676599655655
+      Mag_S_chod_1_20: -5818389666174439222
+      Mag_S_chod_1_21: -3645124791899059244
+      Mag_S_chod_1_22: 8615656705642156334
+      Mag_S_chod_1_3: -4457680519916332287
+      Mag_S_chod_1_4: 3126266749445458673
+      Mag_S_chod_1_5: 2968016408797363092
+      Mag_S_chod_1_6: 6741450036055178531
+      Mag_S_chod_1_7: -7552193232086150205
+      Mag_S_chod_1_8: 3443857456098811180
+      Mag_S_chod_1_9: -3162189711683924175
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
