@@ -67,7 +67,7 @@ public class SpawnerManager : MonoBehaviour
             activeEnemies.Add(enemy);
         }
 
-        isSpawning = false; // KONIEC spawnienia dopóki nie zginie coœ
+        isSpawning = false; // KONIEC spawnienia dopï¿½ki nie zginie coï¿½
     }
 
     private GameObject GetRandomEnemy()
@@ -86,6 +86,7 @@ public class SpawnerManager : MonoBehaviour
     {
         if (activeEnemies.Contains(enemy))
         {
+            Debug.Log("sdadfasd");
             activeEnemies.Remove(enemy);
             Destroy(enemy);
 
