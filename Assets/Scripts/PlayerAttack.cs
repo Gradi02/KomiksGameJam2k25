@@ -17,23 +17,19 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("oooooooooooooooooo");
         //ATAK MEGAWENSZA9
         if (timeBtwAttack <= 0)
         {
-            Debug.Log("AAAAAAAAAAA");
             if (Input.GetKey(KeyCode.Mouse0))
             {
-                Debug.Log("BBBBBBBBBB");
                 var player = GameObject.FindWithTag("Player");
 
                 if(player.GetComponent<PlayerMovement>().IsGrounded()){
                     // Vector2 snakeDirection = player.transform.right;
                     Vector3 snakeGroundPosition = player.transform.position;
                     snakeGroundPosition.y -= 1;
-                    Debug.Log("waaaz");
-                    GameObject snakeGround = Instantiate(snakeGroundPrefab, snakeGroundPosition, Quaternion.Euler(0, 0, 0));
-                    // snakeGround.GetComponent<SnakeGround>().Initialize(snakeDirection);
+                    Instantiate(snakeGroundPrefab, snakeGroundPosition, Quaternion.Euler(0, 0, 0));
+                    //snakeGround.GetComponent<SnakeGround>().Initialize(snakeDirection);
 
                     timeBtwAttack = startTimeBtwAttack;
 
