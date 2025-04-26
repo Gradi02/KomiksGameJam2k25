@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: e844d873b49160c4d89d646a6de3ecc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1808865145621718999
+    second: WUNSZ_0
+  - first:
+      213: -6508031788708662238
+    second: WUNSZ_1
+  - first:
+      213: 5059914449118401492
+    second: WUNSZ_2
+  - first:
+      213: -2917973546610536648
+    second: WUNSZ_3
+  - first:
+      213: 2581567587344599031
+    second: WUNSZ_4
+  - first:
+      213: 6919847360270359635
+    second: WUNSZ_5
+  - first:
+      213: -6695420984125019970
+    second: WUNSZ_6
+  - first:
+      213: -1179284708566475440
+    second: WUNSZ_7
+  - first:
+      213: 7856316623271347052
+    second: WUNSZ_8
+  - first:
+      213: -5211277089212528923
+    second: WUNSZ_9
+  - first:
+      213: 4065969861822404792
+    second: WUNSZ_10
+  - first:
+      213: -3843851591954186577
+    second: WUNSZ_11
+  - first:
+      213: -8569026256118483983
+    second: WUNSZ_12
+  - first:
+      213: -9200052155761614749
+    second: WUNSZ_13
+  - first:
+      213: 5414632251633902947
+    second: WUNSZ_14
+  - first:
+      213: 4524550480343235567
+    second: WUNSZ_15
+  - first:
+      213: -5224901099801834602
+    second: WUNSZ_16
+  - first:
+      213: -7419646258812558780
+    second: WUNSZ_17
+  - first:
+      213: -469554876470169899
+    second: WUNSZ_18
+  - first:
+      213: 3435467540306476390
+    second: WUNSZ_19
+  - first:
+      213: -411186509254151619
+    second: WUNSZ_20
+  - first:
+      213: 4395680214112210078
+    second: WUNSZ_21
+  - first:
+      213: 8522480160989779725
+    second: WUNSZ_22
+  - first:
+      213: 1605965351579645980
+    second: WUNSZ_23
+  - first:
+      213: -677134740035518690
+    second: WUNSZ_24
+  - first:
+      213: -3226400774794268379
+    second: WUNSZ_25
+  - first:
+      213: 6730907242372644135
+    second: WUNSZ_26
+  - first:
+      213: 7617524253005521118
+    second: WUNSZ_27
+  - first:
+      213: -8868283526102093771
+    second: WUNSZ_28
+  - first:
+      213: -9058732450352640542
+    second: WUNSZ_29
+  - first:
+      213: -4078205657018086762
+    second: WUNSZ_30
+  - first:
+      213: 9524876210819542
+    second: WUNSZ_31
+  - first:
+      213: -7972347462644508893
+    second: WUNSZ_32
+  - first:
+      213: 1835150153803513378
+    second: WUNSZ_33
+  - first:
+      213: 6900149708396524188
+    second: WUNSZ_34
+  - first:
+      213: -3890842368145867960
+    second: WUNSZ_35
+  - first:
+      213: 3290902629683079311
+    second: WUNSZ_36
+  - first:
+      213: -3160520356336857610
+    second: WUNSZ_37
+  - first:
+      213: 7943392804148160471
+    second: WUNSZ_38
+  - first:
+      213: -1171352314347145341
+    second: WUNSZ_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WUNSZ_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928d1acdbbe95e6e0800000000000000
+      internalID: -1808865145621718999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 15
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224f117b193dea5a0800000000000000
+      internalID: -6508031788708662238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 15
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d39195026d683640800000000000000
+      internalID: 5059914449118401492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 14
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fca4af4864187d0800000000000000
+      internalID: -2917973546610536648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 10
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7465ffa0293d320800000000000000
+      internalID: 2581567587344599031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 7
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cd6d0e28c380060800000000000000
+      internalID: 6919847360270359635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 14
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8288bb6161513a0800000000000000
+      internalID: -6695420984125019970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_7
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 8
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d58d04ec652afe0800000000000000
+      internalID: -1179284708566475440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_8
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 7
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63c515285e370d60800000000000000
+      internalID: 7856316623271347052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 14
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e60b5f0913dda7b0800000000000000
+      internalID: -5211277089212528923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_10
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 8
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b85e510c0a3d6830800000000000000
+      internalID: 4065969861822404792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_11
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 7
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae304cb755e7aac0800000000000000
+      internalID: -3843851591954186577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_12
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 7
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3ff0d4504b41980800000000000000
+      internalID: -8569026256118483983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_13
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 13
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36023ccee49d25080800000000000000
+      internalID: -9200052155761614749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_14
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365230c4853a42b40800000000000000
+      internalID: 5414632251633902947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_15
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 13
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb7e2590be6ace30800000000000000
+      internalID: 4524550480343235567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_16
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 14
+        width: 63
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b83c7e12c6d77b0800000000000000
+      internalID: -5224901099801834602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_17
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442eb60e90f180990800000000000000
+      internalID: -7419646258812558780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_18
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de6171e35ecb79f0800000000000000
+      internalID: -469554876470169899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_19
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d3a59a68b3daf20800000000000000
+      internalID: 3435467540306476390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_20
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 5
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3239736c0c2b4af0800000000000000
+      internalID: -411186509254151619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_21
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c0f5c8dd7900d30800000000000000
+      internalID: 4395680214112210078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_22
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 9
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d071c196d8ee54670800000000000000
+      internalID: 8522480160989779725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_23
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c187d7e7af8894610800000000000000
+      internalID: 1605965351579645980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_24
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 12
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f3b13aa855a96f0800000000000000
+      internalID: -677134740035518690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_25
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521b75be6958933d0800000000000000
+      internalID: -3226400774794268379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_26
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 12
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72db9bd997cf86d50800000000000000
+      internalID: 6730907242372644135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_27
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed02150e2f1e6b960800000000000000
+      internalID: 7617524253005521118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_28
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 12
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5307c338e178de480800000000000000
+      internalID: -8868283526102093771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_29
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed4d65e4dae84280800000000000000
+      internalID: -9058732450352640542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_30
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 12
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ac27cef8d4767c0800000000000000
+      internalID: -4078205657018086762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_31
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1531f03d6d12000800000000000000
+      internalID: 9524876210819542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_32
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 12
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3275617d8388c5190800000000000000
+      internalID: -7972347462644508893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_33
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e36f28753c77910800000000000000
+      internalID: 1835150153803513378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_34
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 8
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c927df9e99142cf50800000000000000
+      internalID: 6900149708396524188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_35
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b30a11b73f00ac0800000000000000
+      internalID: -3890842368145867960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_36
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 4
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88a8a87182abad20800000000000000
+      internalID: 3290902629683079311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_37
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd86272b739324d0800000000000000
+      internalID: -3160520356336857610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_38
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 0
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d725a26ba99c3e60800000000000000
+      internalID: 7943392804148160471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WUNSZ_39
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387b184b6458ebfe0800000000000000
+      internalID: -1171352314347145341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WUNSZ_0: -1808865145621718999
+      WUNSZ_1: -6508031788708662238
+      WUNSZ_10: 4065969861822404792
+      WUNSZ_11: -3843851591954186577
+      WUNSZ_12: -8569026256118483983
+      WUNSZ_13: -9200052155761614749
+      WUNSZ_14: 5414632251633902947
+      WUNSZ_15: 4524550480343235567
+      WUNSZ_16: -5224901099801834602
+      WUNSZ_17: -7419646258812558780
+      WUNSZ_18: -469554876470169899
+      WUNSZ_19: 3435467540306476390
+      WUNSZ_2: 5059914449118401492
+      WUNSZ_20: -411186509254151619
+      WUNSZ_21: 4395680214112210078
+      WUNSZ_22: 8522480160989779725
+      WUNSZ_23: 1605965351579645980
+      WUNSZ_24: -677134740035518690
+      WUNSZ_25: -3226400774794268379
+      WUNSZ_26: 6730907242372644135
+      WUNSZ_27: 7617524253005521118
+      WUNSZ_28: -8868283526102093771
+      WUNSZ_29: -9058732450352640542
+      WUNSZ_3: -2917973546610536648
+      WUNSZ_30: -4078205657018086762
+      WUNSZ_31: 9524876210819542
+      WUNSZ_32: -7972347462644508893
+      WUNSZ_33: 1835150153803513378
+      WUNSZ_34: 6900149708396524188
+      WUNSZ_35: -3890842368145867960
+      WUNSZ_36: 3290902629683079311
+      WUNSZ_37: -3160520356336857610
+      WUNSZ_38: 7943392804148160471
+      WUNSZ_39: -1171352314347145341
+      WUNSZ_4: 2581567587344599031
+      WUNSZ_5: 6919847360270359635
+      WUNSZ_6: -6695420984125019970
+      WUNSZ_7: -1179284708566475440
+      WUNSZ_8: 7856316623271347052
+      WUNSZ_9: -5211277089212528923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
