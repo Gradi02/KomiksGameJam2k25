@@ -31,6 +31,7 @@ public class PlayerAttack : MonoBehaviour
                     // Vector2 snakeDirection = player.transform.right;
                     Vector3 snakeGroundPosition = player.transform.position;
                     snakeGroundPosition.y -= 1;
+                    Debug.Log("waaaz");
                     GameObject snakeGround = Instantiate(snakeGroundPrefab, snakeGroundPosition, Quaternion.Euler(0, 0, 0));
                     // snakeGround.GetComponent<SnakeGround>().Initialize(snakeDirection);
 
