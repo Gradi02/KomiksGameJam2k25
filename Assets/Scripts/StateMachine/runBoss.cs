@@ -6,6 +6,8 @@ public class runBoss : State
     [SerializeField] private SpriteRenderer render;
     [SerializeField] private bool reverseFlip = false;
 
+    [SerializeField] private Transform arrowSp;
+
     public override void StartState()
     {
         base.StartState();
@@ -23,9 +25,15 @@ public class runBoss : State
         rb.linearVelocity = new Vector2(speed * dir.x, rb.linearVelocity.y);
 
         if (dir.x > 0.01f)
+        {
+            UpdateArrowSpawnerPosition(false);
             render.flipX = false;
+        }   
         else
+        {
+            UpdateArrowSpawnerPosition(true);
             render.flipX = true;
+        }
 
         if (reverseFlip) render.flipX = !render.flipX;
     }
@@ -33,5 +41,17 @@ public class runBoss : State
     public override void EndState()
     {
         base.EndState();
+    }
+
+    public void UpdateArrowSpawnerPosition(bool isLeft)
+    {
+        if (isLeft)
+        {
+            arrowSp.localPosition = new Vector3(-Mathf.Abs(arrowSp.localPosition.x), arrowSp.localPosition.y, arrowSp.localPosition.z);
+        }
+        else
+        {
+            arrowSp.localPosition = new Vector3(Mathf.Abs(arrowSp.localPosition.x), arrowSp.localPosition.y, arrowSp.localPosition.z);
+        }
     }
 }

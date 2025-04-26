@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class shotBoss : State
@@ -31,6 +32,7 @@ public class shotBoss : State
         if (Time.time > t2)
         {
             isEnded = true;
+
             machine.RequestExitState();
         }
     }
@@ -40,11 +42,19 @@ public class shotBoss : State
         base.EndState();
     }
 
-
-
     public void Shot()
     {
         GameObject a = Instantiate(arrow, arrowSp.transform.position, transform.rotation);
-        a.GetComponent<arrowMovement>().InvokeDestroy(4);
+        Rigidbody2D rb = a.GetComponent<Rigidbody2D>();
+        rb.linearVelocity = new Vector2(0, 8);
+
+        StartCoroutine(ApplyGravityAfterDelay(rb, 0.5f)); 
     }
+
+    private IEnumerator ApplyGravityAfterDelay(Rigidbody2D rb, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        rb.gravityScale = 1;
+    }
+
 }

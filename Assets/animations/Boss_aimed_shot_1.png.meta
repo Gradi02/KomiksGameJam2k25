@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 4740131d5a5865647b9092cb37cc4c3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2823946855272444186
+    second: Boss_aimed_shot_1_0
+  - first:
+      213: 6674753387348455529
+    second: Boss_aimed_shot_1_1
+  - first:
+      213: -8953452919613013328
+    second: Boss_aimed_shot_1_2
+  - first:
+      213: -3276088484976646085
+    second: Boss_aimed_shot_1_3
+  - first:
+      213: 3545215634696854030
+    second: Boss_aimed_shot_1_4
+  - first:
+      213: 5778554472696520982
+    second: Boss_aimed_shot_1_5
+  - first:
+      213: -3502392586045353183
+    second: Boss_aimed_shot_1_6
+  - first:
+      213: -1883635698733492364
+    second: Boss_aimed_shot_1_7
+  - first:
+      213: -7671461447727712159
+    second: Boss_aimed_shot_1_8
+  - first:
+      213: 5954942611137368848
+    second: Boss_aimed_shot_1_9
+  - first:
+      213: -3288269965435322842
+    second: Boss_aimed_shot_1_10
+  - first:
+      213: 6396539935260568472
+    second: Boss_aimed_shot_1_11
+  - first:
+      213: 1127021788144583012
+    second: Boss_aimed_shot_1_12
+  - first:
+      213: 8000222904358579541
+    second: Boss_aimed_shot_1_13
+  - first:
+      213: -2281379010405481910
+    second: Boss_aimed_shot_1_14
+  - first:
+      213: -5442969029019791537
+    second: Boss_aimed_shot_1_15
+  - first:
+      213: 8285831808953416570
+    second: Boss_aimed_shot_1_16
+  - first:
+      213: 8625991460241118551
+    second: Boss_aimed_shot_1_17
+  - first:
+      213: 8802538896678953161
+    second: Boss_aimed_shot_1_18
+  - first:
+      213: -4783308417698061695
+    second: Boss_aimed_shot_1_19
+  - first:
+      213: 4237892921951730909
+    second: Boss_aimed_shot_1_20
+  - first:
+      213: -7015955965164078589
+    second: Boss_aimed_shot_1_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee87ea0c435fc8d0800000000000000
+      internalID: -2823946855272444186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9607d3867dc71ac50800000000000000
+      internalID: 6674753387348455529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 3
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2484dc102feb380800000000000000
+      internalID: -8953452919613013328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38283061eef882d0800000000000000
+      internalID: -3276088484976646085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a544e16d2233130800000000000000
+      internalID: 3545215634696854030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_5
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61122544dac813050800000000000000
+      internalID: 5778554472696520982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_6
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1231eccdf70056fc0800000000000000
+      internalID: -3502392586045353183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477debadf4bfbd5e0800000000000000
+      internalID: -1883635698733492364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_8
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168f51c557e798590800000000000000
+      internalID: -7671461447727712159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0131ea211c434a250800000000000000
+      internalID: 5954942611137368848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_10
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e34a073e7bd52d0800000000000000
+      internalID: -3288269965435322842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_11
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b6ec84e2315c850800000000000000
+      internalID: 6396539935260568472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_12
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461cb78585cf3af00800000000000000
+      internalID: 1127021788144583012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_13
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dac323850860f60800000000000000
+      internalID: 8000222904358579541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_14
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42cfb690e9e650e0800000000000000
+      internalID: -2281379010405481910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_15
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f82d59180b674b0800000000000000
+      internalID: -5442969029019791537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_16
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bfc4941203df270800000000000000
+      internalID: 8285831808953416570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_17
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7559937d78da5b770800000000000000
+      internalID: 8625991460241118551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_18
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0ab1a1d76e82a70800000000000000
+      internalID: 8802538896678953161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_19
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182a8ff46564e9db0800000000000000
+      internalID: -4783308417698061695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_20
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 3
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc3311c82500da30800000000000000
+      internalID: 4237892921951730909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_aimed_shot_1_21
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 3
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30abc98c83152ae90800000000000000
+      internalID: -7015955965164078589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_aimed_shot_1_0: -2823946855272444186
+      Boss_aimed_shot_1_1: 6674753387348455529
+      Boss_aimed_shot_1_10: -3288269965435322842
+      Boss_aimed_shot_1_11: 6396539935260568472
+      Boss_aimed_shot_1_12: 1127021788144583012
+      Boss_aimed_shot_1_13: 8000222904358579541
+      Boss_aimed_shot_1_14: -2281379010405481910
+      Boss_aimed_shot_1_15: -5442969029019791537
+      Boss_aimed_shot_1_16: 8285831808953416570
+      Boss_aimed_shot_1_17: 8625991460241118551
+      Boss_aimed_shot_1_18: 8802538896678953161
+      Boss_aimed_shot_1_19: -4783308417698061695
+      Boss_aimed_shot_1_2: -8953452919613013328
+      Boss_aimed_shot_1_20: 4237892921951730909
+      Boss_aimed_shot_1_21: -7015955965164078589
+      Boss_aimed_shot_1_3: -3276088484976646085
+      Boss_aimed_shot_1_4: 3545215634696854030
+      Boss_aimed_shot_1_5: 5778554472696520982
+      Boss_aimed_shot_1_6: -3502392586045353183
+      Boss_aimed_shot_1_7: -1883635698733492364
+      Boss_aimed_shot_1_8: -7671461447727712159
+      Boss_aimed_shot_1_9: 5954942611137368848
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
