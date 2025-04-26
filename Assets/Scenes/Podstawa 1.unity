@@ -455,12 +455,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc686386d0356914fadd0cf8cca143f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotsBg: []
-  LoadSlots: []
-  startTimeBtwAttack: 0
-  startTimeBtwLoad: 0
-  snakePrefab: {fileID: 0}
-  firePoint: {fileID: 0}
+  slotsBg:
+  - {fileID: 1314179497}
+  - {fileID: 734860072}
+  - {fileID: 18109091}
+  LoadSlots:
+  - {fileID: 637072168}
+  - {fileID: 1674338609}
+  - {fileID: 1046561623}
+  startTimeBtwAttack: 0.3
+  startTimeBtwLoad: 1.5
+  snakePrefab: {fileID: 6841918657320009339, guid: b00a1e0db9f9a58408a13402202834eb, type: 3}
+  firePoint: {fileID: 1422390582}
   snakeSpeed: 10
   currentID: 0
 --- !u!4 &146520387 stripped
@@ -5466,6 +5472,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375406261}
   m_CullTransparentMesh: 1
+--- !u!4 &1422390582 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1422353035794430619, guid: 3c6fabd1c79422d42a6a8089c33e27c9, type: 3}
+  m_PrefabInstance: {fileID: 146520378}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1450580475
 GameObject:
   m_ObjectHideFlags: 0
@@ -6151,7 +6162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 561008124}
-  speed: 0.2
+  speed: 0.25
 --- !u!1 &2105745396
 GameObject:
   m_ObjectHideFlags: 0

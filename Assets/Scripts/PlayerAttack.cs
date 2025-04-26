@@ -37,7 +37,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(timeBtwAttack);
+        //Debug.Log(timeBtwAttack);
 
         if (load < maxLoad)
         {
