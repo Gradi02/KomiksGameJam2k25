@@ -28,6 +28,7 @@ public abstract class Enemy : MonoBehaviour
     public void TakeDamage(int val)
     {
         health -= val;
+        Debug.Log(health);
         if(health <= 0)
         {
             DestroyEnemy();
@@ -37,6 +38,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void DestroyEnemy()
     {
+        Debug.Log("odpala");
         SpawnerManager.Instance.OnEnemyKilled(this.gameObject);
     }
 

@@ -64,9 +64,6 @@ public class PlayerAttack : MonoBehaviour
             }
         }
 
-
-
-
         //ATAK MEGAWENSZA9
         if (timeBtwAttack <= 0)
         {

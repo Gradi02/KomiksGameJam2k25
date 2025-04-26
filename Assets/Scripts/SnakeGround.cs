@@ -5,10 +5,10 @@ public class SnakeGround : MonoBehaviour
 {
     public float speed = 10f;  // Szybkość poruszania się obiektu
     [SerializeField] private float max_distance = 10.0f;
-    [SerializeField] private float damage = 50;
+    [SerializeField] private int damage = 50;
     public float how_much_distance = 0;
     public int direction;
-    public Enemy whoGetHit;
+    public GameObject whoGetHit;
     private Animator animator;
 
     void Start()
@@ -31,8 +31,10 @@ public class SnakeGround : MonoBehaviour
         Debug.Log(how_much_distance);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("snakegroundattack")){
             if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f){
-                whoGetHit.TakeDamage();
-                Destroy(gameObject);
+                if(whoGetHit != null){
+                    whoGetHit.GetComponent<Enemy>().TakeDamage(damage);
+                    Destroy(gameObject);
+                }
             }
         } else {
             if(how_much_distance >= max_distance){
@@ -55,6 +57,7 @@ public class SnakeGround : MonoBehaviour
             Debug.Log("Trafiono w wroga!");
             speed = 1;
             animator.SetBool("attack",true);
+
             whoGetHit = collision.gameObject;
         }
     }

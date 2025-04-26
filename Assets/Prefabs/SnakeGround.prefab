@@ -122,9 +122,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  max_distance: 30
+  max_distance: 10
+  damage: 1000
   how_much_distance: 0
   direction: 0
+  whoGetHit: {fileID: 0}
 --- !u!95 &1699512961027703939
 Animator:
   serializedVersion: 7
