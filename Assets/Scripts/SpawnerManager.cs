@@ -6,6 +6,7 @@ public class SpawnerManager : MonoBehaviour
 {
     public static SpawnerManager Instance { get; private set; }
 
+    private GameObject playerObject;
     public List<GameObject> enemies;
     private int totalKills = 0;
     [SerializeField] private GameObject warningObj;
@@ -36,7 +37,10 @@ public class SpawnerManager : MonoBehaviour
         if (!isSpawning)
             StartCoroutine(SpawnEnemies());
     }
-
+    private void Start()
+    {
+        playerObject = GameObject.FindWithTag("Player");
+    }
     private void Update()
     {
         spawned = activeEnemies.Count;
@@ -58,6 +62,7 @@ public class SpawnerManager : MonoBehaviour
             yield return new WaitForSeconds(2.1f);
 
             GameObject enemy = Instantiate(GetRandomEnemy(), spawnPos, Quaternion.identity);
+            enemy.GetComponent<Enemy>().player = playerObject;
             activeEnemies.Add(enemy);
         }
 

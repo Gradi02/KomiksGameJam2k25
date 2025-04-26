@@ -16,5 +16,7 @@ public class InterEquipNewSkill : EnvSignInteractionAction
     {
         eq.PickupItem(thisItem);
         Destroy(gameObject);
+
+        SpawnerManager.Instance.StartWave();
     }
 }
