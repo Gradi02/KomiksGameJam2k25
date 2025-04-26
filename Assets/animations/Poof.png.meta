@@ -1,58 +1,55 @@
 fileFormatVersion: 2
-guid: 4e8c22f60cb5855469429776cb8d1d26
+guid: faa0e06f3d6b3894ba30bdc785f2ed8f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7006980593510900885
-    second: WUUUNSZ_ATAK_0
+      213: -901901565778205758
+    second: Poof_0
   - first:
-      213: 7691276905839570903
-    second: WUUUNSZ_ATAK_1
+      213: 1575910984941813709
+    second: Poof_1
   - first:
-      213: 3514204014259620730
-    second: WUUUNSZ_ATAK_2
+      213: 2182998810026982320
+    second: Poof_2
   - first:
-      213: 6214034124169536018
-    second: WUUUNSZ_ATAK_3
+      213: 5963206764859221352
+    second: Poof_3
   - first:
-      213: -2648217238868957646
-    second: WUUUNSZ_ATAK_4
+      213: -8269626729102511149
+    second: Poof_4
   - first:
-      213: 5232272700632164520
-    second: WUUUNSZ_ATAK_5
+      213: -3593792495447830366
+    second: Poof_5
   - first:
-      213: -6653368634581269119
-    second: WUUUNSZ_ATAK_6
+      213: -5019343415792029869
+    second: Poof_6
   - first:
-      213: -821557182312581087
-    second: WUUUNSZ_ATAK_7
+      213: -6270272127050413856
+    second: Poof_7
   - first:
-      213: 5943713362843973788
-    second: WUUUNSZ_ATAK_8
+      213: 604689468394082245
+    second: Poof_8
   - first:
-      213: 3785691606731601028
-    second: WUUUNSZ_ATAK_9
+      213: 1136497257052545126
+    second: Poof_9
   - first:
-      213: -3637083137935350678
-    second: WUUUNSZ_ATAK_10
+      213: 4931260263643221978
+    second: Poof_10
   - first:
-      213: 8322277161800027733
-    second: WUUUNSZ_ATAK_11
+      213: -8585964693486281771
+    second: Poof_11
   - first:
-      213: -1401230633220908338
-    second: WUUUNSZ_ATAK_12
+      213: 6153262987284870499
+    second: Poof_12
   - first:
-      213: 1846508973956871922
-    second: WUUUNSZ_ATAK_13
+      213: 9182050608452955022
+    second: Poof_13
   - first:
-      213: 7030160651526705879
-    second: WUUUNSZ_ATAK_14
+      213: 5172017772176650893
+    second: Poof_14
   - first:
-      213: 212081639318802115
-    second: WUUUNSZ_ATAK_15
-  - first:
-      213: -8295392819887034433
-    second: WUUUNSZ_ATAK_16
+      213: -4387681133237842907
+    second: Poof_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -157,30 +154,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_0
+      name: Poof_0
       rect:
         serializedVersion: 2
-        x: 262
-        y: 15
-        width: 18
-        height: 14
+        x: 0
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6b1ab7564432ce90800000000000000
-      internalID: -7006980593510900885
+      spriteID: 2c3eb6ded4dcb73f0800000000000000
+      internalID: -901901565778205758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_1
+      name: Poof_1
       rect:
         serializedVersion: 2
-        x: 294
-        y: 12
-        width: 18
-        height: 19
+        x: 58
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dfabb18897ecba60800000000000000
-      internalID: 7691276905839570903
+      spriteID: dcfb717f0b2ced510800000000000000
+      internalID: 1575910984941813709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_2
+      name: Poof_2
       rect:
         serializedVersion: 2
-        x: 326
-        y: 12
-        width: 18
-        height: 19
+        x: 116
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7b42329ee5f4c030800000000000000
-      internalID: 3514204014259620730
+      spriteID: 0bb32c80ad19b4e10800000000000000
+      internalID: 2182998810026982320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_3
+      name: Poof_3
       rect:
         serializedVersion: 2
-        x: 358
-        y: 12
-        width: 18
-        height: 19
+        x: 174
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 212e741dc1fac3650800000000000000
-      internalID: 6214034124169536018
+      spriteID: 865e3ad45f091c250800000000000000
+      internalID: 5963206764859221352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_4
+      name: Poof_4
       rect:
         serializedVersion: 2
-        x: 390
-        y: 12
-        width: 18
-        height: 19
+        x: 232
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 236662db374af3bd0800000000000000
-      internalID: -2648217238868957646
+      spriteID: 3d3f4c2ed426c3d80800000000000000
+      internalID: -8269626729102511149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_5
+      name: Poof_5
       rect:
         serializedVersion: 2
-        x: 422
-        y: 12
-        width: 18
-        height: 19
+        x: 290
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a86729ac44cc9840800000000000000
-      internalID: 5232272700632164520
+      spriteID: 2a01e5024c8402ec0800000000000000
+      internalID: -3593792495447830366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_6
+      name: Poof_6
       rect:
         serializedVersion: 2
-        x: 458
-        y: 11
-        width: 10
-        height: 20
+        x: 348
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 185ce085a7c7aa3a0800000000000000
-      internalID: -6653368634581269119
+      spriteID: 35f2508c1c5b75ab0800000000000000
+      internalID: -5019343415792029869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_7
+      name: Poof_7
       rect:
         serializedVersion: 2
-        x: 490
-        y: 11
-        width: 10
-        height: 20
+        x: 406
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1287691781e3994f0800000000000000
-      internalID: -821557182312581087
+      spriteID: 0e88026c8b48bf8a0800000000000000
+      internalID: -6270272127050413856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WUUUNSZ_ATAK_8
+      name: Poof_8
       rect:
         serializedVersion: 2
-        x: 522
-        y: 11
-        width: 10
-        height: 20
+        x: 464
+        y: 0
+        width: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,52 +349,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c98be07ffcf4c7250800000000000000
-      internalID: 5943713362843973788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WUUUNSZ_ATAK_9
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 11
-        width: 10
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4843a68757a798430800000000000000
-      internalID: 3785691606731601028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WUUUNSZ_ATAK_10
-      rect:
-        serializedVersion: 2
-        x: 586
-        y: 18
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a64ecc8f72c768dc0800000000000000
-      internalID: -3637083137935350678
+      spriteID: 5cf8c032ed9446800800000000000000
+      internalID: 604689468394082245
       vertices: []
       indices: 
       edges: []
@@ -419,7 +359,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 30da17a973625e14980f300fa8a6ef9b
+    spriteID: 839f59d1b1776884c82f3f6864a07b03
     internalID: 0
     vertices: []
     indices: 
@@ -429,24 +369,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WUUUNSZ_ATAK_0: -7006980593510900885
-      WUUUNSZ_ATAK_1: 7691276905839570903
-      WUUUNSZ_ATAK_10: -3637083137935350678
-      WUUUNSZ_ATAK_11: 8322277161800027733
-      WUUUNSZ_ATAK_12: -1401230633220908338
-      WUUUNSZ_ATAK_13: 1846508973956871922
-      WUUUNSZ_ATAK_14: 7030160651526705879
-      WUUUNSZ_ATAK_15: 212081639318802115
-      WUUUNSZ_ATAK_16: -8295392819887034433
-      WUUUNSZ_ATAK_17: -934025881
-      WUUUNSZ_ATAK_2: 3514204014259620730
-      WUUUNSZ_ATAK_3: 6214034124169536018
-      WUUUNSZ_ATAK_4: -2648217238868957646
-      WUUUNSZ_ATAK_5: 5232272700632164520
-      WUUUNSZ_ATAK_6: -6653368634581269119
-      WUUUNSZ_ATAK_7: -821557182312581087
-      WUUUNSZ_ATAK_8: 5943713362843973788
-      WUUUNSZ_ATAK_9: 3785691606731601028
+      Poof_0: -901901565778205758
+      Poof_1: 1575910984941813709
+      Poof_2: 2182998810026982320
+      Poof_3: 5963206764859221352
+      Poof_4: -8269626729102511149
+      Poof_5: -3593792495447830366
+      Poof_6: -5019343415792029869
+      Poof_7: -6270272127050413856
+      Poof_8: 604689468394082245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
