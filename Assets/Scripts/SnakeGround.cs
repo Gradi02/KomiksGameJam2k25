@@ -27,17 +27,17 @@ public class SnakeGround : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(max_distance);
-        Debug.Log(how_much_distance);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("snakegroundattack")){
             if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f){
                 if(whoGetHit != null){
                     whoGetHit.GetComponent<Enemy>().TakeDamage(damage);
+                    animator.speed = 1;
                     Destroy(gameObject);
                 }
             }
         } else {
             if(how_much_distance >= max_distance){
+                animator.speed = 2;
                 animator.SetBool("attack",true);
             } else {
                 transform.position = new Vector3(direction * speed * Time.deltaTime + transform.position.x, transform.position.y, transform.position.z);
@@ -54,8 +54,8 @@ public class SnakeGround : MonoBehaviour
         {
             transform.position = new Vector3(collision.gameObject.transform.position.x, transform.position.y + 0.5f, transform.position.z);
             this.GetComponent<BoxCollider2D>().isTrigger = true;
-            Debug.Log("Trafiono w wroga!");
             speed = 1;
+            animator.speed = 2;
             animator.SetBool("attack",true);
 
             whoGetHit = collision.gameObject;
