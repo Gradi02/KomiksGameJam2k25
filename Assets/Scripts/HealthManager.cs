@@ -8,7 +8,6 @@ public class HealthManager : MonoBehaviour
     public int maxHealth = 100;
     [SerializeField] private int currentHealth;
     [SerializeField] private GameObject deathEffectPrefab;
-    [SerializeField] private float respawnDelay = 2f;
 
     public HealthBar healthBar;
     [SerializeField] private Image screenDimmerImage;
