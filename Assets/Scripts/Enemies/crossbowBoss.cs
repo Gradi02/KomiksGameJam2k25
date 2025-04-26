@@ -39,15 +39,4 @@ public class crossbowBoss : Enemy
             machine.RequestChangeState(runBoss);
         }
     }
-
-    private void ShootUpwards()
-    {
-        Vector2 playerPos = player.transform.position;
-        Vector2 enemyPos = new Vector2(transform.position.x, transform.position.y);
-        Vector2 dir = (playerPos - enemyPos).normalized;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-        //GameObject a = Instantiate(shotS.arrow, shotS.arrowSp.transform.position, rotation);
-        //a.GetComponent<arrowMovement>().InvokeDestroy(4);
-    }
 }
