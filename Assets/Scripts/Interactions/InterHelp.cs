@@ -3,7 +3,7 @@ using UnityEngine;
 public class InterHelp : EnvSignInteractionAction
 {
     public GameObject infoCanva;
-    public override void Play()
+    public override void Play(EqManager eq)
     {
         if (infoCanva.activeSelf)
         {

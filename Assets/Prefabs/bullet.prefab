@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3249578321679937005}
   - component: {fileID: 6067803575113436513}
   - component: {fileID: 4364976421263260317}
-  - component: {fileID: 4444798087437985060}
+  - component: {fileID: 9174521044845969460}
   m_Layer: 10
-  m_Name: arrow
+  m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 535320841260710743}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.383, y: -2.98, z: 0}
-  m_LocalScale: {x: 0.85, y: 0.1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4004608563162254481}
@@ -79,8 +79,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.3458698, b: 0.1566037, a: 1}
+  m_Sprite: {fileID: 934737951405056732, guid: e957d261e7b042b4792e0a888cce3448, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -128,7 +128,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.875, y: 0.875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -136,7 +136,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4444798087437985060
+--- !u!114 &9174521044845969460
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,11 +145,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 535320841260710743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02176b51483f4e543b2a9f5a44dd95ab, type: 3}
+  m_Script: {fileID: 11500000, guid: ec2ad128ec1ca444db21f346c8ede619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  rotateSpeed: 0.3
+  speed: 5
   ps: {fileID: 8364749085125325814}
 --- !u!1 &4518157611430365082
 GameObject:
@@ -373,8 +372,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.79622644, g: 0.034553133, b: 0.12908457, a: 1}
-      maxColor: {r: 0.83396226, g: 0.43486938, b: 0.08024918, a: 1}
+      minColor: {r: 0.3584906, g: 0.045318615, b: 0.084061615, a: 1}
+      maxColor: {r: 0.3283019, g: 0.1649437, b: 0.019202547, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -438,8 +437,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.5
-      minScalar: 0.1
+      scalar: 0.3
+      minScalar: 0.05
       maxCurve:
         serializedVersion: 2
         m_Curve:

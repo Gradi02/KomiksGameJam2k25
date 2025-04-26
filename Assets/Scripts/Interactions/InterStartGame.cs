@@ -27,7 +27,7 @@ public class InterStartGame : EnvSignInteractionAction
         wholeMenu.SetActive(false);
         
     }
-    public override void Play()
+    public override void Play(EqManager eq)
     {
         Debug.Log("start");
         Instantiate(firstSigil, SpawnPlace);
