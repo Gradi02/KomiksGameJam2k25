@@ -94,33 +94,36 @@ public class EqManager : MonoBehaviour
         gun.enabled = false;
         snake.enabled = false;
 
-        switch(items[currentID].name)
+        if (items[currentID] != null)
         {
-            case "bomb":
-                {
-                    bomb.enabled = true;
-                    break;
-                }
-            case "gravity":
-                {
-                    gravity.enabled = true;
-                    break;
-                }
-            case "laser":
-                {
-                    laser.enabled = true;
-                    break;
-                }
-            case "gun":
-                {
-                    gun.enabled = true;
-                    break;
-                }
-            case "snake":
-                {
-                    snake.enabled = true;
-                    break;
-                }
+            switch (items[currentID].name)
+            {
+                case "bomb":
+                    {
+                        bomb.enabled = true;
+                        break;
+                    }
+                case "gravity":
+                    {
+                        gravity.enabled = true;
+                        break;
+                    }
+                case "laser":
+                    {
+                        laser.enabled = true;
+                        break;
+                    }
+                case "gun":
+                    {
+                        gun.enabled = true;
+                        break;
+                    }
+                case "snake":
+                    {
+                        snake.enabled = true;
+                        break;
+                    }
+            }
         }
     }
 }
