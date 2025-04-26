@@ -3,6 +3,7 @@ using UnityEngine;
 public class attackState : State
 {
     [SerializeField] private float attackTime = 2;
+    [SerializeField] private int damage = 10;
     private float endIn = 0;
 
 
@@ -12,6 +13,7 @@ public class attackState : State
         base.StartState();
         endIn = Time.time + attackTime;
         rb.linearVelocity = Vector2.zero;
+        player.GetComponent<HealthManager>().TakeDamage(damage);
     }
 
     public override void UpdateState()
