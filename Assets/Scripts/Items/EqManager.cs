@@ -8,6 +8,7 @@ public class EqManager : MonoBehaviour
     public Image[] images;
     private Item[] items = new Item[3];
 
+    private bool[] activeItems = new bool[3];
     private int currentID = 0;
     private int maxID = 2;
 
@@ -19,17 +20,37 @@ public class EqManager : MonoBehaviour
 
     private void Start()
     {
-        foreach (var slot in slotsBg)
-            slot.SetActive(false);
-
-        slotsBg[currentID].SetActive(true);
+        foreach (var slot in slotsBg){
+            if (slot != slotsBg[currentID]){
+                slot.SetActive(false);
+            }
+        }
     }
 
     private void Update()
     {
         HandleScroll();
-        SwitchWeapon();
+        //Alternatywny tryb znakówo
+        // switch(Input.GetKeyDown())
+        // {
+        //     case KeyCode.Alpha1:
+        //         SwitchSlot(1);
+        //         break;
+
+        //     case KeyCodSlot(2);
+        //         break
+            
+        //    e.Alpha2:
+        //         Switch case KeyCode.Alpha3:
+        //         SwitchSlot(3);
+        //         break
+        // }
     }
+
+    // private void SwitchSlot(int slotNr)
+    // {
+
+    // }
 
     private void HandleScroll()
     {
@@ -38,29 +59,40 @@ public class EqManager : MonoBehaviour
         if (scroll > 0f)
         {
             currentID = (currentID + 1) % (maxID + 1);
+            SwitchWeapon();
             UpdateSlotsBg();
         }
         else if (scroll < 0f)
         {
             currentID = (currentID - 1 + (maxID + 1)) % (maxID + 1);
+            SwitchWeapon();
             UpdateSlotsBg();
         }
     }
 
     private void UpdateSlotsBg()
     {
-        foreach (var slot in slotsBg)
-            slot.SetActive(false);
-
-        slotsBg[currentID].SetActive(true);
+        foreach (var slot in slotsBg){
+            if (slot != slotsBg[currentID]){
+                slot.SetActive(false);
+            }
+        }
+        // slotsBg[currentID].SetActive(true);
+    }
+    public void DeleteSign(int itemNr = currentID)
+    {
+        images[currentID].sprite = itm.sprite;
+        images[currentID].color = new Color(1.0f, 1.0f, 1.0f, 0.0f);
+        items[currentID] = itm;
     }
 
     public void PickupSign(Item itm)
     {
-        images[currentID].sprite = itm.sprite;
+        Debug.Log(images[currentID].sprite);
+        Debug.Log(images[currentID].color);
+        images[currentID].sprite = null;
         images[currentID].color = Color.white;
-        items[currentID] = itm;
-        AnimateNewRune(currentID);
+        items[currentID] = null;
 
         /*if(currentID >= 3)
         {
@@ -84,6 +116,41 @@ public class EqManager : MonoBehaviour
     private void AnimateNewRune(int i)
     {
         LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 90), 0.5f).setEase(LeanTweenType.easeInOutCubic);
+    }
+
+    private void SwitchSign(int itemNr)
+    {
+        if (items[itemNr] != null)
+        {
+            switch (items[itemNr].name)
+            {
+                case "bomb":
+                    {
+                        bomb.enabled = bomb.enabled == true ? false : true;
+                        break;
+                    }
+                case "gravity":
+                    {
+                        gravity.enabled = gravity.enabled == true ? false : true;
+                        break;
+                    }
+                case "laser":
+                    {
+                        laser.enabled = laser.enabled == true ? false : true;
+                        break;
+                    }
+                case "gun":
+                    {
+                        gun.enabled = gun.enabled == true ? false : true;
+                        break;
+                    }
+                case "snake":
+                    {
+                        snake.enabled = snake.enabled == true ? false : true;
+                        break;
+                    }
+            }
+        }
     }
 
     private void SwitchWeapon()

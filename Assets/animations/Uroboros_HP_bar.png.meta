@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Uroboros_HP_bar_0: 6705208980952890511
+      Uroboros_HP_bar_1: 2755235878806556232
+      Uroboros_HP_bar_2: -9036000311514858718
+      Uroboros_HP_bar_3: -3669115351844942153
+      Uroboros_HP_bar_4: 4186620159331428267
+      Uroboros_HP_bar_5: -6092417013960897518
+      Uroboros_HP_bar_6: 4525782621290482483
+      Uroboros_HP_bar_7: -602420035262359607
+      Uroboros_HP_bar_8: -5285064436245645211
+      Uroboros_HP_bar_9: 7870784268122079026
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
