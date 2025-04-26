@@ -30,27 +30,8 @@ public class EqManager : MonoBehaviour
     private void Update()
     {
         HandleScroll();
-        //Alternatywny tryb znakówo
-        // switch(Input.GetKeyDown())
-        // {
-        //     case KeyCode.Alpha1:
-        //         SwitchSlot(1);
-        //         break;
-
-        //     case KeyCodSlot(2);
-        //         break
-            
-        //    e.Alpha2:
-        //         Switch case KeyCode.Alpha3:
-        //         SwitchSlot(3);
-        //         break
-        // }
     }
 
-    // private void SwitchSlot(int slotNr)
-    // {
-
-    // }
 
     private void HandleScroll()
     {
@@ -77,80 +58,20 @@ public class EqManager : MonoBehaviour
                 slot.SetActive(false);
             }
         }
-        // slotsBg[currentID].SetActive(true);
-    }
-    public void DeleteSign(int itemNr = currentID)
-    {
-        images[currentID].sprite = itm.sprite;
-        images[currentID].color = new Color(1.0f, 1.0f, 1.0f, 0.0f);
-        items[currentID] = itm;
+        slotsBg[currentID].SetActive(true);
     }
 
     public void PickupSign(Item itm)
     {
-        Debug.Log(images[currentID].sprite);
-        Debug.Log(images[currentID].color);
-        images[currentID].sprite = null;
+        images[currentID].sprite = itm.sprite;
         images[currentID].color = Color.white;
-        items[currentID] = null;
-
-        /*if(currentID >= 3)
-        {
-            Debug.Log("ULT!!!!!!!!!!!!!");
-            currentID = 0;
-            items = new Item[3];
-            foreach(var img in images)
-            {
-                Color a = Color.white;
-                a.a = 0;
-                img.color = a;
-                img.sprite = null;
-
-                images[0].transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
-                images[1].transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
-                images[2].transform.GetChild(0).GetComponent<ParticleSystem>().Stop();
-            }
-        }*/
+        items[currentID] = itm;
+        AnimateNewRune(currentID);
     }
 
     private void AnimateNewRune(int i)
     {
         LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 90), 0.5f).setEase(LeanTweenType.easeInOutCubic);
-    }
-
-    private void SwitchSign(int itemNr)
-    {
-        if (items[itemNr] != null)
-        {
-            switch (items[itemNr].name)
-            {
-                case "bomb":
-                    {
-                        bomb.enabled = bomb.enabled == true ? false : true;
-                        break;
-                    }
-                case "gravity":
-                    {
-                        gravity.enabled = gravity.enabled == true ? false : true;
-                        break;
-                    }
-                case "laser":
-                    {
-                        laser.enabled = laser.enabled == true ? false : true;
-                        break;
-                    }
-                case "gun":
-                    {
-                        gun.enabled = gun.enabled == true ? false : true;
-                        break;
-                    }
-                case "snake":
-                    {
-                        snake.enabled = snake.enabled == true ? false : true;
-                        break;
-                    }
-            }
-        }
     }
 
     private void SwitchWeapon()

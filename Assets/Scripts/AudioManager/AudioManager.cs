@@ -65,7 +65,6 @@ public class sounds
     public bool playonawake;
 
     [Range(0f, 1f)]
-    [HideInInspector]
     public float volume;
 
     [HideInInspector]
