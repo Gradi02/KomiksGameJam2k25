@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: f615967869e4a8b41bd3a5e612423b13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6416733586744312554
+    second: Boss_S_Quick_Shot_1_0
+  - first:
+      213: 1906824990467317910
+    second: Boss_S_Quick_Shot_1_1
+  - first:
+      213: -5168261738320371790
+    second: Boss_S_Quick_Shot_1_2
+  - first:
+      213: -3731259005667531503
+    second: Boss_S_Quick_Shot_1_3
+  - first:
+      213: -297022725933634352
+    second: Boss_S_Quick_Shot_1_4
+  - first:
+      213: 7425895170995781837
+    second: Boss_S_Quick_Shot_1_5
+  - first:
+      213: -766921955642619091
+    second: Boss_S_Quick_Shot_1_6
+  - first:
+      213: 8901390397235665026
+    second: Boss_S_Quick_Shot_1_7
+  - first:
+      213: -5464620598263158772
+    second: Boss_S_Quick_Shot_1_8
+  - first:
+      213: 5233335724570107941
+    second: Boss_S_Quick_Shot_1_9
+  - first:
+      213: 2806761975606737110
+    second: Boss_S_Quick_Shot_1_10
+  - first:
+      213: -4746651941235343989
+    second: Boss_S_Quick_Shot_1_11
+  - first:
+      213: -6744293149425709446
+    second: Boss_S_Quick_Shot_1_12
+  - first:
+      213: 1209456705140469620
+    second: Boss_S_Quick_Shot_1_13
+  - first:
+      213: 388490408166178704
+    second: Boss_S_Quick_Shot_1_14
+  - first:
+      213: -8348121426224322297
+    second: Boss_S_Quick_Shot_1_15
+  - first:
+      213: 1197387539708770395
+    second: Boss_S_Quick_Shot_1_16
+  - first:
+      213: 2703033605966343927
+    second: Boss_S_Quick_Shot_1_17
+  - first:
+      213: 3690843575431314820
+    second: Boss_S_Quick_Shot_1_18
+  - first:
+      213: -5690695102266122887
+    second: Boss_S_Quick_Shot_1_19
+  - first:
+      213: 1476890040725062099
+    second: Boss_S_Quick_Shot_1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d79c7dcce23f6a0800000000000000
+      internalID: -6416733586744312554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69064add937667a10800000000000000
+      internalID: 1906824990467317910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfdb25e455a648b0800000000000000
+      internalID: -5168261738320371790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115a53214b7e73cc0800000000000000
+      internalID: -3731259005667531503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_4
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce18a8763c0ebf0800000000000000
+      internalID: -297022725933634352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_5
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc00e7e50541e0760800000000000000
+      internalID: 7425895170995781837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b497f6b885b55f0800000000000000
+      internalID: -766921955642619091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_7
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2881e4a9767188b70800000000000000
+      internalID: 8901390397235665026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_8
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08ed38c484c924b0800000000000000
+      internalID: -5464620598263158772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_9
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520ec553d1b80a840800000000000000
+      internalID: 5233335724570107941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_10
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 0
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8fc1d552f93f620800000000000000
+      internalID: 2806761975606737110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_11
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dbf325531802eb0800000000000000
+      internalID: -4746651941235343989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_12
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e41670d157762a0800000000000000
+      internalID: -6744293149425709446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fac11277ad8c010800000000000000
+      internalID: 1209456705140469620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_14
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f3469c7f1346500800000000000000
+      internalID: 388490408166178704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_15
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70962180bc3852c80800000000000000
+      internalID: -8348121426224322297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_16
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 0
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58f1d29f99fd9010800000000000000
+      internalID: 1197387539708770395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_17
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe219b4eba138520800000000000000
+      internalID: 2703033605966343927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_18
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dbd1b4da2883330800000000000000
+      internalID: 3690843575431314820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_19
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d5f5084f69601b0800000000000000
+      internalID: -5690695102266122887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_S_Quick_Shot_1_20
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 0
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1cab9caa7fe7410800000000000000
+      internalID: 1476890040725062099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_S_Quick_Shot_1_0: -6416733586744312554
+      Boss_S_Quick_Shot_1_1: 1906824990467317910
+      Boss_S_Quick_Shot_1_10: 2806761975606737110
+      Boss_S_Quick_Shot_1_11: -4746651941235343989
+      Boss_S_Quick_Shot_1_12: -6744293149425709446
+      Boss_S_Quick_Shot_1_13: 1209456705140469620
+      Boss_S_Quick_Shot_1_14: 388490408166178704
+      Boss_S_Quick_Shot_1_15: -8348121426224322297
+      Boss_S_Quick_Shot_1_16: 1197387539708770395
+      Boss_S_Quick_Shot_1_17: 2703033605966343927
+      Boss_S_Quick_Shot_1_18: 3690843575431314820
+      Boss_S_Quick_Shot_1_19: -5690695102266122887
+      Boss_S_Quick_Shot_1_2: -5168261738320371790
+      Boss_S_Quick_Shot_1_20: 1476890040725062099
+      Boss_S_Quick_Shot_1_3: -3731259005667531503
+      Boss_S_Quick_Shot_1_4: -297022725933634352
+      Boss_S_Quick_Shot_1_5: 7425895170995781837
+      Boss_S_Quick_Shot_1_6: -766921955642619091
+      Boss_S_Quick_Shot_1_7: 8901390397235665026
+      Boss_S_Quick_Shot_1_8: -5464620598263158772
+      Boss_S_Quick_Shot_1_9: 5233335724570107941
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
