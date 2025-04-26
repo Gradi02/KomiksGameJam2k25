@@ -13,19 +13,6 @@ public class HealthManager : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            TakeDamage(10);
-        }
-
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            Heal(10);
-        }
-    }
-
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
