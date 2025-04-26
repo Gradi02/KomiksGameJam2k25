@@ -76,6 +76,8 @@ public class HealthManager : MonoBehaviour
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
+        CinemachineShake.Instance.ShakeCamera(5f, .1f);
+
         if (healthBar != null) healthBar.SetCurrentHealth(currentHealth);
 
         if (currentHealth <= 0) StartCoroutine(Die());
