@@ -130,3 +130,8 @@ MonoBehaviour:
     playonawake: 0
     volume: 0.7
     source: {fileID: 0}
+  - name: bossGalloping
+    clip: {fileID: 8300000, guid: e819f246268ee994a8167fc8c947da29, type: 3}
+    playonawake: 0
+    volume: 0.7
+    source: {fileID: 0}
