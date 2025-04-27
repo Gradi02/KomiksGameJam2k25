@@ -154,8 +154,8 @@ public class SpawnerManager : MonoBehaviour
             }
         }
 
-        StartCoroutine(DeadCoroutine(enemy));
-        
+        if(enemy != null)
+            StartCoroutine(DeadCoroutine(enemy));     
     }
 
     private void SpawnRune()
@@ -193,23 +193,29 @@ public class SpawnerManager : MonoBehaviour
 
     private IEnumerator DeadCoroutine(GameObject enemy)
     {
-        SpriteRenderer rend = enemy.GetComponent<SpriteRenderer>();
-
-        ParticleSystem ps = enemy.transform.Find("blood").GetComponent<ParticleSystem>();
-        ps.transform.parent = null;
-        ps.Play();
-        Destroy(ps, 2f);
-
-        float duration = 1f;
-        float t = 0f;
-        while (t < 0.3f)
+        if (enemy != null)
         {
-            t += Time.deltaTime / duration;
-            rend.material.SetFloat("_DissolveThreshold", t);
-            yield return null;
-        }
-        rend.material.SetFloat("_DissolveThreshold", 1.0f);
+            SpriteRenderer rend = enemy.GetComponent<SpriteRenderer>();
 
-        Destroy(enemy.gameObject);
+            ParticleSystem ps = enemy.transform.Find("blood").GetComponent<ParticleSystem>();
+            ps.transform.parent = null;
+            ps.Play();
+            Destroy(ps, 2f);
+
+            if (rend != null)
+            {
+                float duration = 1f;
+                float t = 0f;
+                while (t < 0.3f)
+                {
+                    t += Time.deltaTime / duration;
+                    rend.material.SetFloat("_DissolveThreshold", t);
+                    yield return null;
+                }
+                rend.material.SetFloat("_DissolveThreshold", 1.0f);
+            }
+
+            Destroy(enemy.gameObject);
+        }
     }
 }

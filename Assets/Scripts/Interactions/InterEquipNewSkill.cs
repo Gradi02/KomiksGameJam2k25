@@ -16,6 +16,7 @@ public class InterEquipNewSkill : EnvSignInteractionAction
     {
         if (eq.currentID <= eq.maxID)
         {
+            AudioManager.instance.Play("pickup");
             eq.PickupSign(thisItem);
             Destroy(gameObject);
 

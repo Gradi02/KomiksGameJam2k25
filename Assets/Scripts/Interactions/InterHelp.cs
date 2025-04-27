@@ -5,6 +5,7 @@ public class InterHelp : EnvSignInteractionAction
     public GameObject infoCanva;
     public override void Play(EqManager eq)
     {
+        AudioManager.instance.Play("pickup");
         if (infoCanva.activeSelf)
         {
             // Jeœli jest aktywne — schowaj z animacj¹

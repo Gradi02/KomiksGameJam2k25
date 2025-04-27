@@ -26,6 +26,8 @@ public class PlayerAttack : MonoBehaviour
 
                 if(player.GetComponent<PlayerMovement>().IsGrounded()){
                     // Vector2 snakeDirection = player.transform.right;
+
+                    AudioManager.instance.Play("snake");
                     Vector3 snakeGroundPosition = player.transform.position;
                     snakeGroundPosition.y -= 0.8f;
                     Instantiate(snakeGroundPrefab, snakeGroundPosition, Quaternion.Euler(0, 0, 0));
