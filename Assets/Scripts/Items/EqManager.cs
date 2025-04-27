@@ -32,9 +32,12 @@ public class EqManager : MonoBehaviour
         currentID++;
     }
 
-    private void AnimateNewRune(int i)
+    private void AnimateNewRune(int i, bool max = false)
     {
-        LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 90), 0.5f).setEase(LeanTweenType.easeInOutCubic);
+        if(max)
+            LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 360), 1.5f).setEase(LeanTweenType.easeInOutCubic);
+        else
+            LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 90), 0.5f).setEase(LeanTweenType.easeInOutCubic);
     }
 
     private void Update()
@@ -45,7 +48,7 @@ public class EqManager : MonoBehaviour
             {
                 for(int i = 0; i < currentID; i++)
                 {
-                    AnimateNewRune(i);
+                    AnimateNewRune(i,true);
                     images[i].sprite = null;
                     Color c = Color.white;
                     c.a = 0;

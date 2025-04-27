@@ -12,6 +12,7 @@ public class InterStartGame : EnvSignInteractionAction
 
     public GameObject[] menuObjects;
     private float[] menuDelayHiders = { 0, 0.3f, 0.6f };
+    public GameObject title;
 
     private IEnumerator StartGame()
     {
@@ -20,6 +21,7 @@ public class InterStartGame : EnvSignInteractionAction
         {
             LeanTween.scale(menuObjects[i], Vector3.zero, 0.4f).setDelay(menuDelayHiders[i]).setEase(LeanTweenType.easeInOutCubic);
         }
+        LeanTween.scale(title, Vector3.zero, 0.4f).setDelay(0.8f).setEase(LeanTweenType.easeInOutCubic);
         yield return new WaitForSeconds(1f);
         LeanTween.rotateZ(Sign, 0f, 1f).setEase(LeanTweenType.easeInOutBounce);
         yield return new WaitForSeconds(0.5f);
@@ -32,6 +34,5 @@ public class InterStartGame : EnvSignInteractionAction
         Debug.Log("start");
         Instantiate(firstSigil, SpawnPlace);
         StartCoroutine(StartGame());
-
     }
 }
