@@ -45,30 +45,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: welcomeMusic
-    clip: {fileID: 8300000, guid: d734054ac8465aa44802fb3cae05f8e9, type: 3}
-    playonawake: 0
-    volume: 0.5
-    source: {fileID: 0}
   - name: gameWave_1
     clip: {fileID: 8300000, guid: fa763a7fe50934e4cbe542f6c5f69b50, type: 3}
     playonawake: 0
-    volume: 0.5
+    volume: 0.1
     source: {fileID: 0}
   - name: gameWave_2
     clip: {fileID: 8300000, guid: cd27cef54f2ff0747967e75804513649, type: 3}
     playonawake: 0
-    volume: 0.5
+    volume: 0.2
     source: {fileID: 0}
   - name: gameWave_3
     clip: {fileID: 8300000, guid: 958546614fec2a94eb74f1d397795c4d, type: 3}
     playonawake: 0
-    volume: 0.5
+    volume: 0.3
     source: {fileID: 0}
   - name: gameWave_4
     clip: {fileID: 8300000, guid: f36d1b4ced5c9334596f5e395164793a, type: 3}
     playonawake: 0
-    volume: 0.5
+    volume: 0.6
     source: {fileID: 0}
   - name: bossDeath
     clip: {fileID: 8300000, guid: f7a4987af258c054fa0aafd6079d8a3f, type: 3}
@@ -140,8 +135,8 @@ MonoBehaviour:
     playonawake: 0
     volume: 0.7
     source: {fileID: 0}
-  - name: pickup
-    clip: {fileID: 8300000, guid: 858f36b6b6f9d9b4490ca7662d67c973, type: 3}
+  - name: menu
+    clip: {fileID: 8300000, guid: d734054ac8465aa44802fb3cae05f8e9, type: 3}
     playonawake: 0
-    volume: 1
+    volume: 0.3
     source: {fileID: 0}

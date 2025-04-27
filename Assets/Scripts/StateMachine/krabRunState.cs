@@ -8,6 +8,7 @@ public class krabRunState : State
 
     public override void StartState()
     {
+        AudioManager.instance.PlayLoop("crabing");
         base.StartState();
         isEnded = true;
     }

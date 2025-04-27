@@ -11,7 +11,7 @@ public class krabWalkState : State
 
     public override void StartState()
     {
-        AudioManager.instance.PlayLoop("bossGalloping");
+        AudioManager.instance.PlayLoop("crabing");
         base.StartState();
         isEnded = true;
         boss = transform.root.GetComponent<crossbowBoss>();
