@@ -33,6 +33,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void TakeDamage(int val)
     {
+        AudioManager.instance.Play("enemyDeath");
         health -= val;
         FlashCoroutine();
         if (health <= 0)

@@ -104,7 +104,7 @@ public class SpawnerManager : MonoBehaviour
         if (activeEnemies.Contains(enemy))
         {
             activeEnemies.Remove(enemy);
-
+            AudioManager.instance.Play("enemyDeath");
             if (boss)
             {
                 nextStageAt += scoresToNextStage;

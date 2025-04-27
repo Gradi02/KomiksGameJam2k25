@@ -83,7 +83,7 @@ MonoBehaviour:
   - name: dash
     clip: {fileID: 8300000, guid: 6398784a881877341ae71269da9abecb, type: 3}
     playonawake: 0
-    volume: 0.7
+    volume: 0.5
     source: {fileID: 0}
   - name: enemyDeath
     clip: {fileID: 8300000, guid: b6ea0e35858ed2b43982d5e261dba3bf, type: 3}
@@ -108,17 +108,17 @@ MonoBehaviour:
   - name: ouch
     clip: {fileID: 8300000, guid: bd449be2eecccb14dac4a058ff9090b8, type: 3}
     playonawake: 0
-    volume: 0.5
+    volume: 0.8
     source: {fileID: 0}
   - name: shoot
     clip: {fileID: 8300000, guid: aa28360e17d91c74ebc4a7e59d47c7cd, type: 3}
     playonawake: 0
     volume: 0.8
     source: {fileID: 0}
-  - name: walk
-    clip: {fileID: 8300000, guid: 854062f1e984a47409a5a7c9981dca07, type: 3}
+  - name: run
+    clip: {fileID: 8300000, guid: b0310ab4aefb26a42868d7317b3d7be1, type: 3}
     playonawake: 0
-    volume: 0.5
+    volume: 0.3
     source: {fileID: 0}
   - name: arrow
     clip: {fileID: 8300000, guid: 82f0269033be24947ac4503451f5dc19, type: 3}
@@ -128,10 +128,15 @@ MonoBehaviour:
   - name: boom
     clip: {fileID: 8300000, guid: cd7366cfa98e718449c50e9d1589f99e, type: 3}
     playonawake: 0
-    volume: 0.7
+    volume: 0.5
     source: {fileID: 0}
   - name: bossGalloping
     clip: {fileID: 8300000, guid: e819f246268ee994a8167fc8c947da29, type: 3}
+    playonawake: 0
+    volume: 0.6
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: 7cb8ce795cd04f547b557af208fcf998, type: 3}
     playonawake: 0
     volume: 0.7
     source: {fileID: 0}

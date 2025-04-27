@@ -16,6 +16,7 @@ public class InterStartGame : EnvSignInteractionAction
 
     private IEnumerator StartGame()
     {
+        AudioManager.instance.Stop("welcomeMusic");
         LeanTween.scale(infoFrame, Vector3.zero, 0.4f).setEase(LeanTweenType.easeInOutCubic);
         for (int i = 0; i < menuObjects.Length; i++)
         {
@@ -23,6 +24,7 @@ public class InterStartGame : EnvSignInteractionAction
         }
         LeanTween.scale(title, Vector3.zero, 0.4f).setDelay(0.8f).setEase(LeanTweenType.easeInOutCubic);
         yield return new WaitForSeconds(1f);
+        AudioManager.instance.Stop("gameWave_1");
         LeanTween.rotateZ(Sign, 0f, 1f).setEase(LeanTweenType.easeInOutBounce);
         yield return new WaitForSeconds(0.5f);
         infoFrame.SetActive(false);
