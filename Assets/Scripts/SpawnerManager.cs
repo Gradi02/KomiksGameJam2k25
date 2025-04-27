@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpawnerManager : MonoBehaviour
@@ -8,6 +10,9 @@ public class SpawnerManager : MonoBehaviour
 
     private GameObject playerObject;
     public List<GameObject> enemies;
+    public TextMeshProUGUI score;
+    private int scoreInt;
+    private float displayedScore = 0f;
     private int totalKills = 0;
     [SerializeField] private GameObject warningObj;
 
@@ -21,6 +26,7 @@ public class SpawnerManager : MonoBehaviour
     private int spawned = 0;
     public List<GameObject> activeEnemies = new List<GameObject>();
     private bool isSpawning = false;
+
     private void Awake()
     {
         if (Instance == null)
@@ -39,11 +45,14 @@ public class SpawnerManager : MonoBehaviour
     }
     private void Start()
     {
+        score.text = scoreInt.ToString();
         playerObject = GameObject.FindWithTag("Player");
     }
     private void Update()
     {
         spawned = activeEnemies.Count;
+        displayedScore = Mathf.Lerp(displayedScore, scoreInt, Time.deltaTime * 5f);
+        score.text = Mathf.RoundToInt(displayedScore).ToString();
     }
     private IEnumerator SpawnEnemies()
     {
@@ -91,6 +100,7 @@ public class SpawnerManager : MonoBehaviour
             Destroy(enemy);
 
             totalKills++;
+            scoreInt += 100;
 
             if (totalKills % 10 == 0)
             {
