@@ -5,7 +5,7 @@ using UnityEngine.Rendering.Universal;
 public class KameHameHa : MonoBehaviour
 {
     public Light2D GlobalLight;
-    IEnumerator KameHameHaCoroutine()
+    public IEnumerator KameHameHaCoroutine()
     {
         LeanTween.value(1, 15, 4f)
             .setOnUpdate((float val) => {
@@ -45,13 +45,5 @@ public class KameHameHa : MonoBehaviour
             })
             .setEase(LeanTweenType.easeInOutSine); //22222222222222222222
         yield return new WaitForSeconds(2.2f);
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            StartCoroutine(KameHameHaCoroutine());
-        }
     }
 }
