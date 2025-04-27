@@ -3,39 +3,19 @@ using UnityEngine;
 
 public class SigilInteraction : MonoBehaviour
 {
-    private float playerInteractionRange = 2;
-    private float nextInteract = 0, interactDelay = 0.1f;
-    [SerializeField] private LayerMask interactionmask;
 
-    void Update()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.E) && Time.time > nextInteract)
+        if(collision.gameObject.layer == 8)
         {
-            Collider2D nearest = FindNearestInteractive();
-            if (nearest != null)
+            EnvSignInteractionAction action = collision.GetComponent<EnvSignInteractionAction>();
+            if(action != null)
             {
-                nearest.GetComponent<EnvSignInteractionAction>().Play(GetComponent<EqManager>());
+                action.Play(GetComponent<EqManager>());
             }
-            nextInteract = Time.time + interactDelay;
         }
     }
 
-    Collider2D FindNearestInteractive()
-    {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, playerInteractionRange, interactionmask);
-        Collider2D nearest = null;
-        float minDist = Mathf.Infinity;
 
-        foreach (Collider2D col in colliders)
-        {
-            float dist = Vector2.Distance(transform.position, col.transform.position);
-            if (dist < minDist)
-            {
-                minDist = dist;
-                nearest = col;
-            }
-        }
-
-        return nearest;
-    }
 }
