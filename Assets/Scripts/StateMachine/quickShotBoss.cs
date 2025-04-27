@@ -57,6 +57,7 @@ public class quickShotBoss : State
 
     public void Shot()
     {
+        AudioManager.instance.Play("arrow");
         GameObject a = Instantiate(arrow, arrowSp.transform.position, transform.rotation);
         a.GetComponent<arrowMovement>().InvokeDestroy(4);
     }

@@ -50,6 +50,7 @@ public class shotUpwardsBoss : State
 
     public void Shot()
     {
+        AudioManager.instance.Play("arrow");
         // Instantiate the arrow at the specified position and rotation  
         GameObject a = Instantiate(arrow, arrowSp.transform.position, transform.rotation);
         Rigidbody2D rb = a.GetComponent<Rigidbody2D>();
@@ -82,5 +83,6 @@ public class shotUpwardsBoss : State
             Rigidbody2D rb = fallingArrow.GetComponent<Rigidbody2D>();
             rb.gravityScale = 1;
         }
+        AudioManager.instance.Play("boom");
     }
 }

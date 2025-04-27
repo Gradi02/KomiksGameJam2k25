@@ -25,6 +25,7 @@ public class PlayerAttack : MonoBehaviour
                 var player = GameObject.FindWithTag("Player");
 
                 if(player.GetComponent<PlayerMovement>().IsGrounded()){
+                    AudioManager.instance.Play("hiss");
                     // Vector2 snakeDirection = player.transform.right;
                     Vector3 snakeGroundPosition = player.transform.position;
                     snakeGroundPosition.y -= 1;
@@ -34,6 +35,7 @@ public class PlayerAttack : MonoBehaviour
                     timeBtwAttack = startTimeBtwAttack;
 
                 } else {
+                    AudioManager.instance.Play("shoot");
                     Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     Vector2 direction = (mousePos - firePoint.position).normalized;
 

@@ -24,11 +24,13 @@ public class BossHealthBar : MonoBehaviour
 
         if (boss.health <= 0)
         {
+            AudioManager.instance.Play("bossDeath");
             healthSlider.gameObject.SetActive(false);
             Destroy(gameObject);
         }
         else
         {
+            AudioManager.instance.Play("bossSpawn");
             healthSlider.gameObject.SetActive(true);
         }
     }
