@@ -29,17 +29,14 @@ public class PlayerMovement : MonoBehaviour
 
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Mathf.Abs(rb.linearVelocity.magnitude) > 0.1f)
+        if (!(Mathf.Abs(horizontal) > 0.1f && IsGrounded()))
         {
-            AudioManager.instance.Play("walk");
-        }
-        else
-        {
-            AudioManager.instance.Stop("walk");
+            AudioManager.instance.PlayLoop("run");
         }
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
+            AudioManager.instance.Play("jump");
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isJumping = true;
         }

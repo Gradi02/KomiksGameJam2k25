@@ -18,6 +18,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected Animator animator;
     [SerializeField] protected Rigidbody2D rb;
     [SerializeField] protected SpriteRenderer spriteRenderer;
+    [SerializeField] protected Material mat;
 
     [Header("Shader flash")]
     public string shaderProperty = "_power"; // nazwa parametru w shaderze
@@ -33,17 +34,22 @@ public abstract class Enemy : MonoBehaviour
 
     public void TakeDamage(int val)
     {
+        AudioManager.instance.Play("enemyDeath");
         health -= val;
-        FlashCoroutine();
         if (health <= 0)
         {
             DestroyEnemy();
+        }
+        else
+        {
+            FlashCoroutine();
         }
     }
 
 
     public void DestroyEnemy()
     {
+        spriteRenderer.material = mat;
         SpawnerManager.Instance.OnEnemyKilled(this.gameObject, isBoss);
     }
 

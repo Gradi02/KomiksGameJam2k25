@@ -43,6 +43,7 @@ public class quickShotBoss : State
     public override void EndState()
     {
         base.EndState();
+        AudioManager.instance.Play("boom");
     }
 
     private IEnumerator ShotSequence()
