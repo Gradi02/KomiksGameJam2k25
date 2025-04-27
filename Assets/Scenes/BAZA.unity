@@ -221,6 +221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 16110189}
   speed: 0.1
+  bg:
+  - {fileID: 21300000, guid: 40ba5f65a5350a244954aaaaf08232b2, type: 3}
+  - {fileID: 21300000, guid: 7cb27c55624d24c4ebb45e5a05fae819, type: 3}
 --- !u!1 &16110189
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 16110189}
   speed: 1
+  bg:
+  - {fileID: 21300000, guid: 3537a91d7c1f17e48a39bc062d19d9c6, type: 3}
+  - {fileID: 21300000, guid: 962b30ec1842fd04186171daa5ac0ed7, type: 3}
 --- !u!1 &498631984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3483668722613589145, guid: 9edba934491dfce4e804b12957f4d547, type: 3}
@@ -15289,6 +15295,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 16110189}
   speed: 0.6
+  bg:
+  - {fileID: 21300000, guid: 6a88d0e37e038304a88ff74c08278497, type: 3}
+  - {fileID: 21300000, guid: ebd5eff2535c644489a4ad19ac0213ea, type: 3}
 --- !u!1 &1128430087
 GameObject:
   m_ObjectHideFlags: 0
@@ -16759,6 +16768,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 16110189}
   speed: 0.4
+  bg:
+  - {fileID: 21300000, guid: 9c374d0dccbebf5449b0f890f0bb087b, type: 3}
+  - {fileID: 21300000, guid: e52e130885d40bd438efb021e0433edb, type: 3}
 --- !u!1 &1778087077
 GameObject:
   m_ObjectHideFlags: 0
@@ -16861,6 +16873,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 16110189}
   speed: 0.8
+  bg:
+  - {fileID: 21300000, guid: 65c566895fd4d2a4c8a91f0eb6cc6a02, type: 3}
+  - {fileID: 21300000, guid: 23c88c6a80cbbc2468c080bbb2e73eb5, type: 3}
 --- !u!1 &1788152109
 GameObject:
   m_ObjectHideFlags: 0
@@ -16890,6 +16905,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 962d92b1901abf94aa3b0bc5de5a42ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ParalaxBgs:
+  - {fileID: 414640132}
+  - {fileID: 1778087077}
+  - {fileID: 1116541022}
+  - {fileID: 1730222956}
+  - {fileID: 2022778275}
+  - {fileID: 9791771}
   enemies:
   - {fileID: 3572926510763702370, guid: 8f685dbd4393ad4479c9e4f3ec754e58, type: 3}
   - {fileID: 3572926510763702370, guid: 8017aed827406a34fbabcbb4ef2640cf, type: 3}
@@ -17196,6 +17218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 16110189}
   speed: 0.25
+  bg:
+  - {fileID: 21300000, guid: 736e6040fccaa474eaf83bbacabb92b3, type: 3}
+  - {fileID: 21300000, guid: 7842b1f7d8ea442469637a4a08ccf4ee, type: 3}
 --- !u!1001 &3178123530677282574
 PrefabInstance:
   m_ObjectHideFlags: 0
