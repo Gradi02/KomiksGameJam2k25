@@ -42,7 +42,7 @@ public abstract class Enemy : MonoBehaviour
         }
         else
         {
-            FlashCoroutine();
+            StartCoroutine(FlashCoroutine());
         }
     }
 

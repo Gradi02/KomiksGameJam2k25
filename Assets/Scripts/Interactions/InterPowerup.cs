@@ -16,6 +16,7 @@ public class InterPowerup : EnvSignInteractionAction
     {
         eq.ActivePowerUp(thisItem);
         Destroy(gameObject);
+        AudioManager.instance.Play("pickup");
     }
 }
 
