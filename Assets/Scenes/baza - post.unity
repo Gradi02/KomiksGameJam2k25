@@ -6067,6 +6067,7 @@ MonoBehaviour:
   - {fileID: 3572926510763702370, guid: 8f685dbd4393ad4479c9e4f3ec754e58, type: 3}
   - {fileID: 3572926510763702370, guid: 8017aed827406a34fbabcbb4ef2640cf, type: 3}
   - {fileID: 3572926510763702370, guid: 5d0017c0a2a110e45a40ff9923cc4f95, type: 3}
+  score: {fileID: 0}
   warningObj: {fileID: 6396760315788884210, guid: a6ed8632b28a0254b918fbbde6d3dc3c, type: 3}
   minX: -11
   maxX: 40
