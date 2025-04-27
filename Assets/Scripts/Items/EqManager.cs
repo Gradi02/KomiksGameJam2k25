@@ -67,6 +67,7 @@ public class EqManager : MonoBehaviour
         images[currentID].color = Color.white;
         items[currentID] = itm;
         AnimateNewRune(currentID);
+        SwitchWeapon();
     }
 
     private void AnimateNewRune(int i)
@@ -76,7 +77,7 @@ public class EqManager : MonoBehaviour
 
     private void SwitchWeapon()
     {
-        bomb.enabled = false;
+        //bomb.enabled = false;
         gravity.enabled = false;
         laser.enabled = false;
         gun.enabled = false;
@@ -86,11 +87,11 @@ public class EqManager : MonoBehaviour
         {
             switch (items[currentID].name)
             {
-                case "bomb":
+                /*case "bomb":
                     {
                         bomb.enabled = true;
                         break;
-                    }
+                    }*/
                 case "gravity":
                     {
                         gravity.enabled = true;

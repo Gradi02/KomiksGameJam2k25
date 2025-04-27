@@ -5,7 +5,7 @@ public class SnakeGround : MonoBehaviour
 {
     public float speed = 10f;  // Szybkość poruszania się obiektu
     [SerializeField] private float max_distance = 10.0f;
-    [SerializeField] private int damage = 50;
+    private int damage = 100;
     public float how_much_distance = 0;
     public int direction;
     public GameObject whoGetHit;
