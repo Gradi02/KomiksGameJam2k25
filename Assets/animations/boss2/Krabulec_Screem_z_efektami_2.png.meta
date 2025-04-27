@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 8c3cd68bca3935f4e82ea1629f3654b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7036891314645767740
+    second: Krabulec_Screem_z_efektami_2_0
+  - first:
+      213: -2860092782890879767
+    second: Krabulec_Screem_z_efektami_2_1
+  - first:
+      213: 6965619251934114596
+    second: Krabulec_Screem_z_efektami_2_2
+  - first:
+      213: 9171957766563716345
+    second: Krabulec_Screem_z_efektami_2_3
+  - first:
+      213: -7219627022271650112
+    second: Krabulec_Screem_z_efektami_2_4
+  - first:
+      213: 6549667618109701416
+    second: Krabulec_Screem_z_efektami_2_5
+  - first:
+      213: 8726851378857494484
+    second: Krabulec_Screem_z_efektami_2_6
+  - first:
+      213: -7390091126713360888
+    second: Krabulec_Screem_z_efektami_2_7
+  - first:
+      213: -1808059566996049853
+    second: Krabulec_Screem_z_efektami_2_8
+  - first:
+      213: 8470062145851495657
+    second: Krabulec_Screem_z_efektami_2_9
+  - first:
+      213: 6092567979976464989
+    second: Krabulec_Screem_z_efektami_2_10
+  - first:
+      213: 8217525710346160148
+    second: Krabulec_Screem_z_efektami_2_11
+  - first:
+      213: 3150380911136442395
+    second: Krabulec_Screem_z_efektami_2_12
+  - first:
+      213: -2364547648830444117
+    second: Krabulec_Screem_z_efektami_2_13
+  - first:
+      213: -4384817176563188809
+    second: Krabulec_Screem_z_efektami_2_14
+  - first:
+      213: 8638193563996517313
+    second: Krabulec_Screem_z_efektami_2_15
+  - first:
+      213: 1718271577186748452
+    second: Krabulec_Screem_z_efektami_2_16
+  - first:
+      213: -1243023234307560021
+    second: Krabulec_Screem_z_efektami_2_17
+  - first:
+      213: -6630587490672992386
+    second: Krabulec_Screem_z_efektami_2_18
+  - first:
+      213: -8390746139343191230
+    second: Krabulec_Screem_z_efektami_2_19
+  - first:
+      213: -9193416558974463231
+    second: Krabulec_Screem_z_efektami_2_20
+  - first:
+      213: 4526804901584398302
+    second: Krabulec_Screem_z_efektami_2_21
+  - first:
+      213: 4159472203740255797
+    second: Krabulec_Screem_z_efektami_2_22
+  - first:
+      213: 799919099830196968
+    second: Krabulec_Screem_z_efektami_2_23
+  - first:
+      213: -6776033389511185563
+    second: Krabulec_Screem_z_efektami_2_24
+  - first:
+      213: 2675073509187325441
+    second: Krabulec_Screem_z_efektami_2_25
+  - first:
+      213: 5814333284327418671
+    second: Krabulec_Screem_z_efektami_2_26
+  - first:
+      213: -1163160644854321831
+    second: Krabulec_Screem_z_efektami_2_27
+  - first:
+      213: 5305335061272443835
+    second: Krabulec_Screem_z_efektami_2_28
+  - first:
+      213: 3875588449349507649
+    second: Krabulec_Screem_z_efektami_2_29
+  - first:
+      213: -7230107330445372711
+    second: Krabulec_Screem_z_efektami_2_30
+  - first:
+      213: 5645000079353004138
+    second: Krabulec_Screem_z_efektami_2_31
+  - first:
+      213: 5024455996243292067
+    second: Krabulec_Screem_z_efektami_2_32
+  - first:
+      213: 7762639843002912840
+    second: Krabulec_Screem_z_efektami_2_33
+  - first:
+      213: -4793954073625850116
+    second: Krabulec_Screem_z_efektami_2_34
+  - first:
+      213: -2947141124014004047
+    second: Krabulec_Screem_z_efektami_2_35
+  - first:
+      213: -1771319411120427182
+    second: Krabulec_Screem_z_efektami_2_36
+  - first:
+      213: 784025282491899351
+    second: Krabulec_Screem_z_efektami_2_37
+  - first:
+      213: 4033812097624566260
+    second: Krabulec_Screem_z_efektami_2_38
+  - first:
+      213: -4937150693219539311
+    second: Krabulec_Screem_z_efektami_2_39
+  - first:
+      213: 8063551597179130060
+    second: Krabulec_Screem_z_efektami_2_40
+  - first:
+      213: 6766616334740118537
+    second: Krabulec_Screem_z_efektami_2_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 373
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9e183e1a0f75e90800000000000000
+      internalID: -7036891314645767740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 373
+        width: 95
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4712374c8ee48d0800000000000000
+      internalID: -2860092782890879767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 373
+        width: 97
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423b720edc9daa060800000000000000
+      internalID: 6965619251934114596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_3
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 373
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc5aea5ef6594f70800000000000000
+      internalID: 9171957766563716345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_4
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 373
+        width: 105
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6efa6797bbecb90800000000000000
+      internalID: -7219627022271650112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 256
+        width: 105
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dbe4e3ff715ea50800000000000000
+      internalID: 6549667618109701416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 251
+        width: 107
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7cd6c97110c1970800000000000000
+      internalID: 8726851378857494484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 324
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80edb7e464f117990800000000000000
+      internalID: -7390091126713360888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 257
+        width: 109
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3403470476b78e6e0800000000000000
+      internalID: -1808059566996049853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_9
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 247
+        width: 105
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e416f435a4bb8570800000000000000
+      internalID: 8470062145851495657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_10
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 257
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a9a684c462d8450800000000000000
+      internalID: 6092567979976464989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 241
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41882d168148a0270800000000000000
+      internalID: 8217525710346160148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_12
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 248
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18857b4fb668bb20800000000000000
+      internalID: 3150380911136442395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_13
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 237
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bade9f8f0707f2fd0800000000000000
+      internalID: -2364547648830444117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_14
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 257
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb7be972000623c0800000000000000
+      internalID: -4384817176563188809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_15
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 251
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3f313874701e770800000000000000
+      internalID: 8638193563996517313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428cdd945e688d710800000000000000
+      internalID: 1718271577186748452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_17
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 237
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad6a8744f4efbee0800000000000000
+      internalID: -1243023234307560021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 141
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f994ebecb6bf3a0800000000000000
+      internalID: -6630587490672992386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_19
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 211
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24308f3a7d41e8b80800000000000000
+      internalID: -8390746139343191230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 141
+        width: 105
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1031222395c6a6080800000000000000
+      internalID: -9193416558974463231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_21
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 208
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed76f6ee21172de30800000000000000
+      internalID: 4526804901584398302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_22
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 141
+        width: 109
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5369c057ee969b930800000000000000
+      internalID: 4159472203740255797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 181
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eadd62ee22e91b00800000000000000
+      internalID: 799919099830196968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 140
+        width: 105
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56befff7881b6f1a0800000000000000
+      internalID: -6776033389511185563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_25
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 135
+        width: 107
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e0b27fe25cf1520800000000000000
+      internalID: 2675073509187325441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 143
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2be0120159a0b050800000000000000
+      internalID: 5814333284327418671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_27
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 132
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d6eb26e8f9bdfe0800000000000000
+      internalID: -1163160644854321831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 115
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbb19d112650a940800000000000000
+      internalID: 5305335061272443835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_29
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 125
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a9513392bd8c530800000000000000
+      internalID: 3875588449349507649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_30
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 121
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d21bd090bf79ab90800000000000000
+      internalID: -7230107330445372711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_31
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 15
+        width: 105
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6043e6e9a1175e40800000000000000
+      internalID: 5645000079353004138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_32
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 25
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afa9ad9b147ab540800000000000000
+      internalID: 5024455996243292067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 95
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8409b791fcf6abb60800000000000000
+      internalID: 7762639843002912840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_34
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 25
+        width: 105
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe8ef36b24787db0800000000000000
+      internalID: -4793954073625850116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_35
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 65
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8233823c6a917d0800000000000000
+      internalID: -2947141124014004047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_36
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 25
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fa96461620b67e0800000000000000
+      internalID: -1771319411120427182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 19
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dddad927da61ea00800000000000000
+      internalID: 784025282491899351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_38
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9e5911bbafaf730800000000000000
+      internalID: 4033812097624566260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_39
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 8
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19663184a97bb7bb0800000000000000
+      internalID: -4937150693219539311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 5
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc055e1847d77ef60800000000000000
+      internalID: 8063551597179130060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Screem_z_efektami_2_41
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c5a8394b9d7ed50800000000000000
+      internalID: 6766616334740118537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Krabulec_Screem_z_efektami_2_0: -7036891314645767740
+      Krabulec_Screem_z_efektami_2_1: -2860092782890879767
+      Krabulec_Screem_z_efektami_2_10: 6092567979976464989
+      Krabulec_Screem_z_efektami_2_11: 8217525710346160148
+      Krabulec_Screem_z_efektami_2_12: 3150380911136442395
+      Krabulec_Screem_z_efektami_2_13: -2364547648830444117
+      Krabulec_Screem_z_efektami_2_14: -4384817176563188809
+      Krabulec_Screem_z_efektami_2_15: 8638193563996517313
+      Krabulec_Screem_z_efektami_2_16: 1718271577186748452
+      Krabulec_Screem_z_efektami_2_17: -1243023234307560021
+      Krabulec_Screem_z_efektami_2_18: -6630587490672992386
+      Krabulec_Screem_z_efektami_2_19: -8390746139343191230
+      Krabulec_Screem_z_efektami_2_2: 6965619251934114596
+      Krabulec_Screem_z_efektami_2_20: -9193416558974463231
+      Krabulec_Screem_z_efektami_2_21: 4526804901584398302
+      Krabulec_Screem_z_efektami_2_22: 4159472203740255797
+      Krabulec_Screem_z_efektami_2_23: 799919099830196968
+      Krabulec_Screem_z_efektami_2_24: -6776033389511185563
+      Krabulec_Screem_z_efektami_2_25: 2675073509187325441
+      Krabulec_Screem_z_efektami_2_26: 5814333284327418671
+      Krabulec_Screem_z_efektami_2_27: -1163160644854321831
+      Krabulec_Screem_z_efektami_2_28: 5305335061272443835
+      Krabulec_Screem_z_efektami_2_29: 3875588449349507649
+      Krabulec_Screem_z_efektami_2_3: 9171957766563716345
+      Krabulec_Screem_z_efektami_2_30: -7230107330445372711
+      Krabulec_Screem_z_efektami_2_31: 5645000079353004138
+      Krabulec_Screem_z_efektami_2_32: 5024455996243292067
+      Krabulec_Screem_z_efektami_2_33: 7762639843002912840
+      Krabulec_Screem_z_efektami_2_34: -4793954073625850116
+      Krabulec_Screem_z_efektami_2_35: -2947141124014004047
+      Krabulec_Screem_z_efektami_2_36: -1771319411120427182
+      Krabulec_Screem_z_efektami_2_37: 784025282491899351
+      Krabulec_Screem_z_efektami_2_38: 4033812097624566260
+      Krabulec_Screem_z_efektami_2_39: -4937150693219539311
+      Krabulec_Screem_z_efektami_2_4: -7219627022271650112
+      Krabulec_Screem_z_efektami_2_40: 8063551597179130060
+      Krabulec_Screem_z_efektami_2_41: 6766616334740118537
+      Krabulec_Screem_z_efektami_2_5: 6549667618109701416
+      Krabulec_Screem_z_efektami_2_6: 8726851378857494484
+      Krabulec_Screem_z_efektami_2_7: -7390091126713360888
+      Krabulec_Screem_z_efektami_2_8: -1808059566996049853
+      Krabulec_Screem_z_efektami_2_9: 8470062145851495657
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
