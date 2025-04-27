@@ -23,13 +23,15 @@ public class ParalaxEffect : MonoBehaviour
 
     public void Changebg()
     {
-        if(GetComponent<SpriteRenderer>().sprite == bg[0])
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        if (sr.sprite == bg[0])
         {
-            GetComponent<SpriteRenderer>().sprite = bg[0];
+            sr.sprite = bg[1];
         }
         else
         {
-            GetComponent<SpriteRenderer>().sprite = bg[1];
+            sr.sprite = bg[0];
         }
     }
 }
