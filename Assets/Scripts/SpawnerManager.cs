@@ -110,6 +110,7 @@ public class SpawnerManager : MonoBehaviour
                 nextStageAt += scoresToNextStage;
                 totalKills++;
                 scoreInt += 100;
+                maxEnemies++;
                 SpawnRune();
                 bossBattle = false;
                 StartCoroutine(SpawnEnemies());
