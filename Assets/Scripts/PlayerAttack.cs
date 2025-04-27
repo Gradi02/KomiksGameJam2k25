@@ -25,27 +25,14 @@ public class PlayerAttack : MonoBehaviour
                 var player = GameObject.FindWithTag("Player");
 
                 if(player.GetComponent<PlayerMovement>().IsGrounded()){
-                    AudioManager.instance.Play("hiss");
                     // Vector2 snakeDirection = player.transform.right;
                     Vector3 snakeGroundPosition = player.transform.position;
-                    snakeGroundPosition.y -= 1;
+                    snakeGroundPosition.y -= 0.8f;
                     Instantiate(snakeGroundPrefab, snakeGroundPosition, Quaternion.Euler(0, 0, 0));
                     //snakeGround.GetComponent<SnakeGround>().Initialize(snakeDirection);
 
                     timeBtwAttack = startTimeBtwAttack;
 
-                } else {
-                    AudioManager.instance.Play("shoot");
-                    Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                    Vector2 direction = (mousePos - firePoint.position).normalized;
-
-                    float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-                    Quaternion rotation = Quaternion.Euler(0, 0, angle - 90);
-
-                    GameObject snake = Instantiate(snakePrefab, firePoint.position, rotation);
-                    snake.GetComponent<Rigidbody2D>().linearVelocity = direction * snakeSpeed;
-                    timeBtwAttack = startTimeBtwAttack;
                 }
 
             }

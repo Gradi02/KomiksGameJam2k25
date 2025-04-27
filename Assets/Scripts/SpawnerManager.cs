@@ -67,7 +67,7 @@ public class SpawnerManager : MonoBehaviour
                 .setEase(LeanTweenType.easeInOutSine)
                 .setLoopPingPong();*/
             //warning.GetComponent<Animator>().Play("spawn");
-            Destroy(warning, 2f);
+            Destroy(warning, 1.9f);
 
             yield return new WaitForSeconds(1.4f);
 
@@ -102,7 +102,7 @@ public class SpawnerManager : MonoBehaviour
             totalKills++;
             scoreInt += 100;
 
-            if (totalKills % 10 == 0)
+            if (totalKills % 7 == 0)
             {
                 SpawnRune();
             }
