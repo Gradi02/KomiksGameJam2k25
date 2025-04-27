@@ -30,8 +30,9 @@ public class SpawnerManager : MonoBehaviour
 
     bool bossBattle = false;
     int scoresToNextStage = 2000;
-    int nextStageAt = 100;
+    int nextStageAt = 2000;
     [SerializeField] private GameObject bossPrefab;
+    [SerializeField] private GameObject bossPrefab2;
 
 
     private void Awake()
