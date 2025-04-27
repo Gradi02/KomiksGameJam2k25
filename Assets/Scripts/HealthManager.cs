@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class HealthManager : MonoBehaviour
 {
     public int maxHealth = 100;
+    public bool invincible = false;
     [SerializeField] private int currentHealth;
     [SerializeField] private GameObject deathEffectPrefab;
 
@@ -71,20 +72,23 @@ public class HealthManager : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (!dmg)
+        if (!invincible)
         {
-            dmg = true;
-            AudioManager.instance.Play("ouch");
-            if (isDead) return;
-            currentHealth -= damage;
-            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+            if (!dmg)
+            {
+                dmg = true;
+                AudioManager.instance.Play("ouch");
+                if (isDead) return;
+                currentHealth -= damage;
+                currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
-            CinemachineShake.Instance.ShakeCamera(5f, .1f);
-            StartCoroutine(FlashCoroutine());
+                CinemachineShake.Instance.ShakeCamera(5f, .1f);
+                StartCoroutine(FlashCoroutine());
 
-            if (healthBar != null) healthBar.SetCurrentHealth(currentHealth);
+                if (healthBar != null) healthBar.SetCurrentHealth(currentHealth);
 
-            if (currentHealth <= 0) StartCoroutine(Die());
+                if (currentHealth <= 0) StartCoroutine(Die());
+            }
         }
     }
 
