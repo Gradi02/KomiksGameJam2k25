@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1495576119912629910}
   - component: {fileID: 1699512961027703939}
   - component: {fileID: 2066792647980109765}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SnakeGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   max_distance: 10
-  damage: 1000
   how_much_distance: 0
   direction: 0
   whoGetHit: {fileID: 0}
