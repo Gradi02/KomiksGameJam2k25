@@ -80,8 +80,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 21300000, guid: 91d1fc1c6309de748b154c0abc4b5b23, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: d91b5c09c5702644fbffc39c31f77ad2, type: 3}
+  m_Color: {r: 1, g: 0.89109606, b: 0.42075467, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -163,11 +163,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - name: gravity
-    sprite: {fileID: 2523644763655454589, guid: 34bac455d4cc9364f8a27fec6b47bcc3, type: 3}
+    sprite: {fileID: 21300000, guid: d91b5c09c5702644fbffc39c31f77ad2, type: 3}
   - name: laser
-    sprite: {fileID: 2523644763655454589, guid: 34bac455d4cc9364f8a27fec6b47bcc3, type: 3}
+    sprite: {fileID: 21300000, guid: 4c72a4541a634d040aa9c2016217cb05, type: 3}
   - name: gun
-    sprite: {fileID: 2523644763655454589, guid: 34bac455d4cc9364f8a27fec6b47bcc3, type: 3}
+    sprite: {fileID: 21300000, guid: 47f51f87292b1f847a710ffca2a13ad2, type: 3}
   render: {fileID: 9065519990741679825}
 --- !u!1 &5044770983990664354
 GameObject:
@@ -392,7 +392,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.8901961, b: 0.41960785, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

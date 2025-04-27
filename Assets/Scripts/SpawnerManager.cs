@@ -10,6 +10,7 @@ public class SpawnerManager : MonoBehaviour
     private GameObject playerObject;
     public List<GameObject> enemies;
     public TextMeshProUGUI score;
+    public TextMeshProUGUI stage;
     private int scoreInt;
     private float displayedScore = 0f;
     private int totalKills = 0;
@@ -53,6 +54,7 @@ public class SpawnerManager : MonoBehaviour
     {
         score.text = scoreInt.ToString();
         playerObject = GameObject.FindWithTag("Player");
+        stage.text = $"Incoming danger at {nextStageAt} points!";
     }
     private void Update()
     {
@@ -102,43 +104,47 @@ public class SpawnerManager : MonoBehaviour
         if (activeEnemies.Contains(enemy))
         {
             activeEnemies.Remove(enemy);
-            Destroy(enemy);
 
-            totalKills++;
-            scoreInt += 100;
-
-            if (Random.Range(0,100) < 15)
+            if (boss)
             {
+                nextStageAt += scoresToNextStage;
+                totalKills++;
+                scoreInt += 100;
                 SpawnRune();
-            }
-
-            if (Random.Range(0, 100) < 10)
-            {
-                SpawnPowerup();
-            }
-
-
-            if (scoreInt > nextStageAt && !bossBattle)
-            {
-                bossBattle = true;
-                StartCoroutine(IEBossBattle());
-                return;
-            }
-
-            if (!isSpawning && activeEnemies.Count < maxEnemies && !bossBattle)
-            {
+                bossBattle = false;
                 StartCoroutine(SpawnEnemies());
+                stage.text = $"Incoming danger at {nextStageAt} points!";
             }
-        }
+            else
+            {
+                Destroy(enemy);
 
-        if (boss)
-        {
-            nextStageAt += scoresToNextStage;
-            totalKills++;
-            scoreInt += 100;
-            SpawnRune();
-            bossBattle = false;
-            StartCoroutine(SpawnEnemies());
+                totalKills++;
+                scoreInt += 100;
+
+                if (Random.Range(0, 100) < 15)
+                {
+                    SpawnRune();
+                }
+
+                if (Random.Range(0, 100) < 10)
+                {
+                    SpawnPowerup();
+                }
+
+
+                if (scoreInt > nextStageAt && !bossBattle)
+                {
+                    bossBattle = true;
+                    StartCoroutine(IEBossBattle());
+                    return;
+                }
+
+                if (!isSpawning && activeEnemies.Count < maxEnemies && !bossBattle)
+                {
+                    StartCoroutine(SpawnEnemies());
+                }
+            }
         }
     }
 
@@ -162,6 +168,7 @@ public class SpawnerManager : MonoBehaviour
 
         GameObject b = Instantiate(bossPrefab, spawnPos, Quaternion.identity);
         b.GetComponent<Enemy>().player = playerObject;
+        activeEnemies.Add(b);
 
         yield return null;
     }

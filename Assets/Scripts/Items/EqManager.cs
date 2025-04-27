@@ -47,7 +47,9 @@ public class EqManager : MonoBehaviour
                 {
                     AnimateNewRune(i);
                     images[i].sprite = null;
-                    images[i].color = Color.white;
+                    Color c = Color.white;
+                    c.a = 0;
+                    images[i].color = c;
                     items[i] = null;
                 }
 
