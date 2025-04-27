@@ -11,6 +11,7 @@ public class runBoss : State
 
     public override void StartState()
     {
+        AudioManager.instance.PlayLoop("bossGalloping");
         base.StartState();
         isEnded = true;
         boss = transform.root.GetComponent<crossbowBoss>();
@@ -44,6 +45,7 @@ public class runBoss : State
 
     public override void EndState()
     {
+        AudioManager.instance.Stop("bossGalloping");
         base.EndState();
     }
 
