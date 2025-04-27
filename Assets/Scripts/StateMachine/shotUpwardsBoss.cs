@@ -46,6 +46,7 @@ public class shotUpwardsBoss : State
     public override void EndState()
     {
         base.EndState();
+        AudioManager.instance.Play("boom");
     }
 
     public void Shot()

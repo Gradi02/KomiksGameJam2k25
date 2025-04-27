@@ -34,6 +34,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void TakeDamage(int val)
     {
+        AudioManager.instance.Play("enemyDeath");
         health -= val;
         if (health <= 0)
         {

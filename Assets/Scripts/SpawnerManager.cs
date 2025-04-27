@@ -101,6 +101,8 @@ public class SpawnerManager : MonoBehaviour
 
     public void OnEnemyKilled(GameObject enemy, bool boss = false)
     {
+        AudioManager.instance.Play("enemyDeath");
+        
         if (activeEnemies.Contains(enemy))
         {
             activeEnemies.Remove(enemy);

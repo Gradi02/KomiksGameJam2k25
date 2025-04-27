@@ -9,6 +9,7 @@ public class LoreStartGame : MonoBehaviour
 
     void Start()
     {
+        AudioManager.instance.Play("welcomeMusic");
         title.alpha = 0;
         lore.alpha = 0;
         StartCoroutine(LoreStart());
