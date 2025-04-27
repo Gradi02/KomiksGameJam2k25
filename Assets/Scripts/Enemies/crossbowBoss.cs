@@ -17,7 +17,7 @@ public class crossbowBoss : Enemy
     {
         machine = GetComponent<StateMachine>();
         states = GetComponentsInChildren<State>();
-        health = 500;
+        health = 1000;
 
         foreach (var state in states)
         {
@@ -34,11 +34,11 @@ public class crossbowBoss : Enemy
 
     private void UpdatePhase()
     {
-        if (health > 300 && health <= 500)
+        if (health > 800 && health <= 1000)
         {
             phase = 1;
         }
-        else if (health > 100 && health <= 300)
+        else if (health > 500 && health <= 800)
         {
             phase = 2;
         }

@@ -6,7 +6,7 @@ public abstract class Enemy : MonoBehaviour
     [Header("Enemy Stats")]
     public int health { get; protected set; } = 100;
     protected float SqrDstToPlayer = 0;
-
+    [SerializeField] bool isBoss = false;
 
     [Header("States")]
     protected State[] states;
@@ -44,8 +44,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void DestroyEnemy()
     {
-        Debug.Log("odpala");
-        SpawnerManager.Instance.OnEnemyKilled(this.gameObject);
+        SpawnerManager.Instance.OnEnemyKilled(this.gameObject, isBoss);
     }
 
     protected bool IsGrounded()

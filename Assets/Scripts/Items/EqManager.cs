@@ -17,7 +17,10 @@ public class EqManager : MonoBehaviour
     [SerializeField] private PewPewShotgun gun;
     [SerializeField] private PlayerAttack snake;
 
-
+    private float timeToEndPowerup = 0;
+    private float powerupTime = 10;
+    private Item power = null;
+    [SerializeField] private Item defaultItem;
 
 
     public void PickupSign(Item itm)
@@ -44,7 +47,9 @@ public class EqManager : MonoBehaviour
                 {
                     AnimateNewRune(i);
                     images[i].sprite = null;
-                    images[i].color = Color.white;
+                    Color c = Color.white;
+                    c.a = 0;
+                    images[i].color = c;
                     items[i] = null;
                 }
 
@@ -52,46 +57,57 @@ public class EqManager : MonoBehaviour
                 currentID = 0;
             }
         }
+
+
+        if(power != defaultItem && Time.time > timeToEndPowerup)
+        {
+            power = defaultItem;
+            SwitchWeapon(defaultItem);
+            timeToEndPowerup = 0;
+        }
     }
 
-    private void SwitchWeapon()
+
+
+    public void ActivePowerUp(Item itm)
     {
-        //bomb.enabled = false;
+        if(itm != null)
+        {
+            power = itm;
+            timeToEndPowerup = Time.time + powerupTime;
+            SwitchWeapon(itm);
+        }
+    }
+
+    private void SwitchWeapon(Item itm)
+    {
         gravity.enabled = false;
         laser.enabled = false;
         gun.enabled = false;
         snake.enabled = false;
 
-        if (items[currentID] != null)
+        switch (itm.name)
         {
-            switch (items[currentID].name)
-            {
-                /*case "bomb":
-                    {
-                        bomb.enabled = true;
-                        break;
-                    }*/
-                case "gravity":
-                    {
-                        gravity.enabled = true;
-                        break;
-                    }
-                case "laser":
-                    {
-                        laser.enabled = true;
-                        break;
-                    }
-                case "gun":
-                    {
-                        gun.enabled = true;
-                        break;
-                    }
-                case "snake":
-                    {
-                        snake.enabled = true;
-                        break;
-                    }
-            }
+            case "gravity":
+                {
+                    gravity.enabled = true;
+                    break;
+                }
+            case "laser":
+                {
+                    laser.enabled = true;
+                    break;
+                }
+            case "gun":
+                {
+                    gun.enabled = true;
+                    break;
+                }
+            case "snake":
+                {
+                    snake.enabled = true;
+                    break;
+                }
         }
     }
 }
