@@ -101,52 +101,55 @@ public class SpawnerManager : MonoBehaviour
 
     public void OnEnemyKilled(GameObject enemy, bool boss = false)
     {
+        AudioManager.instance.Play("enemyDeath");
+        
         if (activeEnemies.Contains(enemy))
         {
             activeEnemies.Remove(enemy);
-            AudioManager.instance.Play("enemyDeath");
-            if (boss)
+        }
+
+        if (boss)
+        {
+            nextStageAt += scoresToNextStage;
+            totalKills++;
+            scoreInt += 100;
+            maxEnemies++;
+            SpawnRune();
+            bossBattle = false;
+            StartCoroutine(SpawnEnemies());
+            stage.text = $"Incoming danger at {nextStageAt} points!";
+        }
+        else
+        {
+            totalKills++;
+            scoreInt += 100;
+
+            if (Random.Range(0, 100) < 15)
             {
-                nextStageAt += scoresToNextStage;
-                totalKills++;
-                scoreInt += 100;
-                maxEnemies++;
                 SpawnRune();
-                bossBattle = false;
-                StartCoroutine(SpawnEnemies());
-                stage.text = $"Incoming danger at {nextStageAt} points!";
             }
-            else
+
+            if (Random.Range(0, 100) < 10)
             {
-                Destroy(enemy);
-
-                totalKills++;
-                scoreInt += 100;
-
-                if (Random.Range(0, 100) < 15)
-                {
-                    SpawnRune();
-                }
-
-                if (Random.Range(0, 100) < 10)
-                {
-                    SpawnPowerup();
-                }
+                SpawnPowerup();
+            }
 
 
-                if (scoreInt > nextStageAt && !bossBattle)
-                {
-                    bossBattle = true;
-                    StartCoroutine(IEBossBattle());
-                    return;
-                }
+            if (scoreInt > nextStageAt && !bossBattle)
+            {
+                bossBattle = true;
+                StartCoroutine(IEBossBattle());
+                return;
+            }
 
-                if (!isSpawning && activeEnemies.Count < maxEnemies && !bossBattle)
-                {
-                    StartCoroutine(SpawnEnemies());
-                }
+            if (!isSpawning && activeEnemies.Count < maxEnemies && !bossBattle)
+            {
+                StartCoroutine(SpawnEnemies());
             }
         }
+
+        StartCoroutine(DeadCoroutine(enemy));
+        
     }
 
     private void SpawnRune()
@@ -178,5 +181,29 @@ public class SpawnerManager : MonoBehaviour
         activeEnemies.Add(b);
 
         yield return null;
+    }
+
+
+
+    private IEnumerator DeadCoroutine(GameObject enemy)
+    {
+        SpriteRenderer rend = enemy.GetComponent<SpriteRenderer>();
+
+        ParticleSystem ps = enemy.transform.Find("blood").GetComponent<ParticleSystem>();
+        ps.transform.parent = null;
+        ps.Play();
+        Destroy(ps, 2f);
+
+        float duration = 1f;
+        float t = 0f;
+        while (t < 0.3f)
+        {
+            t += Time.deltaTime / duration;
+            rend.material.SetFloat("_DissolveThreshold", t);
+            yield return null;
+        }
+        rend.material.SetFloat("_DissolveThreshold", 1.0f);
+
+        Destroy(enemy.gameObject);
     }
 }

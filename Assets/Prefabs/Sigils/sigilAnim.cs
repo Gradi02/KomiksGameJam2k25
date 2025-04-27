@@ -4,6 +4,6 @@ public class SigilAnim : MonoBehaviour
 {
     void Start()
     {
-        LeanTween.moveLocalY(this.gameObject, +0.5f, 1f).setEase(LeanTweenType.easeInOutSine).setLoopPingPong();
+        LeanTween.moveLocalY(this.gameObject, +0.1f, 1f).setEase(LeanTweenType.easeInOutSine).setLoopPingPong();
     }
 }
