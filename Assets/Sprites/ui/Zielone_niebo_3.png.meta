@@ -1,15 +1,24 @@
 fileFormatVersion: 2
-guid: b94ceb3d8c32ff24caadab6b73e61596
+guid: 2c77bc8cfb80b9846b049a8b43707fab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5680043697832469060
-    second: mycha_0
+      213: 7356678313905697517
+    second: Zielone_niebo_3_0
+  - first:
+      213: -6085402112509489162
+    second: Zielone_niebo_3_1
+  - first:
+      213: 1485146781368189513
+    second: Zielone_niebo_3_2
+  - first:
+      213: 1359448829983156911
+    second: Zielone_niebo_3_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -57,7 +66,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mycha_0
+      name: Zielone_niebo_3_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 8
-        width: 14
-        height: 19
+        x: 0
+        y: 0
+        width: 600
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbddff9d95e6c21b0800000000000000
-      internalID: -5680043697832469060
+      spriteID: de23b2bf2fb281660800000000000000
+      internalID: 7356678313905697517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zielone_niebo_3_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 149
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffc570450f4c8ba0800000000000000
+      internalID: -6085402112509489162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zielone_niebo_3_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 150
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94204c6012d4c9410800000000000000
+      internalID: 1485146781368189513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zielone_niebo_3_3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 148
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa6779128bbdd210800000000000000
+      internalID: 1359448829983156911
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mycha_0: -5680043697832469060
+      Zielone_niebo_3_0: 7356678313905697517
+      Zielone_niebo_3_1: -6085402112509489162
+      Zielone_niebo_3_2: 1485146781368189513
+      Zielone_niebo_3_3: 1359448829983156911
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
