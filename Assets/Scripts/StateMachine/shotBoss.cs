@@ -40,11 +40,13 @@ public class shotBoss : State
 
     public override void EndState()
     {
+        AudioManager.instance.Play("boom");
         base.EndState();
     }
 
     public void Shot()
     {
+        AudioManager.instance.Play("arrow");
         GameObject a = Instantiate(arrow, arrowSp.transform.position, transform.rotation);
         Rigidbody2D rb = a.GetComponent<Rigidbody2D>();
         rb.linearVelocity = new Vector2(0, 8);

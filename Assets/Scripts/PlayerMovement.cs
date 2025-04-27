@@ -64,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
         if (isDashing) return;
 
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+        AudioManager.instance.Play("walk");
     }
 
     public bool IsGrounded()
@@ -97,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        AudioManager.instance.Play("dash");
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
