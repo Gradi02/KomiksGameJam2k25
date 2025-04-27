@@ -30,8 +30,8 @@ public class SpawnerManager : MonoBehaviour
     [SerializeField] private GameObject heal;
 
     bool bossBattle = false;
-    int scoresToNextStage = 500;
-    int nextStageAt = 500;
+    int scoresToNextStage = 2000;
+    int nextStageAt = 2000;
     [SerializeField] private GameObject bossPrefab;
     [SerializeField] private GameObject bossPrefab2;
     bool bossNum = false;

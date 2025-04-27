@@ -49,7 +49,7 @@ public class krabScreamState : State
     {
         while (true)
         {
-            AudioManager.instance.Play("shot");
+            AudioManager.instance.Play("shoot");
             SpawnProjectile();
             yield return new WaitForSeconds(spawnInterval);
         }

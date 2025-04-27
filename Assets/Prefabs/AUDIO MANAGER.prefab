@@ -140,3 +140,13 @@ MonoBehaviour:
     playonawake: 0
     volume: 0.3
     source: {fileID: 0}
+  - name: pickup
+    clip: {fileID: 8300000, guid: 858f36b6b6f9d9b4490ca7662d67c973, type: 3}
+    playonawake: 0
+    volume: 0.3
+    source: {fileID: 0}
+  - name: crabing
+    clip: {fileID: 8300000, guid: 6510aa919ebc61149b9ff96c6deb98b6, type: 3}
+    playonawake: 0
+    volume: 0.3
+    source: {fileID: 0}

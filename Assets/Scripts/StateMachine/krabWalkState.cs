@@ -7,14 +7,14 @@ public class krabWalkState : State
     [SerializeField] private bool reverseFlip = false;
 
     [SerializeField] private Transform arrowSp, arrowSp2;
-    private crossbowBoss boss;
+    private krabBoss boss;
 
     public override void StartState()
     {
         AudioManager.instance.PlayLoop("crabing");
         base.StartState();
         isEnded = true;
-        boss = transform.root.GetComponent<crossbowBoss>();
+        boss = transform.root.GetComponent<krabBoss>();
     }
 
     public override void UpdateState()
