@@ -4,7 +4,7 @@ public class PewPewGravity : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform shootPoint;
-    [SerializeField] private float bulletForce = 5f;
+    [SerializeField] private float bulletForce;
     [SerializeField] private float fireRate = 0.1f;
 
     private float fireTimer;
@@ -23,6 +23,7 @@ public class PewPewGravity : MonoBehaviour
     void Shoot()
     {
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0;
         Vector2 shootDirection = (mouseWorldPos - shootPoint.position);
         shootDirection.Normalize();
 

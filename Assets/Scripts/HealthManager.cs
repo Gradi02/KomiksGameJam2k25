@@ -59,18 +59,11 @@ public class HealthManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            TakeDamage(25);
-        }
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            Heal(20);
-        }
     }
 
     public void TakeDamage(int damage)
     {
+        AudioManager.instance.Play("ouch");
         if (isDead) return;
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
@@ -134,6 +127,7 @@ public class HealthManager : MonoBehaviour
 
     private IEnumerator Die()
     {
+        AudioManager.instance.Play("gameOver");
         if (isDead) yield break;
         isDead = true;
 

@@ -10,7 +10,7 @@ public class PewPewLaser : MonoBehaviour
 
     private LineRenderer currentLaser;
     public ParticleSystem particleHitPrefab;
-    private int damage = 10;
+    private int damage = 5;
 
     void Update()
     {
