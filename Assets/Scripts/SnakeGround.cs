@@ -5,7 +5,7 @@ public class SnakeGround : MonoBehaviour
 {
     public float speed = 10f;  // Szybkość poruszania się obiektu
     [SerializeField] private float max_distance = 10.0f;
-    [SerializeField] private int damage = 50;
+    private int damage = 100;
     public float how_much_distance = 0;
     public int direction;
     public GameObject whoGetHit;
@@ -27,27 +27,38 @@ public class SnakeGround : MonoBehaviour
 
     void Update()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("snakegroundattack")){
-            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f){
-                if(whoGetHit != null){
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("snakegroundattack"))
+        {
+            if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+            {
+                if (whoGetHit != null)
+                {
                     whoGetHit.GetComponent<Enemy>().TakeDamage(damage);
-                    animator.speed = 1;
-                    Destroy(gameObject);
                 }
+                Destroy(gameObject);
             }
-        } else {
-            if(how_much_distance >= max_distance){
-                animator.speed = 2;
-                animator.SetBool("attack",true);
-            } else {
-                transform.position = new Vector3(direction * speed * Time.deltaTime + transform.position.x, transform.position.y, transform.position.z);
-                how_much_distance+=Time.deltaTime * speed;
-            }    
-        }    
+        }
+        else
+        {
+            if (how_much_distance >= max_distance)
+            {
+                Destroy(gameObject); // <<-- Teraz znika normalnie, BEZ animacji ataku!
+            }
+            else
+            {
+                transform.position = new Vector3(
+                    direction * speed * Time.deltaTime + transform.position.x,
+                    transform.position.y,
+                    transform.position.z
+                );
+
+                how_much_distance += Time.deltaTime * speed;
+            }
+        }
     }
 
     // Sprawdzanie kolizji z innymi obiektami
-    
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (LayerMask.NameToLayer("Enemy") == collision.gameObject.layer)

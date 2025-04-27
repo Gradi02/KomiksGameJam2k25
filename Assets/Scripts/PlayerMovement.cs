@@ -29,6 +29,15 @@ public class PlayerMovement : MonoBehaviour
 
         horizontal = Input.GetAxisRaw("Horizontal");
 
+        if (Mathf.Abs(rb.linearVelocity.magnitude) > 0.1f)
+        {
+            AudioManager.instance.Play("walk");
+        }
+        else
+        {
+            AudioManager.instance.Stop("walk");
+        }
+
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
@@ -97,6 +106,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        AudioManager.instance.Play("dash");
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;

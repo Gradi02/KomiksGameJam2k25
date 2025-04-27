@@ -14,6 +14,7 @@ public class quickShotBoss : State
 
     public override void StartState()
     {
+        Debug.Log("quickshot");
         base.StartState();
         t1 = Time.time + delayToShot;
         t2 = Time.time + timeToEnd;
@@ -56,6 +57,7 @@ public class quickShotBoss : State
 
     public void Shot()
     {
+        AudioManager.instance.Play("arrow");
         GameObject a = Instantiate(arrow, arrowSp.transform.position, transform.rotation);
         a.GetComponent<arrowMovement>().InvokeDestroy(4);
     }

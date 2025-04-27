@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7711176388184795352}
   - component: {fileID: 8845459386687349982}
   - component: {fileID: 6086537550886873961}
+  - component: {fileID: 9116572001052046748}
   m_Layer: 11
   m_Name: Circle 1
   m_TagString: Untagged
@@ -254,7 +255,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -287,3 +288,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &9116572001052046748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3043284715897645105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4818a972a840941951b8113ef643cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20

@@ -51,6 +51,29 @@ public class AudioManager : MonoBehaviour
 
         s.source.Play();
     }
+
+    public void Stop(string name)
+    {
+        sounds s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound " + name + " wasn't found!");
+            return;
+        }
+        s.source.Stop();
+    }
+
+    public void PlayLoop(string soundName)
+    {
+        sounds sound = Array.Find(sounds, s => s.name == soundName);
+        if (sound == null)
+        {
+            Debug.LogWarning($"Sound: {soundName} not found!");
+            return;
+        }
+        sound.source.loop = true;
+        sound.source.Play();
+    }
 }
 
 
@@ -65,7 +88,6 @@ public class sounds
     public bool playonawake;
 
     [Range(0f, 1f)]
-    [HideInInspector]
     public float volume;
 
     [HideInInspector]

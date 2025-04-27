@@ -10,6 +10,7 @@ public class PewPewLaser : MonoBehaviour
 
     private LineRenderer currentLaser;
     public ParticleSystem particleHitPrefab;
+    private int damage = 5;
 
     void Update()
     {
@@ -47,6 +48,7 @@ public class PewPewLaser : MonoBehaviour
                 Instantiate(particleHitPrefab, hit.point, Quaternion.identity);
                 // Mo¿esz coœ zrobiæ z obiektami np. je niszczyæ:
                 // Destroy(hit.collider.gameObject);
+                hit.collider.GetComponent<Enemy>().TakeDamage(damage);
             }
             currentLaser.SetPosition(1, farthestHit);
         }

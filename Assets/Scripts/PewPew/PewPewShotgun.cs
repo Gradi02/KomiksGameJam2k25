@@ -25,6 +25,7 @@ public class PewPewShotgun : MonoBehaviour
     void ShootShotgun()
     {
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0;
         Vector2 baseDirection = (mouseWorldPos - shootPoint.position).normalized;
 
         for (int i = 0; i < bulletsPerShot; i++)
