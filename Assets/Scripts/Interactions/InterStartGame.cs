@@ -36,5 +36,6 @@ public class InterStartGame : EnvSignInteractionAction
         Debug.Log("start");
         Instantiate(firstSigil, SpawnPlace);
         StartCoroutine(StartGame());
+        AudioManager.instance.Play("pickup");
     }
 }
