@@ -20,7 +20,7 @@ public class SpawnerManager : MonoBehaviour
     [SerializeField] private float maxX = 40f;
     [SerializeField] private float yval = -2f;
 
-    private int maxEnemies = 3;
+    public int maxEnemies = 3;
 
     public GameObject[] runes;
     private int spawned = 0;
