@@ -165,10 +165,16 @@ public class SpawnerManager : MonoBehaviour
 
     private IEnumerator IEBossBattle()
     {
-        Vector3 spawnPos = new Vector3(14f, yval, 0f);
+        Vector3 spawnPos = new Vector3(14f, yval+25, 0f);
 
         GameObject b = Instantiate(bossPrefab, spawnPos, Quaternion.identity);
         b.GetComponent<Enemy>().player = playerObject;
+        yield return new WaitForSeconds(3);
+        ParticleSystem p = GameObject.FindGameObjectWithTag("bossParticleSpawn").GetComponent<ParticleSystem>();
+        p.Play();
+        CinemachineShake.Instance.ShakeCamera(10f, .3f);
+
+        
         activeEnemies.Add(b);
 
         yield return null;
