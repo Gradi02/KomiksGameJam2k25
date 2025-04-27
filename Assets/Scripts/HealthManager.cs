@@ -25,6 +25,8 @@ public class HealthManager : MonoBehaviour
     private RigidbodyConstraints originalRigidbodyConstraints;
     private PlayerMovement playerMovementScript;
 
+    [SerializeField] private int healthPickupAmount = 15;
+
 
     [Header("Shader flash")]
     public string shaderProperty = "_power"; // nazwa parametru w shaderze
@@ -66,8 +68,13 @@ public class HealthManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Health"))
+        {
+            Heal(healthPickupAmount);
+            collision.gameObject.SetActive(false);
+        }
     }
 
     public void TakeDamage(int damage)
@@ -99,6 +106,8 @@ public class HealthManager : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         if (healthBar != null) healthBar.SetCurrentHealth(currentHealth);
+
+
     }
 
     private void SetPlayerVisualsActive(bool active)
