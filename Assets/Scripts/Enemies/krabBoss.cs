@@ -7,7 +7,7 @@ public class krabBoss : Enemy
     [Header("States")]
     [SerializeField] private krabScreamState scream, scream2;
     [SerializeField] private krabShotState shot;
-    [SerializeField] private walkState walk;
+    [SerializeField] private krabWalkState walk;
     [SerializeField] private krabRunState run;
 
     public int phase { get; private set; } = 1;

@@ -27,12 +27,14 @@ public class SpawnerManager : MonoBehaviour
     public List<GameObject> activeEnemies = new List<GameObject>();
     private bool isSpawning = false;
     [SerializeField] private GameObject powerup;
+    [SerializeField] private GameObject heal;
 
     bool bossBattle = false;
-    int scoresToNextStage = 2000;
-    int nextStageAt = 100;
+    int scoresToNextStage = 500;
+    int nextStageAt = 500;
     [SerializeField] private GameObject bossPrefab;
-
+    [SerializeField] private GameObject bossPrefab2;
+    bool bossNum = false;
 
     private void Awake()
     {
@@ -130,7 +132,7 @@ public class SpawnerManager : MonoBehaviour
             totalKills++;
             scoreInt += 100;
 
-            if (Random.Range(0, 100) < 15)
+            if (Random.Range(0, 100) < 10)
             {
                 SpawnRune();
             }
@@ -138,6 +140,11 @@ public class SpawnerManager : MonoBehaviour
             if (Random.Range(0, 100) < 10)
             {
                 SpawnPowerup();
+            }
+
+            if (Random.Range(0, 100) < 5)
+            {
+                SpawnHeal();
             }
 
 
@@ -171,12 +178,20 @@ public class SpawnerManager : MonoBehaviour
         Instantiate(powerup, runeSpawnPos, Quaternion.identity);
     }
 
+    private void SpawnHeal()
+    {
+        Vector3 runeSpawnPos = new Vector3(Random.Range(minX, maxX), yval, 0f);
+        Instantiate(heal, runeSpawnPos, Quaternion.identity);
+    }
+
 
     private IEnumerator IEBossBattle()
     {
         Vector3 spawnPos = new Vector3(14f, yval+25, 0f);
 
-        GameObject b = Instantiate(bossPrefab, spawnPos, Quaternion.identity);
+        bossNum = !bossNum;
+        GameObject b = Instantiate(bossNum ? bossPrefab : bossPrefab2, spawnPos, Quaternion.identity);
+
         b.GetComponent<Enemy>().player = playerObject;
         yield return new WaitForSeconds(3);
         ParticleSystem p = GameObject.FindGameObjectWithTag("bossParticleSpawn").GetComponent<ParticleSystem>();
@@ -206,13 +221,14 @@ public class SpawnerManager : MonoBehaviour
             {
                 float duration = 1f;
                 float t = 0f;
-                while (t < 0.3f)
+                while (t < 0.3f && rend != null)
                 {
                     t += Time.deltaTime / duration;
                     rend.material.SetFloat("_DissolveThreshold", t);
                     yield return null;
                 }
-                rend.material.SetFloat("_DissolveThreshold", 1.0f);
+                if (rend != null)
+                    rend.material.SetFloat("_DissolveThreshold", 1.0f);
             }
 
             Destroy(enemy.gameObject);

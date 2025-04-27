@@ -38,8 +38,6 @@ public class KameHameHa : MonoBehaviour
         }
 
         DestroyAllBullets();
-        GetComponent<PlayerMovement>().enabled = true;
-        GetComponent<HealthManager>().invincible = false;
 
 
 
@@ -60,7 +58,11 @@ public class KameHameHa : MonoBehaviour
                 CinemachineShake.Instance.ShakeCamera(val, .1f);
             })
             .setEase(LeanTweenType.easeInOutSine); //22222222222222222222
-        yield return new WaitForSeconds(2.2f);
+
+        yield return new WaitForSeconds(1.1f);
+        GetComponent<PlayerMovement>().enabled = true;
+        GetComponent<HealthManager>().invincible = false;
+        yield return new WaitForSeconds(1.1f);
     }
 
     /*
