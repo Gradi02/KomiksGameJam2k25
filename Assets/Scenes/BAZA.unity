@@ -14617,16 +14617,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WSD - Movement
+  m_text: 'AD - Movement
 
-    LMB - Use skill
+    SPACE - jump
 
-    SHIFT - Dash (mouse direction)
+    LMB - Attack
 
-    E
-    - Interact
+    SHIFT - Dash (mouse
+    direction)
 
-    Collect 3 sigils for special attack!'
+    E - Interact
+
+    F - Collect 3 sigils for special attack!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f8d947014ed45adeeb3c174ca041, type: 2}
   m_sharedMaterial: {fileID: 785819712488552082, guid: 1076f8d947014ed45adeeb3c174ca041, type: 2}
