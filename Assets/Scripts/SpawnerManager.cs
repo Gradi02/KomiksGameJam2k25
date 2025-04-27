@@ -75,7 +75,7 @@ public class SpawnerManager : MonoBehaviour
                 .setEase(LeanTweenType.easeInOutSine)
                 .setLoopPingPong();*/
             //warning.GetComponent<Animator>().Play("spawn");
-            Destroy(warning, 1.7f);
+            Destroy(warning, 1.5f);
 
             yield return new WaitForSeconds(1.4f);
 

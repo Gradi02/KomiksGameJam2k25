@@ -17265,6 +17265,10 @@ PrefabInstance:
       propertyPath: title
       value: 
       objectReference: {fileID: 1967305221}
+    - target: {fileID: 3945437055987299750, guid: 9edba934491dfce4e804b12957f4d547, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8426053653897528358, guid: 2fd92006a35c5f449a8ac43ba814d801, type: 3}
     - target: {fileID: 4412391030513892177, guid: 9edba934491dfce4e804b12957f4d547, type: 3}
       propertyPath: infoCanva
       value: 
