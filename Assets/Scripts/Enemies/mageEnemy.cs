@@ -11,6 +11,7 @@ public class mageEnemy : Enemy
 
     public void Start()
     {
+        AudioManager.instance.Play("enemySpawn");
         machine = GetComponent<StateMachine>();
         states = GetComponentsInChildren<State>();
 

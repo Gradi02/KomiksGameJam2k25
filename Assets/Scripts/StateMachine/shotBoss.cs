@@ -40,8 +40,8 @@ public class shotBoss : State
 
     public override void EndState()
     {
-        AudioManager.instance.Play("boom");
         base.EndState();
+        AudioManager.instance.Play("boom");
     }
 
     public void Shot()

@@ -15,12 +15,14 @@ public class InterStartGame : EnvSignInteractionAction
 
     private IEnumerator StartGame()
     {
+        AudioManager.instance.Stop("welcomeMusic");
         LeanTween.scale(infoFrame, Vector3.zero, 0.4f).setEase(LeanTweenType.easeInOutCubic);
         for (int i = 0; i < menuObjects.Length; i++)
         {
             LeanTween.scale(menuObjects[i], Vector3.zero, 0.4f).setDelay(menuDelayHiders[i]).setEase(LeanTweenType.easeInOutCubic);
         }
         yield return new WaitForSeconds(1f);
+        AudioManager.instance.Stop("gameWave_1");
         LeanTween.rotateZ(Sign, 0f, 1f).setEase(LeanTweenType.easeInOutBounce);
         yield return new WaitForSeconds(0.5f);
         infoFrame.SetActive(false);

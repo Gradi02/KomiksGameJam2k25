@@ -1067,22 +1067,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AUDIO MANAGER
       objectReference: {fileID: 0}
-    - target: {fileID: 5435583005525382795, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
-      propertyPath: sounds.Array.size
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435583005525382795, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
-      propertyPath: sounds.Array.data[17].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: e819f246268ee994a8167fc8c947da29, type: 3}
-    - target: {fileID: 5435583005525382795, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
-      propertyPath: sounds.Array.data[17].name
-      value: bossGalloping
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435583005525382795, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
-      propertyPath: sounds.Array.data[17].volume
-      value: 0.7
-      objectReference: {fileID: 0}
     - target: {fileID: 5531307168018351121, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.744094
@@ -1577,6 +1561,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2319452671879773967, guid: 2de22494001024d48bc6569d77afe12f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534547685504192367, guid: 2de22494001024d48bc6569d77afe12f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534547685504192367, guid: 2de22494001024d48bc6569d77afe12f, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5727631325319063917, guid: 2de22494001024d48bc6569d77afe12f, type: 3}
@@ -6861,14 +6853,16 @@ MonoBehaviour:
   - {fileID: 3572926510763702370, guid: 8017aed827406a34fbabcbb4ef2640cf, type: 3}
   - {fileID: 3572926510763702370, guid: 5d0017c0a2a110e45a40ff9923cc4f95, type: 3}
   score: {fileID: 0}
+  stage: {fileID: 0}
   warningObj: {fileID: 6396760315788884210, guid: ffd6df56674090c4b97fc5e1e3cdb36d, type: 3}
   minX: -11
   maxX: 40
   yval: -2
-  maxEnemies: 5
   runes:
   - {fileID: 4389418078417544691, guid: 184dd54488e85214aa5739797bd4c9e4, type: 3}
   activeEnemies: []
+  powerup: {fileID: 0}
+  bossPrefab: {fileID: 0}
 --- !u!4 &1788152111
 Transform:
   m_ObjectHideFlags: 0
