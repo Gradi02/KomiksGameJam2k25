@@ -6,7 +6,7 @@ using UnityEngine;
 public class SpawnerManager : MonoBehaviour
 {
     public static SpawnerManager Instance { get; private set; }
-
+    public GameObject[] ParalaxBgs;
     private GameObject playerObject;
     public List<GameObject> enemies;
     public TextMeshProUGUI score;
@@ -30,7 +30,7 @@ public class SpawnerManager : MonoBehaviour
 
     bool bossBattle = false;
     int scoresToNextStage = 2000;
-    int nextStageAt = 2000;
+    int nextStageAt = 100;
     [SerializeField] private GameObject bossPrefab;
 
 
@@ -75,7 +75,7 @@ public class SpawnerManager : MonoBehaviour
                 .setEase(LeanTweenType.easeInOutSine)
                 .setLoopPingPong();*/
             //warning.GetComponent<Animator>().Play("spawn");
-            Destroy(warning, 1.7f);
+            Destroy(warning, 1.5f);
 
             yield return new WaitForSeconds(1.4f);
 
@@ -118,6 +118,12 @@ public class SpawnerManager : MonoBehaviour
             bossBattle = false;
             StartCoroutine(SpawnEnemies());
             stage.text = $"Incoming danger at {nextStageAt} points!";
+            Debug.Log("BOSSSSSS");
+            for(int i = 0; i<ParalaxBgs.Length; i++)
+            {
+                Debug.Log("AAAAAAAA");
+                ParalaxBgs[i].GetComponent<ParalaxEffect>().Changebg();
+            }
         }
         else
         {
@@ -148,8 +154,8 @@ public class SpawnerManager : MonoBehaviour
             }
         }
 
-        StartCoroutine(DeadCoroutine(enemy));
-        
+        if(enemy != null)
+            StartCoroutine(DeadCoroutine(enemy));     
     }
 
     private void SpawnRune()
@@ -187,23 +193,29 @@ public class SpawnerManager : MonoBehaviour
 
     private IEnumerator DeadCoroutine(GameObject enemy)
     {
-        SpriteRenderer rend = enemy.GetComponent<SpriteRenderer>();
-
-        ParticleSystem ps = enemy.transform.Find("blood").GetComponent<ParticleSystem>();
-        ps.transform.parent = null;
-        ps.Play();
-        Destroy(ps, 2f);
-
-        float duration = 1f;
-        float t = 0f;
-        while (t < 0.3f)
+        if (enemy != null)
         {
-            t += Time.deltaTime / duration;
-            rend.material.SetFloat("_DissolveThreshold", t);
-            yield return null;
-        }
-        rend.material.SetFloat("_DissolveThreshold", 1.0f);
+            SpriteRenderer rend = enemy.GetComponent<SpriteRenderer>();
 
-        Destroy(enemy.gameObject);
+            ParticleSystem ps = enemy.transform.Find("blood").GetComponent<ParticleSystem>();
+            ps.transform.parent = null;
+            ps.Play();
+            Destroy(ps, 2f);
+
+            if (rend != null)
+            {
+                float duration = 1f;
+                float t = 0f;
+                while (t < 0.3f)
+                {
+                    t += Time.deltaTime / duration;
+                    rend.material.SetFloat("_DissolveThreshold", t);
+                    yield return null;
+                }
+                rend.material.SetFloat("_DissolveThreshold", 1.0f);
+            }
+
+            Destroy(enemy.gameObject);
+        }
     }
 }

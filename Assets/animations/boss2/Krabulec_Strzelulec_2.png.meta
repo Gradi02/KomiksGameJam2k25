@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 275c394c0d68e394fae9a54346e61fc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1707061711051154158
+    second: Krabulec_Strzelulec_2_0
+  - first:
+      213: 6731035760248000243
+    second: Krabulec_Strzelulec_2_1
+  - first:
+      213: 8292119443085710862
+    second: Krabulec_Strzelulec_2_2
+  - first:
+      213: 2640809920232142108
+    second: Krabulec_Strzelulec_2_3
+  - first:
+      213: 538025317950805861
+    second: Krabulec_Strzelulec_2_4
+  - first:
+      213: -6658579664233822896
+    second: Krabulec_Strzelulec_2_5
+  - first:
+      213: -858565908886645410
+    second: Krabulec_Strzelulec_2_6
+  - first:
+      213: -1352279157542592331
+    second: Krabulec_Strzelulec_2_7
+  - first:
+      213: -4360648972760532556
+    second: Krabulec_Strzelulec_2_8
+  - first:
+      213: -1936600778305480933
+    second: Krabulec_Strzelulec_2_9
+  - first:
+      213: -5516132704338554746
+    second: Krabulec_Strzelulec_2_10
+  - first:
+      213: -6558073800347497033
+    second: Krabulec_Strzelulec_2_11
+  - first:
+      213: 6334571748823970496
+    second: Krabulec_Strzelulec_2_12
+  - first:
+      213: 6666484938026632239
+    second: Krabulec_Strzelulec_2_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 294
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d102f0b6c4f48e0800000000000000
+      internalID: -1707061711051154158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 294
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe88048c51796d50800000000000000
+      internalID: 6731035760248000243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 294
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06db3033b6831370800000000000000
+      internalID: 8292119443085710862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_3
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 294
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15b3ce71aa06a420800000000000000
+      internalID: 2640809920232142108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 199
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567df941d23777700800000000000000
+      internalID: 538025317950805861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 199
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05504b4f219f793a0800000000000000
+      internalID: -6658579664233822896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_6
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 199
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e551d80dad2c514f0800000000000000
+      internalID: -858565908886645410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_7
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 199
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b06289554dbb3de0800000000000000
+      internalID: -1352279157542592331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 104
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9bf6cecdcdb73c0800000000000000
+      internalID: -4360648972760532556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 104
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b175b594adfcf15e0800000000000000
+      internalID: -1936600778305480933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_10
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 104
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6805cf7f782c273b0800000000000000
+      internalID: -5516132704338554746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_11
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 104
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdcd7fef9a0df4a0800000000000000
+      internalID: -6558073800347497033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 9
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2b0ec817be8e750800000000000000
+      internalID: 6334571748823970496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Krabulec_Strzelulec_2_13
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 9
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24c1970bbc148c50800000000000000
+      internalID: 6666484938026632239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Krabulec_Strzelulec_2_0: -1707061711051154158
+      Krabulec_Strzelulec_2_1: 6731035760248000243
+      Krabulec_Strzelulec_2_10: -5516132704338554746
+      Krabulec_Strzelulec_2_11: -6558073800347497033
+      Krabulec_Strzelulec_2_12: 6334571748823970496
+      Krabulec_Strzelulec_2_13: 6666484938026632239
+      Krabulec_Strzelulec_2_2: 8292119443085710862
+      Krabulec_Strzelulec_2_3: 2640809920232142108
+      Krabulec_Strzelulec_2_4: 538025317950805861
+      Krabulec_Strzelulec_2_5: -6658579664233822896
+      Krabulec_Strzelulec_2_6: -858565908886645410
+      Krabulec_Strzelulec_2_7: -1352279157542592331
+      Krabulec_Strzelulec_2_8: -4360648972760532556
+      Krabulec_Strzelulec_2_9: -1936600778305480933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

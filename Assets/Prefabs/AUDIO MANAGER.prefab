@@ -47,7 +47,7 @@ MonoBehaviour:
   sounds:
   - name: welcomeMusic
     clip: {fileID: 8300000, guid: d734054ac8465aa44802fb3cae05f8e9, type: 3}
-    playonawake: 1
+    playonawake: 0
     volume: 0.5
     source: {fileID: 0}
   - name: gameWave_1
@@ -86,21 +86,21 @@ MonoBehaviour:
     volume: 0.5
     source: {fileID: 0}
   - name: enemyDeath
-    clip: {fileID: 8300000, guid: b6ea0e35858ed2b43982d5e261dba3bf, type: 3}
+    clip: {fileID: 8300000, guid: c13d569ca31001042a67e8268431d21b, type: 3}
     playonawake: 0
     volume: 0.6
     source: {fileID: 0}
   - name: enemySpawn
     clip: {fileID: 8300000, guid: 8e79b225509d7a24a9bd9d072ee6ed49, type: 3}
     playonawake: 0
-    volume: 0.6
+    volume: 0
     source: {fileID: 0}
   - name: gameOver
     clip: {fileID: 8300000, guid: a6f2fc7302ba29d45bd21d4a7d475749, type: 3}
     playonawake: 0
     volume: 0.5
     source: {fileID: 0}
-  - name: hiss
+  - name: snake
     clip: {fileID: 8300000, guid: 4bb5da6163a183749822a511c02f58d5, type: 3}
     playonawake: 0
     volume: 0.7
@@ -139,4 +139,9 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 7cb8ce795cd04f547b557af208fcf998, type: 3}
     playonawake: 0
     volume: 0.7
+    source: {fileID: 0}
+  - name: pickup
+    clip: {fileID: 8300000, guid: 858f36b6b6f9d9b4490ca7662d67c973, type: 3}
+    playonawake: 0
+    volume: 1
     source: {fileID: 0}

@@ -132,8 +132,16 @@ PrefabInstance:
       value: AUDIO MANAGER
       objectReference: {fileID: 0}
     - target: {fileID: 5435583005525382795, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
-      propertyPath: sounds.Array.data[0].playonawake
-      value: 0
+      propertyPath: sounds.Array.data[8].volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5435583005525382795, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
+      propertyPath: sounds.Array.data[11].volume
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5435583005525382795, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
+      propertyPath: sounds.Array.data[19].volume
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 5531307168018351121, guid: 412a07d7b84ae624fa506784b01cc08f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -368,8 +376,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Na rozkaz losu W\u0119\u017Cownik wkroczy\u0142 w Chaotyczne Pustkowie,
-    gdzie czekaj\u0105 na niego bezlitosne bestie."
+  m_text: "At fate\u2019s command, Ophiuchus entered the world of chaos, a place
+    from which there is no escape..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f8d947014ed45adeeb3c174ca041, type: 2}
   m_sharedMaterial: {fileID: 785819712488552082, guid: 1076f8d947014ed45adeeb3c174ca041, type: 2}

@@ -37,5 +37,6 @@ public class InterStartGame : EnvSignInteractionAction
         Instantiate(firstSigil, SpawnPlace);
         GameObject.FindGameObjectWithTag("Player").GetComponent<BackGroundMusic>().StartGame();
         StartCoroutine(StartGame());
+        AudioManager.instance.Play("pickup");
     }
 }

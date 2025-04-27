@@ -5636,7 +5636,7 @@ MonoBehaviour:
   animator: {fileID: 8526101194481446152}
   rb: {fileID: 7345109355442128167}
   spriteRenderer: {fileID: 1302798012164503720}
-  mat: {fileID: 2100000, guid: 5f51561c0b59f5543928241fe26d4174, type: 2}
+  mat: {fileID: 2100000, guid: 14039cd71fa81ae4da265bb50bda2dfe, type: 2}
   shaderProperty: _power
   flashDuration: 0.5
   maxFlashValue: 0.4
