@@ -7,59 +7,18 @@ public class EqManager : MonoBehaviour
     public GameObject[] LoadSlots;
     public Image[] images;
     private Item[] items = new Item[3];
+    [SerializeField] private KameHameHa kame;
 
-    private bool[] activeItems = new bool[3];
-    private int currentID = 0;
-    private int maxID = 2;
+    public int currentID { get; private set; } = 0;
+    public int maxID { get;  } = 2;
 
-    [SerializeField] private PewPewBomb bomb;
     [SerializeField] private PewPewGravity gravity;
     [SerializeField] private PewPewLaser laser;
     [SerializeField] private PewPewShotgun gun;
     [SerializeField] private PlayerAttack snake;
 
-    private void Start()
-    {
-        foreach (var slot in slotsBg){
-            if (slot != slotsBg[currentID]){
-                slot.SetActive(false);
-            }
-        }
-    }
-
-    private void Update()
-    {
-        HandleScroll();
-    }
 
 
-    private void HandleScroll()
-    {
-        float scroll = Input.GetAxis("Mouse ScrollWheel");
-
-        if (scroll > 0f)
-        {
-            currentID = (currentID + 1) % (maxID + 1);
-            SwitchWeapon();
-            UpdateSlotsBg();
-        }
-        else if (scroll < 0f)
-        {
-            currentID = (currentID - 1 + (maxID + 1)) % (maxID + 1);
-            SwitchWeapon();
-            UpdateSlotsBg();
-        }
-    }
-
-    private void UpdateSlotsBg()
-    {
-        foreach (var slot in slotsBg){
-            if (slot != slotsBg[currentID]){
-                slot.SetActive(false);
-            }
-        }
-        slotsBg[currentID].SetActive(true);
-    }
 
     public void PickupSign(Item itm)
     {
@@ -67,12 +26,32 @@ public class EqManager : MonoBehaviour
         images[currentID].color = Color.white;
         items[currentID] = itm;
         AnimateNewRune(currentID);
-        SwitchWeapon();
+        currentID++;
     }
 
     private void AnimateNewRune(int i)
     {
         LeanTween.rotate(LoadSlots[i].gameObject, LoadSlots[i].transform.rotation.eulerAngles + new Vector3(0, 0, 90), 0.5f).setEase(LeanTweenType.easeInOutCubic);
+    }
+
+    private void Update()
+    {
+        if(currentID > maxID)
+        {
+            if(Input.GetKeyDown(KeyCode.F))
+            {
+                for(int i = 0; i < currentID; i++)
+                {
+                    AnimateNewRune(i);
+                    images[i].sprite = null;
+                    images[i].color = Color.white;
+                    items[i] = null;
+                }
+
+                StartCoroutine(kame.KameHameHaCoroutine());
+                currentID = 0;
+            }
+        }
     }
 
     private void SwitchWeapon()
