@@ -35,6 +35,7 @@ public class InterStartGame : EnvSignInteractionAction
     {
         Debug.Log("start");
         Instantiate(firstSigil, SpawnPlace);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<BackGroundMusic>().StartGame();
         StartCoroutine(StartGame());
     }
 }

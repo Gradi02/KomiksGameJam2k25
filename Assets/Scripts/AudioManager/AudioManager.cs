@@ -60,19 +60,26 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Sound " + name + " wasn't found!");
             return;
         }
+        Debug.Log(s);
+        Debug.Log(s.source);
+        Debug.Log(name);
         s.source.Stop();
     }
 
-    public void PlayLoop(string soundName)
+    public string PlayLoop(string soundName)
     {
         sounds sound = Array.Find(sounds, s => s.name == soundName);
         if (sound == null)
         {
             Debug.LogWarning($"Sound: {soundName} not found!");
-            return;
+            return "";
         }
+        Debug.Log(sound);
+        Debug.Log(sound.source);
+        Debug.Log(soundName);
         sound.source.loop = true;
         sound.source.Play();
+        return soundName;
     }
 }
 

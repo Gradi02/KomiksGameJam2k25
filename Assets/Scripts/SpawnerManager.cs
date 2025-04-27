@@ -11,7 +11,7 @@ public class SpawnerManager : MonoBehaviour
     public List<GameObject> enemies;
     public TextMeshProUGUI score;
     public TextMeshProUGUI stage;
-    private int scoreInt;
+    public int scoreInt;
     private float displayedScore = 0f;
     private int totalKills = 0;
     [SerializeField] private GameObject warningObj;
