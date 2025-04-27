@@ -892,7 +892,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: b053d9fca514f2949891ed4a037b5659, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -912,7 +912,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -504052608076313948, guid: 38dfc3e66567d81409c71ca0140ff297, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1225,6 +1225,10 @@ MonoBehaviour:
   maxDimAlpha: 1
   fadeDuration: 1.5
   dimColor: {r: 0, g: 0, b: 0, a: 1}
+  shaderProperty: _power
+  flashDuration: 0.5
+  maxFlashValue: 0.4
+  spriteRenderer: {fileID: 1364361408052248871}
 --- !u!95 &6695664160621202916
 Animator:
   serializedVersion: 7

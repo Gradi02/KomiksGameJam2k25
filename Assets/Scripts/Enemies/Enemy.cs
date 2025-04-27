@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
@@ -16,7 +17,12 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] public GameObject player;
     [SerializeField] protected Animator animator;
     [SerializeField] protected Rigidbody2D rb;
-     
+    [SerializeField] protected SpriteRenderer spriteRenderer;
+
+    [Header("Shader flash")]
+    public string shaderProperty = "_power"; // nazwa parametru w shaderze
+    public float flashDuration = 0.5f; // czas trwania flasha
+    public float maxFlashValue = 0.4f;
 
 
     public void Spawn(GameObject pl)
@@ -28,8 +34,8 @@ public abstract class Enemy : MonoBehaviour
     public void TakeDamage(int val)
     {
         health -= val;
-        Debug.Log(health);
-        if(health <= 0)
+        FlashCoroutine();
+        if (health <= 0)
         {
             DestroyEnemy();
         }
@@ -57,5 +63,32 @@ public abstract class Enemy : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(origin, direction, distance, LayerMask.GetMask("Ground", "Player"));
 
         return hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Player");
+    }
+
+    private IEnumerator FlashCoroutine()
+    {
+        float timer = 0f;
+
+        // Najpierw szybko w górê
+        while (timer < flashDuration / 2)
+        {
+            timer += Time.deltaTime;
+            float value = Mathf.Lerp(0f, maxFlashValue, timer / (flashDuration / 2));
+            spriteRenderer.material.SetFloat(shaderProperty, value);
+            yield return null;
+        }
+
+        timer = 0f;
+
+        // Potem p³ynnie w dó³
+        while (timer < flashDuration / 2)
+        {
+            timer += Time.deltaTime;
+            float value = Mathf.Lerp(maxFlashValue, 0f, timer / (flashDuration / 2));
+            spriteRenderer.material.SetFloat(shaderProperty, value);
+            yield return null;
+        }
+
+        spriteRenderer.material.SetFloat(shaderProperty, 0f); // upewnij siê, ¿e na koñcu jest 0
     }
 }
