@@ -24,6 +24,14 @@ public class HealthManager : MonoBehaviour
     private RigidbodyConstraints originalRigidbodyConstraints;
     private PlayerMovement playerMovementScript;
 
+
+    [Header("Shader flash")]
+    public string shaderProperty = "_power"; // nazwa parametru w shaderze
+    public float flashDuration = 0.5f; // czas trwania flasha
+    public float maxFlashValue = 0.4f;
+    public SpriteRenderer spriteRenderer;
+    bool dmg = false;
+
     private void Awake()
     {
         playerRenderer = GetComponent<Renderer>();
@@ -63,16 +71,21 @@ public class HealthManager : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        AudioManager.instance.Play("ouch");
-        if (isDead) return;
-        currentHealth -= damage;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        if (!dmg)
+        {
+            dmg = true;
+            AudioManager.instance.Play("ouch");
+            if (isDead) return;
+            currentHealth -= damage;
+            currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
-        CinemachineShake.Instance.ShakeCamera(5f, .1f);
+            CinemachineShake.Instance.ShakeCamera(5f, .1f);
+            StartCoroutine(FlashCoroutine());
 
-        if (healthBar != null) healthBar.SetCurrentHealth(currentHealth);
+            if (healthBar != null) healthBar.SetCurrentHealth(currentHealth);
 
-        if (currentHealth <= 0) StartCoroutine(Die());
+            if (currentHealth <= 0) StartCoroutine(Die());
+        }
     }
 
     public void Heal(int amount)
@@ -186,5 +199,33 @@ public class HealthManager : MonoBehaviour
         }
 
         screenDimmerImage.color = targetColor;
+    }
+
+    private IEnumerator FlashCoroutine()
+    {
+        float timer = 0f;
+
+        // Najpierw szybko w górê
+        while (timer < flashDuration / 2)
+        {
+            timer += Time.deltaTime;
+            float value = Mathf.Lerp(0f, maxFlashValue, timer / (flashDuration / 2));
+            spriteRenderer.material.SetFloat(shaderProperty, value);
+            yield return null;
+        }
+
+        timer = 0f;
+
+        // Potem p³ynnie w dó³
+        while (timer < flashDuration / 2)
+        {
+            timer += Time.deltaTime;
+            float value = Mathf.Lerp(maxFlashValue, 0f, timer / (flashDuration / 2));
+            spriteRenderer.material.SetFloat(shaderProperty, value);
+            yield return null;
+        }
+
+        spriteRenderer.material.SetFloat(shaderProperty, 0f); // upewnij siê, ¿e na koñcu jest 0
+        dmg = false;
     }
 }

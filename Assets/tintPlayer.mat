@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tintEnemy
+  m_Name: tintPlayer
   m_Shader: {fileID: -6465566751694194690, guid: 10d070af51565204dba5d5940448004d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -72,6 +72,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _flashColor: {r: 6.0876627, g: 5.3180904, b: 5.3180904, a: 1}
+    - _flashColor: {r: 4.776053, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

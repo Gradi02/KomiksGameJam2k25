@@ -3,7 +3,6 @@ using UnityEngine;
 public class crossbowBoss : Enemy
 {
     [SerializeField] private float dstToAttack = 10;
-    [SerializeField] public float health = 500;
 
     [Header("States")]
     [SerializeField] private idleBoss idleBoss;
@@ -12,25 +11,17 @@ public class crossbowBoss : Enemy
     [SerializeField] private runBoss runBoss;
     [SerializeField] private shotUpwardsBoss shotUpwardsBoss;
 
-    private int phase = 1;
+    public int phase { get; private set; } = 1;
 
     public void Start()
     {
         machine = GetComponent<StateMachine>();
         states = GetComponentsInChildren<State>();
+        health = 500;
 
         foreach (var state in states)
         {
             state.InitState(animator, rb, player, machine);
-        }
-    }
-
-    public void TakeDamage(float damage)
-    {
-        health -= damage;
-        if (health <= 0)
-        {
-            DestroyEnemy();
         }
     }
 
