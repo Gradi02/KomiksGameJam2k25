@@ -12,6 +12,7 @@ public class BossHealthBar : MonoBehaviour
         {
             healthSlider.maxValue = boss.health;
             healthSlider.value = boss.health;
+            LeanTween.scale(healthSlider.gameObject, Vector3.one, 1f).setEase(LeanTweenType.easeInOutSine);
         }
     }
 
