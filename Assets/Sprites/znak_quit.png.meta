@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: b94ceb3d8c32ff24caadab6b73e61596
+guid: 2fd92006a35c5f449a8ac43ba814d801
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5680043697832469060
-    second: mycha_0
+      213: -8426053653897528358
+    second: znak_quit_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mycha_0
+      name: znak_quit_0
       rect:
         serializedVersion: 2
         x: 6
-        y: 8
-        width: 14
-        height: 19
+        y: 6
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbddff9d95e6c21b0800000000000000
-      internalID: -5680043697832469060
+      spriteID: adb3e0d48d4a01b80800000000000000
+      internalID: -8426053653897528358
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mycha_0: -5680043697832469060
+      znak_quit_0: -8426053653897528358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
