@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpawnerManager : MonoBehaviour
@@ -20,12 +19,19 @@ public class SpawnerManager : MonoBehaviour
     [SerializeField] private float maxX = 40f;
     [SerializeField] private float yval = -2f;
 
-    [SerializeField] private int maxEnemies = 5;
+    private int maxEnemies = 3;
 
     public GameObject[] runes;
     private int spawned = 0;
     public List<GameObject> activeEnemies = new List<GameObject>();
     private bool isSpawning = false;
+    [SerializeField] private GameObject powerup;
+
+    bool bossBattle = false;
+    int scoresToNextStage = 2000;
+    int nextStageAt = 2000;
+    [SerializeField] private GameObject bossPrefab;
+
 
     private void Awake()
     {
@@ -67,7 +73,7 @@ public class SpawnerManager : MonoBehaviour
                 .setEase(LeanTweenType.easeInOutSine)
                 .setLoopPingPong();*/
             //warning.GetComponent<Animator>().Play("spawn");
-            Destroy(warning, 1.9f);
+            Destroy(warning, 1.7f);
 
             yield return new WaitForSeconds(1.4f);
 
@@ -76,7 +82,7 @@ public class SpawnerManager : MonoBehaviour
             activeEnemies.Add(enemy);
         }
 
-        isSpawning = false; // KONIEC spawnienia dop�ki nie zginie co�
+        isSpawning = false;
     }
 
     private GameObject GetRandomEnemy()
@@ -91,26 +97,48 @@ public class SpawnerManager : MonoBehaviour
         return enemies[randomIndex];
     }
 
-    public void OnEnemyKilled(GameObject enemy)
+    public void OnEnemyKilled(GameObject enemy, bool boss = false)
     {
         if (activeEnemies.Contains(enemy))
         {
-            Debug.Log("sdadfasd");
             activeEnemies.Remove(enemy);
             Destroy(enemy);
 
             totalKills++;
             scoreInt += 100;
 
-            if (totalKills % 7 == 0)
+            if (Random.Range(0,100) < 15)
             {
                 SpawnRune();
             }
 
-            if (!isSpawning && activeEnemies.Count < maxEnemies)
+            if (Random.Range(0, 100) < 10)
+            {
+                SpawnPowerup();
+            }
+
+
+            if (scoreInt > nextStageAt && !bossBattle)
+            {
+                bossBattle = true;
+                StartCoroutine(IEBossBattle());
+                return;
+            }
+
+            if (!isSpawning && activeEnemies.Count < maxEnemies && !bossBattle)
             {
                 StartCoroutine(SpawnEnemies());
             }
+        }
+
+        if (boss)
+        {
+            nextStageAt += scoresToNextStage;
+            totalKills++;
+            scoreInt += 100;
+            SpawnRune();
+            bossBattle = false;
+            StartCoroutine(SpawnEnemies());
         }
     }
 
@@ -119,5 +147,22 @@ public class SpawnerManager : MonoBehaviour
         int r = Random.Range(0, runes.Length);
         Vector3 runeSpawnPos = new Vector3(Random.Range(minX, maxX), yval, 0f);
         Instantiate(runes[r], runeSpawnPos, Quaternion.identity);
+    }
+
+    private void SpawnPowerup()
+    {
+        Vector3 runeSpawnPos = new Vector3(Random.Range(minX, maxX), yval, 0f);
+        Instantiate(powerup, runeSpawnPos, Quaternion.identity);
+    }
+
+
+    private IEnumerator IEBossBattle()
+    {
+        Vector3 spawnPos = new Vector3(14f, yval, 0f);
+
+        GameObject b = Instantiate(bossPrefab, spawnPos, Quaternion.identity);
+        b.GetComponent<Enemy>().player = playerObject;
+
+        yield return null;
     }
 }

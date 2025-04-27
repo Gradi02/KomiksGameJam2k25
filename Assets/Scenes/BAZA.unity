@@ -16785,6 +16785,7 @@ MonoBehaviour:
   runes:
   - {fileID: 4389418078417544691, guid: 184dd54488e85214aa5739797bd4c9e4, type: 3}
   activeEnemies: []
+  powerup: {fileID: 4389418078417544691, guid: f06b84b9cc64e4641bc40e510f8becef, type: 3}
 --- !u!4 &1788152111
 Transform:
   m_ObjectHideFlags: 0

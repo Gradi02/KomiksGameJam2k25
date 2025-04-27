@@ -1290,11 +1290,14 @@ MonoBehaviour:
   - {fileID: 8332080702115355584}
   - {fileID: 9134954286665497290}
   - {fileID: 3021119776462721976}
-  bomb: {fileID: 0}
-  gravity: {fileID: 0}
-  laser: {fileID: 0}
-  gun: {fileID: 0}
-  snake: {fileID: 0}
+  kame: {fileID: 0}
+  gravity: {fileID: 2812697541885495806}
+  laser: {fileID: 8787135516174803323}
+  gun: {fileID: 8662880116185845932}
+  snake: {fileID: -6132851595745506914}
+  defaultItem:
+    name: snake
+    sprite: {fileID: 0}
 --- !u!114 &8989235328230052285
 MonoBehaviour:
   m_ObjectHideFlags: 0
